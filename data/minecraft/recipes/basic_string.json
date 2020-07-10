@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wooden_sword"
+        },
+        {
+            "item": "minecraft:grass"
+        }
+    ],
+    "result": {
+        "item": "minecraft:string",
+        "count": 2
+    },
+    "group": "MST-String"
+}

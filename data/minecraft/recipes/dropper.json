@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "# #",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone"
+        },
+        "D": {
+            "item": "minecraft:dispenser"
+        }
+    },
+    "result": {
+        "item": "minecraft:dropper",
+        "count": 1
+    },
+    "group": "MST-Copper (IMT+)"
+}

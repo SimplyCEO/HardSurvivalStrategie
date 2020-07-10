@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "#R#",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:clock"
+        },
+        "R": {
+            "item": "minecraft:rail"
+        }
+    },
+    "result": {
+        "item": "minecraft:powered_rail",
+        "count": 1
+    },
+    "group": "MST-Copper (IMT+)"
+}

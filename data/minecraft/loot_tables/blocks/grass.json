@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wheat_seeds",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:string",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "item": "minecraft:wooden_sword"
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.45
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

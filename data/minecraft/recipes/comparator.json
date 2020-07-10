@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "#D#",
+        "i i"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:clock"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:comparator",
+        "count": 1
+    },
+    "group": "MST-Copper (IMT+)"
+}

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "BDO",
+        " W "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dead_bush"
+        },
+        "B": {
+            "item": "minecraft:brown_mushroom"
+        },
+        "D": {
+            "item": "minecraft:dirt"
+        },
+        "O": {
+            "item": "minecraft:oak_sapling"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:podzol",
+        "count": 1
+    },
+    "group": "MST-Podzol (MT+)"
+}

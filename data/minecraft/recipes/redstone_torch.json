@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "C",
+        "/"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone"
+        },
+        "C": {
+            "item": "minecraft:compass"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:redstone_torch",
+        "count": 1
+    },
+    "group": "MST-Copper (IMT+)"
+}

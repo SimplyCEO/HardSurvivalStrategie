@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#L#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:coal"
+        },
+        "L": {
+            "item": "minecraft:light_blue_concrete"
+        }
+    },
+    "result": {
+        "item": "minecraft:music_disc_wait",
+        "count": 1
+    },
+    "group": "MST-Discs"
+}

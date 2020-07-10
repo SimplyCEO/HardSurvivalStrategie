@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#W#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:coal"
+        },
+        "W": {
+            "item": "minecraft:white_concrete"
+        }
+    },
+    "result": {
+        "item": "minecraft:music_disc_strad",
+        "count": 1
+    },
+    "group": "MST-Discs"
+}

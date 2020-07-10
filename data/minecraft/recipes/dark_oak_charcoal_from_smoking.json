@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "item": "minecraft:dark_oak_log"
+    },
+    "result": "minecraft:charcoal",
+    "experience": 0.5,
+    "cookingtime": 100,
+    "group": "MST-Charcoal (IMT+)"
+}

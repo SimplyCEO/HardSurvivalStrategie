@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#Y#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:coal"
+        },
+        "Y": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:music_disc_13",
+        "count": 1
+    },
+    "group": "MST-Discs"
+}
