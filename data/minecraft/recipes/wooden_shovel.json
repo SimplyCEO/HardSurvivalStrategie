@@ -2,11 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "#",
+        "+",
         "/"
     ],
     "key": {
         "#": {
             "item": "minecraft:iron_nugget"
+        },
+        "+": {
+            "item": "minecraft:string"
         },
         "/": {
             "item": "minecraft:stick"
