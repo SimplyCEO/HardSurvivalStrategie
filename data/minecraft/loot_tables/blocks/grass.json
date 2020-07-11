@@ -9,7 +9,7 @@
             "conditions": [
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.25
+                "chance": 0.35
               }
             ]
           }
@@ -30,7 +30,7 @@
               },
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.45
+                "chance": 0.15
               }
             ]
           }
