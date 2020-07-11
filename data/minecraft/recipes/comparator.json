@@ -1,15 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#D#",
-        "#D#",
+        "#C#",
+        "#C#",
         "i i"
     ],
     "key": {
         "#": {
             "item": "minecraft:clock"
         },
-        "D": {
+        "C": {
             "item": "minecraft:coal"
         },
         "i": {
