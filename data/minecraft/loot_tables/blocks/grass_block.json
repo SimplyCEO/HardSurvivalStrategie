@@ -23,8 +23,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dirt",
-          "count": 1
+          "name": "minecraft:dirt"
         }
       ]
     }
