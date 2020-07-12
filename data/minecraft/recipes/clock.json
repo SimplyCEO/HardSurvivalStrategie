@@ -7,13 +7,13 @@
     ],
     "key": {
         "i:" {
-            "item": "minecraft:iron_nugget
+            "item": "minecraft:iron_nugget"
         },
         "S:" {
-            "item": "minecraft:stone
+            "item": "minecraft:stone"
         },
         "C:" {
-            "item": "minecraft:redstone_dust
+            "item": "minecraft:redstone_dust"
         }
     },
     "result": {
