@@ -1,19 +1,24 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "gRg"
+        "  S",
+        " Ci",
+        "Si 
     ],
     "key": {
-        "g": {
-            "item": "minecraft:gold_ingot"
+        "i: {
+            "item": "minecraft:iron_nugget
         },
-        "R": {
-            "item": "minecraft:redstone"
+        "S: {
+            "item": "minecraft:stone
+        },
+        "C: {
+            "item": "minecraft:redstone_dust
         }
     },
     "result": {
         "item": "minecraft:clock",
-        "count": 16
+        "count": 1
     },
     "group": "MST-Copper (IMT+)"
 }
