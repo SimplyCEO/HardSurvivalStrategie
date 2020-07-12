@@ -1,19 +1,19 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#",
-        "C",
-        "/"
+        " # ",
+        "#C#",
+        " / "
     ],
     "key": {
         "#": {
-            "item": "minecraft:redstone"
+            "item": "minecraft:redstone_dust"
         },
         "C": {
             "item": "minecraft:compass"
         },
         "/": {
-            "item": "minecraft:stick"
+            "item": "minecraft:golden_hoe"
         }
     },
     "result": {
