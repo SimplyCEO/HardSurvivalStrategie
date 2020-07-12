@@ -25,7 +25,7 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "item": "minecraft:wooden_sword"
+                  "item": "minecraft:golden_sword"
                 }
               },
               {
