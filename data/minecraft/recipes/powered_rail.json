@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:redstone_dust"
+            "item": "minecraft:redstone"
         },
         "R": {
             "item": "minecraft:rail"
