@@ -1,19 +1,19 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#",
-        "S",
+        "i",
+        "I",
         "/"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:cobblestone"
+        "i": {
+            "item": "minecraft:iron_nugget"
         },
-        "S": {
-            "item": "minecraft:string"
+        "I": {
+            "item": "minecraft:iron_block"
         },
         "/": {
-            "item": "minecraft:stick"
+            "item": "minecraft:wooden_hoe"
         }
     },
     "result": {
