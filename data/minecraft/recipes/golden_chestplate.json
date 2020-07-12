@@ -2,12 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "# #",
-        "###",
-        "###"
+        "#P#",
+        "#P#"
     ],
     "key": {
         "#": {
             "item": "minecraft:nether_star"
+        },
+        "P": {
+            "item": "minecraft:oak_planks"
         }
     },
     "result": {
