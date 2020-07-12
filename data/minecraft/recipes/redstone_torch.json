@@ -2,14 +2,14 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         " # ",
-        "#C#",
+        "#M#",
         " / "
     ],
     "key": {
         "#": {
             "item": "minecraft:redstone_dust"
         },
-        "C": {
+        "M": {
             "item": "minecraft:compass"
         },
         "/": {
