@@ -1,8 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#",
-        "/"
+        "  #",
+        " / ",
+        "/  "
     ],
     "key": {
         "#": {
@@ -13,8 +14,8 @@
         }
     },
     "result": {
-        "item": "minecraft:wooden_sword",
+        "item": "minecraft:golden_sword",
         "count": 1
     },
-    "group": "MoreSurvivalTools"
+    "group": "IndustrialMagicTools"
 }
