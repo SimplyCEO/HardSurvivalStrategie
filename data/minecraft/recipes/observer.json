@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "CCE",
+        "CCR",
         "###"
     ],
     "key": {
@@ -10,9 +10,9 @@
             "item": "minecraft:stone"
         },
         "C": {
-            "item": "minecraft:clock"
+            "item": "minecraft:redstone_dust"
         },
-        "E": {
+        "R": {
             "item": "minecraft:nether_star"
         }
     },
