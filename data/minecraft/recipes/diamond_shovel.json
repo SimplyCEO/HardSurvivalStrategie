@@ -13,7 +13,7 @@
             "item": "minecraft:diamond_block"
         },
         "/": {
-            "item": "minecraft:stick"
+            "item": "minecraft:golden_hoe"
         }
     },
     "result": {
