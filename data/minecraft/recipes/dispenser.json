@@ -3,7 +3,7 @@
     "pattern": [
         "###",
         "#P#",
-        "#C#"
+        "#M#"
     ],
     "key": {
         "#": {
@@ -12,8 +12,8 @@
         "P": {
             "item": "minecraft:piston"
         },
-        "C": {
-            "item": "minecraft:clock"
+        "M": {
+            "item": "minecraft:compass"
         }
     },
     "result": {
