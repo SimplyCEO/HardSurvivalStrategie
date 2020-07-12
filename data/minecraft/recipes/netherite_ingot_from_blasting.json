@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:ancient_debris"
+    },
+    "result": "minecraft:netherite_ingot",
+    "experience": 15,
+    "cookingtime": 200
+}
