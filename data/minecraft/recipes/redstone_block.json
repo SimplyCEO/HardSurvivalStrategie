@@ -1,16 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "###",
-        "#i#",
-        "###"
+        "#C#",
+        "cMc",
+        "#C#"
     ],
     "key": {
         "#": {
+            "item": "minecraft:stone"
+        },
+        "C": {
             "item": "minecraft:clock"
         },
-        "i": {
-            "item": "minecraft:iron_ingot"
+        "c": {
+            "item": "minecraft:redstone_dust"
+        },
+        "M": {
+            "item": "minecraft:compass"
         }
     },
     "result": {
