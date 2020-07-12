@@ -10,7 +10,7 @@
             "item": "minecraft:stone"
         },
         "c": {
-            "item": "minecraft:redstone_dust"
+            "item": "minecraft:redstone"
         },
         "R": {
             "item": "minecraft:nether_star"
