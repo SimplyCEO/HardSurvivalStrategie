@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:clock"
+            "item": "minecraft:redstone_dust"
         },
         "R": {
             "item": "minecraft:rail"
