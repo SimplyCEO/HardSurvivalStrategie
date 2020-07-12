@@ -1,13 +1,13 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "##",
-        "#/",
-        " /"
+        " # ",
+        " /#",
+        "/  "
     ],
     "key": {
         "#": {
-            "item": "minecraft:nether_star"
+            "item": "minecraft:cobblestone"
         },
         "/": {
             "item": "minecraft:stick"
