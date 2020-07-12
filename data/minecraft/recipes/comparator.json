@@ -2,18 +2,21 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "#C#",
-        "#C#",
+        "SiS",
         "i i"
     ],
     "key": {
         "#": {
-            "item": "minecraft:clock"
+            "item": "minecraft:redstone_wire"
         },
         "C": {
             "item": "minecraft:coal"
         },
         "i": {
-            "item": "minecraft:iron_ingot"
+            "item": "minecraft:iron_nugget"
+        },
+        "S": {
+            "item": "minecraft:stone"
         }
     },
     "result": {
