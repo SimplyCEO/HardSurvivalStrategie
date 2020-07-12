@@ -6,13 +6,13 @@
         "Si "
     ],
     "key": {
-        "i: {
+        "i:" {
             "item": "minecraft:iron_nugget
         },
-        "S: {
+        "S:" {
             "item": "minecraft:stone
         },
-        "C: {
+        "C:" {
             "item": "minecraft:redstone_dust
         }
     },
