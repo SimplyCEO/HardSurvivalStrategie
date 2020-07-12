@@ -13,7 +13,7 @@
             "item": "minecraft:iron_block"
         },
         "/": {
-            "item": "minecraft:wooden_hoe"
+            "item": "minecraft:golden_hoe"
         }
     },
     "result": {
