@@ -1,20 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " # ",
-        " /#",
-        "/  "
+        " +#",
+        " / "
     ],
     "key": {
         "#": {
             "item": "minecraft:cobblestone"
+        },
+        "+": {
+            "item": "minecraft:string"
         },
         "/": {
             "item": "minecraft:stick"
         }
     },
     "result": {
-        "item": "minecraft:golden_axe",
+        "item": "minecraft:golden_pickaxe",
         "count": 1
     },
     "group": "IndustrialMagicTools"
