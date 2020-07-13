@@ -1,7 +1,7 @@
 {
     "type": "minecraft:stonecutting",
     "ingredient": {
-        "item": "minecraft:nether_brick"
+        "item": "minecraft:netherite_scrap"
     },
     "result": "minecraft:redstone",
     "count": 16
