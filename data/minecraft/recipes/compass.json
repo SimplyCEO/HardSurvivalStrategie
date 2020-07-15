@@ -1,16 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " # ",
-        "#i#",
-        " # "
+        " #c",
+        "#c#",
+        " #c"
     ],
     "key": {
         "#": {
-            "item": "minecraft:clock"
-        },
-        "i": {
             "item": "minecraft:iron_ingot"
+        },
+        "c": {
+            "item": "minecraft:redstone"
         }
     },
     "result": {
