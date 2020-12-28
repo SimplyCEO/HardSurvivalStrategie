@@ -1,14 +1,10 @@
 # HardSurvivalStrategie
 Minecraft Datapack with realistic crafting and behaviour.
 
-The project still in Alpha, so, there are things to update. Also, the project will continually getting updated when Minecraft get a oficial update itself.
-
-If you want old versions, i'll list it in "Old Versions" layer.
+The project is still in Alpha, so, there are things to update. Also, the project will continually getting updated when Minecraft get a official update itself.
 
 ## Requirements ##
 This Data Pack needs the [HardSurvivalStrategie Resource Pack](https://github.com/KanuX-14/HardSurvivalStrategie_ResourcePack.git) to work well.
-
-The language need to be en_us (English US). Soon i'll/get people to add support for other languages. Feel free to translate it too!
 
 ## Installation ##
 - Data Pack:
@@ -28,4 +24,6 @@ Move the Resource Pack into your minecraft's resourcepack folder (.minecraft/res
 
 - New survival functions. The stone age never got more harder than this one.
 
-- Coins? Well, not yet. In some future updates the ability to get coins will me implemented... so... you can't use Villager Trading.
+- Coins? Well, not yet. In some future updates the ability to get coins will be implemented... so... you shouldn't use Villager Trading.
+
+- Spell books! Now added to cast mana to get extra powers while holding it in second hand.
