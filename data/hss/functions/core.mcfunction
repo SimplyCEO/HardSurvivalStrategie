@@ -1,1 +1,1 @@
-function hss:required/dark_matter_tools
+function hss:required/tomes

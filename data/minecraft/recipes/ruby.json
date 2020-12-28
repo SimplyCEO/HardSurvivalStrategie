@@ -11,5 +11,6 @@
     "result": {
         "item": "minecraft:nether_star",
         "count": 9
-    }
+    },
+    "group": "MST-Ruby"
 }

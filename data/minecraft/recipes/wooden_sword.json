@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "  #",
-        " / ",
+        " S ",
         "/  "
     ],
     "key": {
@@ -11,11 +11,14 @@
         },
         "/": {
             "item": "minecraft:stick"
+        },
+        "S": {
+            "item": "minecraft:string"
         }
     },
     "result": {
         "item": "minecraft:wooden_sword",
         "count": 1
     },
-    "group": "IndustrialMagicTools"
+    "group": "MST-BasicSpear"
 }

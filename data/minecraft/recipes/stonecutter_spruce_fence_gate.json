@@ -4,6 +4,6 @@
         "item": "minecraft:spruce_planks"
     },
     "result": "minecraft:spruce_fence_gate",
-    "group": "MST-Spruce",
+    "group": "MST-SpruceFenceGate",
     "count": 1
 }

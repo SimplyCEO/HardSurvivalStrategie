@@ -4,6 +4,6 @@
         "item": "minecraft:oak_planks"
     },
     "result": "minecraft:oak_fence",
-    "group": "MST-Oak",
+    "group": "MST-OakFence",
     "count": 2
 }

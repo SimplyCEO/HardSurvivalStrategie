@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "minecraft:all_logs"
+    },
+    "result": "minecraft:crafting_table",
+    "group": "MST-CraftingTable",
+    "count": 1
+}

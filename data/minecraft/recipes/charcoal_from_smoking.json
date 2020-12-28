@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smoking",
     "ingredient": {
-        "item": "minecraft:jungle_log"
+        "tag": "minecraft:all_logs"
     },
     "result": "minecraft:charcoal",
     "experience": 0.5,

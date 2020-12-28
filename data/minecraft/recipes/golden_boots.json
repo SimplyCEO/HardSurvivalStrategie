@@ -9,12 +9,12 @@
             "item": "minecraft:stick"
         },
         "_": {
-            "item": "minecraft:oak_slab"
+            "tag": "minecraft:all_slabs"
         }
     },
     "result": {
         "item": "minecraft:golden_boots",
         "count": 1
     },
-    "group": "IndustrialMagicTools"
+    "group": "MST-WoodenBoots"
 }

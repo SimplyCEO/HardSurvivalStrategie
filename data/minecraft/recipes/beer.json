@@ -15,8 +15,8 @@
         }
     ],
     "result": {
-        "tag": "minecraft:potion",
+        "item": "minecraft:potion",
         "count": 1
     },
-    "group": "MoreSurvivalTools"
+    "group": "MST-Beer (IMT+)"
 }

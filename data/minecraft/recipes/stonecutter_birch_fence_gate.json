@@ -4,6 +4,6 @@
         "item": "minecraft:birch_planks"
     },
     "result": "minecraft:birch_fence_gate",
-    "group": "MST-Birch",
+    "group": "MST-BirchFenceGate",
     "count": 1
 }

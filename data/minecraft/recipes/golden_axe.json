@@ -16,8 +16,8 @@
         }
     },
     "result": {
-        "item": "minecraft:golden_pickaxe",
+        "item": "minecraft:golden_axe",
         "count": 1
     },
-    "group": "IndustrialMagicTools"
+    "group": "MST-BasicAxe"
 }

@@ -6,7 +6,7 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:oak_log"
+            "tag": "minecraft:all_logs"
         },
         "/": {
             "item": "minecraft:stick"

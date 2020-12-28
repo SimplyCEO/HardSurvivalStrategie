@@ -4,5 +4,6 @@
         "item": "minecraft:netherite_scrap"
     },
     "result": "minecraft:redstone",
-    "count": 16
+    "count": 16,
+    "group": "MST-CopperCable"
 }

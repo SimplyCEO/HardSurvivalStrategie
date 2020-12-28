@@ -15,8 +15,8 @@
         }
     ],
     "result": {
-        "item": "minecraft:zombie_pigman_spawn_egg",
+        "item": "minecraft:zombified_piglin_spawn_egg",
         "count": 1
     },
-    "group": "MST-SpawnEgg (IMT+)"
+    "group": "MST-ZombiePigmanSpawnEgg (IMT+)"
 }

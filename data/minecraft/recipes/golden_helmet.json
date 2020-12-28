@@ -9,12 +9,12 @@
             "item": "minecraft:stick"
         },
         "P": {
-            "item": "minecraft:oak_planks"
+            "tag": "minecraft:all_planks"
         }
     },
     "result": {
         "item": "minecraft:golden_helmet",
         "count": 1
     },
-    "group": "IndustrialMagicTools"
+    "group": "MST-WoodenHelmet"
 }

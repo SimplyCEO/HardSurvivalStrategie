@@ -10,6 +10,7 @@
     },
     "result": {
         "item": "minecraft:nether_brick",
-        "count": 9
+        "count": 9,
+        "group": "MST-CopperIngot"
     }
 }
