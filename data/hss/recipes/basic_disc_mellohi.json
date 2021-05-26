@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#M#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:coal"
+        },
+        "M": {
+            "item": "minecraft:magenta_concrete"
+        }
+    },
+    "result": {
+        "item": "minecraft:music_disc_mellohi",
+        "count": 1
+    },
+    "group": "Disc"
+}

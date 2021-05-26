@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bedrock"
+        },
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "minecraft:bone"
+        },
+        {
+            "item": "minecraft:snow_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:stray_spawn_egg",
+        "count": 1
+    },
+    "group": "Spawner"
+}

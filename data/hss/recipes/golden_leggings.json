@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#P#",
+        "P P",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "tag": "minecraft:all_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_leggings",
+        "count": 1
+    },
+    "group": "Wooden_Armour"
+}

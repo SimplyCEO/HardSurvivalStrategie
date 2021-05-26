@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/",
+        "C",
+        "S"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:golden_hoe"
+        },
+        "C": {
+            "item": "minecraft:compass"
+        },
+        "S": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:lever",
+        "count": 1
+    },
+    "group": "Electronics"
+}

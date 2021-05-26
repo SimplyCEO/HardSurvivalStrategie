@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "cCR",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone"
+        },
+        "c": {
+            "item": "minecraft:redstone"
+        },
+        "R": {
+            "item": "minecraft:nether_star"
+        },
+        "C": {
+            "item": "minecraft:clock"
+        }
+    },
+    "result": {
+        "item": "minecraft:observer",
+        "count": 1
+    },
+    "group": "Electronics"
+}

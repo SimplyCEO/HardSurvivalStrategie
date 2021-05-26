@@ -5,35 +5,32 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:jungle_log",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stick",
+          "name": "minecraft:jungle_planks",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0,
-                "max": 4
+                "min": 1,
+                "max": 2
               }
             }
           ],
           "conditions": [
             {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "minecraft:wooden_axe"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_log",
+          "conditions": [
+            {
               "condition": "minecraft:random_chance",
-              "chance": 0.35
+              "chance": 0.8
             }
           ]
         }
@@ -41,3 +38,4 @@
     }
   ]
 }
+  

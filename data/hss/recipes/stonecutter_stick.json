@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "minecraft:all_planks"
+    },
+    "result": "minecraft:stick",
+    "group": "Stick",
+    "count": 2
+}

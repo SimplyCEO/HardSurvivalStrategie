@@ -2,12 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "# #",
+        "D D",
         "#/#"
     ],
     "key": {
         "#": {
-            "tag": "minecraft:stone_craft"
+            "item": "minecraft:clay"
+        },
+        "D": {
+            "item": "minecraft:dirt"
         },
         "/": {
             "item": "minecraft:stick"
@@ -17,5 +20,5 @@
         "item": "minecraft:furnace",
         "count": 1
     },
-    "group": "MoreSurvivalTools"
+    "group": "Furnace"
 }

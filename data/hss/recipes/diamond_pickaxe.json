@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        " D ",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "/": {
+            "item": "minecraft:golden_hoe"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_pickaxe",
+        "count": 1
+    },
+    "group": "Diamond_Tools"
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        " I ",
+        " / "
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "/": {
+            "item": "minecraft:golden_hoe"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_pickaxe",
+        "count": 1
+    },
+    "group": "Iron_Tools"
+}

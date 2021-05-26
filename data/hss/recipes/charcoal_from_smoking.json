@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "tag": "minecraft:all_logs"
+    },
+    "result": "minecraft:charcoal",
+    "experience": 0.5,
+    "cookingtime": 100,
+    "group": "Charcoal"
+}

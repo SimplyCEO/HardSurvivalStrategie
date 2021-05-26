@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:grass_block"
+        },
+        {
+            "item": "minecraft:podzol"
+        }
+    ],
+    "result": {
+        "item": "minecraft:brown_mushroom",
+        "count": 1
+    },
+    "group": "Mushroom"
+}

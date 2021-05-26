@@ -5,21 +5,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dark_oak_planks",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "minecraft:stick",
           "functions": [
             {
@@ -36,6 +21,16 @@
               "predicate": {
                 "item": "minecraft:wooden_axe"
               }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dark_oak_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 1
             }
           ]
         }

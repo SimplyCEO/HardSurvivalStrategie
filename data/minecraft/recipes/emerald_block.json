@@ -1,18 +1,1 @@
-{
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "###",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:nether_star"
-        }
-    },
-    "result": {
-        "item": "minecraft:emerald_block",
-        "count": 1
-    },
-    "group": "MST-RubyBlock"
-}
+

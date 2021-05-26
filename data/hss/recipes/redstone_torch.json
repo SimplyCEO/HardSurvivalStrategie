@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#M#",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone"
+        },
+        "M": {
+            "item": "minecraft:compass"
+        },
+        "/": {
+            "item": "minecraft:golden_hoe"
+        }
+    },
+    "result": {
+        "item": "minecraft:redstone_torch",
+        "count": 1
+    },
+    "group": "Electronics"
+}
