@@ -1,16 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "PSP",
+    "ISI",
     "P P",
-    "PSP"
+    "ISI"
   ],
   "key": {
     "P": {
-      "tag": "minecraft:planks"
+      "tag": "minecraft:all_planks"
     },
     "S": {
-      "tag": "minecraft:wooden_slabs"
+      "tag": "minecraft:all_slabs"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "result": {

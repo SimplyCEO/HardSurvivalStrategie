@@ -4,7 +4,7 @@
         "tag": "minecraft:all_woods"
     },
     "result": "minecraft:coal",
-    "experience": 0.1,
-    "cookingtime": 1350,
-    "group": "Coal"
+    "experience": 0.5,
+    "cookingtime": 900,
+    "group": "Charcoal"
 }

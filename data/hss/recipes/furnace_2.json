@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "tag": "minecraft:stone_craft"
+            "tag": "minecraft:all_stones"
         },
         "/": {
             "item": "minecraft:stick"

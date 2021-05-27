@@ -8,14 +8,9 @@
     "#": {
       "item": "minecraft:stick"
     },
-    "X": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ]
+    "X": {
+      "tag": "minecraft:combustible"
+    }
   },
   "result": {
     "item": "minecraft:torch",

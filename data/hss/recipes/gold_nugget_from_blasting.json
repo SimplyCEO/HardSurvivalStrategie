@@ -2,21 +2,6 @@
   "type": "minecraft:blasting",
   "ingredient": [
     {
-      "item": "minecraft:golden_pickaxe"
-    },
-    {
-      "item": "minecraft:golden_shovel"
-    },
-    {
-      "item": "minecraft:golden_axe"
-    },
-    {
-      "item": "minecraft:golden_hoe"
-    },
-    {
-      "item": "minecraft:golden_sword"
-    },
-    {
       "item": "minecraft:golden_helmet"
     },
     {

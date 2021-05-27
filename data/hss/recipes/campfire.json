@@ -7,13 +7,13 @@
   ],
   "key": {
     "L": {
-      "tag": "minecraft:logs"
+      "tag": "minecraft:all_logs"
     },
     "S": {
       "item": "minecraft:stick"
     },
     "C": {
-      "tag": "minecraft:coals"
+      "tag": "minecraft:combustible"
     }
   },
   "result": {

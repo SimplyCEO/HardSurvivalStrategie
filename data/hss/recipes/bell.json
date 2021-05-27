@@ -7,7 +7,7 @@
     ],
     "key": {
         "_": {
-            "item": "minecraft:oak_slab"
+            "tag": "minecraft:all_slabs"
         },
         "/": {
             "item": "minecraft:stick"

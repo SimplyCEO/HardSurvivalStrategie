@@ -1,9 +1,1 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:spruce_planks"
-    },
-    "result": "minecraft:spruce_stairs",
-    "group": "MST-SpruceStairs",
-    "count": 1
-}
+

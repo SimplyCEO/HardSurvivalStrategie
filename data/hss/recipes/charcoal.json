@@ -1,9 +1,10 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "tag": "minecraft:logs_that_burn"
+    "tag": "minecraft:all_logs"
   },
   "result": "minecraft:charcoal",
   "experience": 0.15,
-  "cookingtime": 200
+  "cookingtime": 200,
+  "group": "Charcoal"
 }

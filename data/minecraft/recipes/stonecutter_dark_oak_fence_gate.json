@@ -1,9 +1,1 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:dark_oak_planks"
-    },
-    "result": "minecraft:dark_oak_fence_gate",
-    "group": "MST-DarkOakFenceGate",
-    "count": 1
-}
+

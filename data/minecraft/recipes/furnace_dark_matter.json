@@ -1,10 +1,1 @@
-{
-    "type": "minecraft:smelting",
-    "ingredient": {
-        "item": "minecraft:diamond"
-    },
-    "result": "minecraft:nether_star",
-    "experience": 80.0,
-    "cookingtime": 72000,
-    "group": "MST-DarkMatter (IMT+)"
-}
+

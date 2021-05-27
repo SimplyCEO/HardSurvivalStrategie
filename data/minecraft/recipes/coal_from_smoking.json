@@ -1,10 +1,1 @@
-{
-    "type": "minecraft:smoking",
-    "ingredient": {
-        "tag": "minecraft:all_woods"
-    },
-    "result": "minecraft:coal",
-    "experience": 0.1,
-    "cookingtime": 1350,
-    "group": "MST-Coal"
-}
+

@@ -3,7 +3,8 @@
   "ingredient": {
     "item": "minecraft:redstone_ore"
   },
-  "result": "minecraft:redstone",
-  "experience": 0.7,
-  "cookingtime": 200
+  "result": "minecraft:netherite_scrap",
+  "experience": 5,
+  "cookingtime": 200,
+  "group": "Copper"
 }

@@ -3,17 +3,17 @@
   "pattern": [
     "TTT",
     "#X#",
-    "#R#"
+    "#C#"
   ],
   "key": {
-    "R": {
+    "C": {
       "item": "minecraft:redstone"
     },
     "#": {
       "item": "minecraft:cobblestone"
     },
     "T": {
-      "tag": "minecraft:planks"
+      "tag": "minecraft:all_planks"
     },
     "X": {
       "item": "minecraft:iron_ingot"

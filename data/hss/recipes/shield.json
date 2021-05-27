@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "tag": "minecraft:planks"
+      "tag": "minecraft:all_planks"
     },
     "o": {
       "item": "minecraft:iron_ingot"

@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "minecraft:emerald_ore"
   },
-  "result": "minecraft:emerald",
+  "result": "minecraft:nether_star",
   "experience": 1.0,
   "cookingtime": 200
 }

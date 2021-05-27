@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#\u0026#",
+    "#i#",
     "~$~",
     " # "
   ],
@@ -12,7 +12,7 @@
     "#": {
       "item": "minecraft:stick"
     },
-    "\u0026": {
+    "i": {
       "item": "minecraft:iron_ingot"
     },
     "$": {

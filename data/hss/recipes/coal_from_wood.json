@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "tag": "minecraft:all_woods"
+    },
+    "result": "minecraft:coal",
+    "experience": 0.15,
+    "cookingtime": 1800,
+    "group": "Charcoal"
+}

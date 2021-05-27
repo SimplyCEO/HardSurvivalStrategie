@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XXX",
-    "X#X",
-    "XXX"
+    "XGX",
+    "G#G",
+    "XGX"
   ],
   "key": {
     "#": {
@@ -11,6 +11,9 @@
     },
     "X": {
       "item": "minecraft:iron_nugget"
+    },
+    "G": {
+      "item": "minecraft:glass"
     }
   },
   "result": {

@@ -9,7 +9,7 @@
       "item": "minecraft:blaze_rod"
     },
     "#": {
-      "tag": "minecraft:stone_crafting_materials"
+      "tag": "minecraft:all_stones"
     }
   },
   "result": {

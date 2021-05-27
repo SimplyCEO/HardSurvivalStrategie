@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "tag": "minecraft:logs"
+      "tag": "minecraft:all_logs"
     },
     "X": {
       "item": "minecraft:furnace"

@@ -7,14 +7,9 @@
     {
       "item": "minecraft:blaze_powder"
     },
-    [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ]
+    {
+      "tag": "minecraft:combustible"
+    }
   ],
   "result": {
     "item": "minecraft:fire_charge",
