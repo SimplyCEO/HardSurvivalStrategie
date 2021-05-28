@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:stone_hoe"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    "result": {
+        "item": "minecraft:stone_hoe",
+        "count": 1
+    },
+    "group": "Repairable_Tools"
+}

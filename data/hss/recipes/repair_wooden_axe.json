@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wooden_axe"
+        },
+        {
+            "item": "minecraft:iron_nugget"
+        },
+        {
+            "item": "minecraft:iron_nugget"
+        }
+    ],
+    "result": {
+        "item": "minecraft:wooden_axe",
+        "count": 1
+    },
+    "group": "Repairable_Tools"
+}

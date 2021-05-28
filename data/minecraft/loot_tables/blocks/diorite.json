@@ -9,7 +9,7 @@
             "conditions": [
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.002
+                "chance": 0.005
               }
             ]
           }
@@ -24,7 +24,7 @@
             "conditions": [
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.001
+                "chance": 0.003
               }
             ]
           }
@@ -41,7 +41,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 3
               }
             }
           ],
