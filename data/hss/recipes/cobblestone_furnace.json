@@ -10,7 +10,7 @@
             "tag": "minecraft:all_stones"
         },
         "/": {
-            "item": "minecraft:stick"
+            "tag": "minecraft:combustible"
         }
     },
     "result": {

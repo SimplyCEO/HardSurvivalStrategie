@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "tag": "minecraft:all_hyphaes"
+    },
+    "result": "minecraft:coal_block",
+    "experience": 1.6,
+    "cookingtime": 200,
+    "group": "Coal"
+}

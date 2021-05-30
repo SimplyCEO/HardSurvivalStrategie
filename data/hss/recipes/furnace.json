@@ -13,7 +13,7 @@
             "item": "minecraft:dirt"
         },
         "/": {
-            "item": "minecraft:stick"
+            "tag": "minecraft:combustible"
         }
     },
     "result": {

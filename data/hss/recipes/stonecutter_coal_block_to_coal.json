@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:coal_block"
+    },
+    "result": "minecraft:coal",
+    "group": "Coal",
+    "count": 9
+}
