@@ -2,14 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "X",
-    "#"
+    "#",
+    "/"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
     "X": {
       "tag": "minecraft:combustible"
+    },
+    "#": {
+      "item": "minecraft:wool"
+    },
+    "/": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
