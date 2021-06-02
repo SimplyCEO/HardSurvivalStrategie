@@ -3,21 +3,21 @@
   "pattern": [
     "X",
     "#",
-    "S"
+    "/"
   ],
   "key": {
     "X": {
       "tag": "minecraft:combustible"
     },
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:soul_soil"
     },
-    "S": {
-      "tag": "minecraft:soul_fire_base_blocks"
+    "/": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
     "item": "minecraft:soul_torch",
-    "count": 4
+    "count": 1
   }
 }
