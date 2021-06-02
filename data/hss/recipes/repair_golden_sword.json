@@ -2,14 +2,14 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:iron_sword"
+            "item": "minecraft:golden_sword"
         },
         {
-            "item": "minecraft:nether_brick"
+            "item": "minecraft:flint"
         }
     ],
     "result": {
-        "item": "minecraft:iron_sword",
+        "item": "minecraft:golden_sword",
         "count": 1
     },
     "group": "Repairable_Tools"

@@ -2,10 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "group": "sticks",
   "pattern": [
+    "X",
     "#",
     "#"
   ],
   "key": {
+    "X": {
+      "tag": "minecraft:all_rocks"
+    },
     "#": {
       "item": "minecraft:bamboo"
     }

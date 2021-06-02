@@ -10,11 +10,11 @@
       "item": "minecraft:string"
     },
     "I": {
-      "item": "minecraft:bamboo"
+      "item": "minecraft:stick"
     }
   },
   "result": {
     "item": "minecraft:scaffolding",
-    "count": 6
+    "count": 1
   }
 }
