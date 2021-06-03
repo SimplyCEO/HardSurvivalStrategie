@@ -1,0 +1,1 @@
+execute positioned as @p if block ~ ~-1 ~ stonecutter run effect give @p instant_damage
