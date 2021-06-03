@@ -1,1 +1,0 @@
-function hss:core

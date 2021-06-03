@@ -10,7 +10,7 @@
       "tag": "minecraft:combustible"
     },
     "#": {
-      "item": "minecraft:wool"
+      "tag": "minecraft:all_wools"
     },
     "/": {
       "item": "minecraft:stick"

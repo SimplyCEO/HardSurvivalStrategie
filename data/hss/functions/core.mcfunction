@@ -1,1 +1,2 @@
-function hss:required/tomes
+function hss:tome/tomes
+function hss:unstable_spawner/detection

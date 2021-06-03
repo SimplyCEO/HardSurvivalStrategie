@@ -6,6 +6,31 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:spawner",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "Unstable Spawner",
+                    "color": "red",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "A very unstable spawner. Can explode, so be careful!",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{SpawnData:{id:\"minecraft:tnt\"}}}"
+              }
+            ],
             "conditions": [
               {
                 "condition": "minecraft:match_tool",
