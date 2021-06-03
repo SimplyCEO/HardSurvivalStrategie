@@ -1,0 +1,1 @@
+execute positioned as @p if block ~ ~ ~ composter run setblock ~ ~ ~ air
