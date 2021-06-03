@@ -3,40 +3,20 @@ execute positioned as @e if block ~-1 ~-4 ~-1 minecraft:spawner{SpawnData:{id:"m
 execute positioned as @e if block ~1 ~-4 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~-4 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~1 ~-4 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~-4 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 
-execute positioned as @e if block ~-1 ~-3 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~-3 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-1 ~-3 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~-3 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~-3 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~-3 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~-3 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~-3 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-
 execute positioned as @e if block ~-1 ~-2 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~-2 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-1 ~-2 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~-2 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~1 ~-2 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~-2 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~1 ~-2 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~-2 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-
-execute positioned as @e if block ~-1 ~-1 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~-1 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-1 ~-1 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~-1 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~-1 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~-1 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~-1 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~-1 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 
 execute positioned as @e if block ~-1 ~ ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~ ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-1 ~ ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~ ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~1 ~ ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~ ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~1 ~ ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~ ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 
-execute positioned as @e if block ~-1 ~1 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~1 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-1 ~1 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~1 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~1 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~1 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~1 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~1 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-
 execute positioned as @e if block ~-1 ~2 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~2 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-1 ~2 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~2 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~1 ~2 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~2 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~1 ~2 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~2 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-
-execute positioned as @e if block ~-1 ~3 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~3 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-1 ~3 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~3 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~3 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~3 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~3 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~3 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 
 execute positioned as @e if block ~-1 ~4 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~4 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-1 ~4 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~4 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
@@ -60,23 +40,6 @@ execute positioned as @e if block ~-1 ~-4 ~3 minecraft:spawner{SpawnData:{id:"mi
 execute positioned as @e if block ~-2 ~-4 ~2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~-4 ~2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-3 ~-4 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~-4 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 
-execute positioned as @e if block ~-4 ~-3 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-4 ~-3 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-3 ~-3 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~-3 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-2 ~-3 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~-3 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-1 ~-3 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~-3 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~ ~-3 ~-4 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~ ~-3 ~-4 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~-3 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~-3 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~2 ~-3 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~2 ~-3 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~3 ~-3 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~3 ~-3 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~4 ~-3 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~4 ~-3 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~3 ~-3 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~3 ~-3 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~2 ~-3 ~2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~2 ~-3 ~2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~-3 ~3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~-3 ~3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~ ~-3 ~4 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~ ~-3 ~4 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-1 ~-3 ~3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~-3 ~3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-2 ~-3 ~2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~-3 ~2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-3 ~-3 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~-3 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-
 execute positioned as @e if block ~-4 ~-2 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-4 ~-2 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-3 ~-2 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~-2 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-2 ~-2 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~-2 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
@@ -93,23 +56,6 @@ execute positioned as @e if block ~ ~-2 ~4 minecraft:spawner{SpawnData:{id:"mine
 execute positioned as @e if block ~-1 ~-2 ~3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~-2 ~3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-2 ~-2 ~2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~-2 ~2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-3 ~-2 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~-2 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-
-execute positioned as @e if block ~-4 ~-1 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-4 ~-1 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-3 ~-1 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~-1 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-2 ~-1 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~-1 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-1 ~-1 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~-1 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~ ~-1 ~-4 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~ ~-1 ~-4 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~-1 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~-1 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~2 ~-1 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~2 ~-1 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~3 ~-1 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~3 ~-1 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~4 ~-1 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~4 ~-1 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~3 ~-1 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~3 ~-1 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~2 ~-1 ~2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~2 ~-1 ~2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~-1 ~3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~-1 ~3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~ ~-1 ~4 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~ ~-1 ~4 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-1 ~-1 ~3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~-1 ~3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-2 ~-1 ~2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~-1 ~2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-3 ~-1 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~-1 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 
 execute positioned as @e if block ~-4 ~ ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-4 ~ ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-3 ~ ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~ ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
@@ -128,23 +74,6 @@ execute positioned as @e if block ~-1 ~ ~3 minecraft:spawner{SpawnData:{id:"mine
 execute positioned as @e if block ~-2 ~ ~2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~ ~2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-3 ~ ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~ ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 
-execute positioned as @e if block ~-4 ~1 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-4 ~1 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-3 ~1 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~1 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-2 ~1 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~1 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-1 ~1 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~1 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~ ~1 ~-4 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~ ~1 ~-4 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~1 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~1 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~2 ~1 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~2 ~1 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~3 ~1 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~3 ~1 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~4 ~1 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~4 ~1 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~3 ~1 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~3 ~1 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~2 ~1 ~2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~2 ~1 ~2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~1 ~3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~1 ~3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~ ~1 ~4 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~ ~1 ~4 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-1 ~1 ~3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~1 ~3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-2 ~1 ~2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~1 ~2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-3 ~1 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~1 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-
 execute positioned as @e if block ~-4 ~2 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-4 ~2 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-3 ~2 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~2 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-2 ~2 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~2 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
@@ -161,23 +90,6 @@ execute positioned as @e if block ~ ~2 ~4 minecraft:spawner{SpawnData:{id:"minec
 execute positioned as @e if block ~-1 ~2 ~3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~2 ~3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-2 ~2 ~2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~2 ~2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-3 ~2 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~2 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-
-execute positioned as @e if block ~-4 ~3 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-4 ~3 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-3 ~3 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~3 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-2 ~3 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~3 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-1 ~3 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~3 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~ ~3 ~-4 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~ ~3 ~-4 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~3 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~3 ~-3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~2 ~3 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~2 ~3 ~-2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~3 ~3 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~3 ~3 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~4 ~3 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~4 ~3 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~3 ~3 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~3 ~3 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~2 ~3 ~2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~2 ~3 ~2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~1 ~3 ~3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~1 ~3 ~3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~ ~3 ~4 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~ ~3 ~4 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-1 ~3 ~3 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-1 ~3 ~3 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-2 ~3 ~2 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-2 ~3 ~2 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
-execute positioned as @e if block ~-3 ~3 ~1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~3 ~1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 
 execute positioned as @e if block ~-4 ~4 ~ minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-4 ~4 ~ minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
 execute positioned as @e if block ~-3 ~4 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:pig"}} run setblock ~-3 ~4 ~-1 minecraft:spawner{SpawnData:{id:"minecraft:tnt"}} destroy
