@@ -6,3 +6,5 @@ function hss:duplicate_ores/main
 function hss:smeltery/main
 function hss:stonecutter_damage/main
 function hss:tome/main
+
+schedule function hss:core 4t
