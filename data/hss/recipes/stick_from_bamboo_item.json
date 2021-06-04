@@ -8,7 +8,7 @@
   ],
   "key": {
     "X": {
-      "tag": "minecraft:all_rocks"
+      "tag": "hss:all_rocks"
     },
     "#": {
       "item": "minecraft:bamboo"
