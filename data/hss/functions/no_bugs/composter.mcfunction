@@ -1,2 +1,2 @@
-execute positioned as @p if block ~ ~ ~ composter if block ~ ~1 ~ #hss:falling_blocks run effect give @p instant_damage 1 8
-execute positioned as @p if block ~ ~ ~ composter if block ~ ~1 ~ #hss:falling_blocks run kill @e[type=item,sort=nearest]
+execute at @p if block ~ ~ ~ composter if block ~ ~1 ~ #hss:falling_blocks run effect give @p instant_damage 1 8
+execute at @p if block ~ ~ ~ composter if block ~ ~1 ~ #hss:falling_blocks run kill @e[type=item,sort=nearest]
