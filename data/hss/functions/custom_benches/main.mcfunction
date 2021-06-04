@@ -1,1 +1,2 @@
 function hss:custom_benches/repairing_table
+function hss:custom_benches/crunching_table
