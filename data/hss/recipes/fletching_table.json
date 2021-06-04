@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "tag": "minecraft:planks"
+      "tag": "hss:all_planks"
     },
     "@": {
       "item": "minecraft:flint"

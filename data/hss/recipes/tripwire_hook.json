@@ -16,7 +16,7 @@
             "item": "minecraft:compass"
         },
         "O": {
-            "tag": "minecraft:all_planks"
+            "tag": "hss:all_planks"
         }
     },
     "result": {

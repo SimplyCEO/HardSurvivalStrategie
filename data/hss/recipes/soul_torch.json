@@ -7,7 +7,7 @@
   ],
   "key": {
     "X": {
-      "tag": "minecraft:combustible"
+      "tag": "hss:combustible"
     },
     "#": {
       "item": "minecraft:soul_soil"

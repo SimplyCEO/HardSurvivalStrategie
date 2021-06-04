@@ -8,7 +8,7 @@
       "item": "minecraft:blaze_powder"
     },
     {
-      "tag": "minecraft:combustible"
+      "tag": "hss:combustible"
     }
   ],
   "result": {

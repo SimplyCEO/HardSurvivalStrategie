@@ -13,7 +13,7 @@
             "item": "minecraft:dirt"
         },
         "/": {
-            "tag": "minecraft:combustible"
+            "tag": "hss:combustible"
         }
     },
     "result": {

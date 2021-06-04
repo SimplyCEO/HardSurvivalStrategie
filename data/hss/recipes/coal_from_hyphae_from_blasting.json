@@ -1,7 +1,7 @@
 {
     "type": "minecraft:blasting",
     "ingredient": {
-        "tag": "minecraft:all_hyphaes"
+        "tag": "hss:all_hyphaes"
     },
     "result": "minecraft:coal_block",
     "experience": 0.8,

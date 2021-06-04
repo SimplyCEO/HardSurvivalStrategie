@@ -9,7 +9,7 @@
       "item": "minecraft:blaze_rod"
     },
     "#": {
-      "tag": "minecraft:all_stones"
+      "tag": "hss:all_stones"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "tag": "minecraft:combustible"
+      "tag": "hss:combustible"
     },
     "#": {
-      "tag": "minecraft:all_wools"
+      "tag": "hss:all_wools"
     },
     "/": {
       "item": "minecraft:stick"

@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "tag": "minecraft:all_planks"
+      "tag": "hss:all_planks"
     }
   },
   "result": {
     "item": "minecraft:bowl",
-    "count": 4
+    "count": 2
   }
 }

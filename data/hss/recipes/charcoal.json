@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "tag": "minecraft:all_logs"
+    "tag": "hss:all_logs"
   },
   "result": "minecraft:charcoal",
   "experience": 0.15,

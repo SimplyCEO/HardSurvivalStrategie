@@ -10,7 +10,7 @@
       "item": "minecraft:hay_block"
     },
     "R": {
-      "tag": "minecraft:pressure_plates"
+      "tag": "hss:pressure_plates"
     }
   },
   "result": {

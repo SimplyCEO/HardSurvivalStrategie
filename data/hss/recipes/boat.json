@@ -6,7 +6,7 @@
     ],
     "key": {
         "#": {
-            "tag": "minecraft:all_planks"
+            "tag": "hss:all_planks"
         },
         "W": {
             "item": "minecraft:wooden_shovel"

@@ -7,7 +7,7 @@
     ],
     "key": {
         "_": {
-            "tag": "minecraft:all_slabs"
+            "tag": "hss:all_slabs"
         },
         "/": {
             "item": "minecraft:stick"

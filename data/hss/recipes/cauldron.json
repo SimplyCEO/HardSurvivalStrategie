@@ -3,11 +3,14 @@
   "pattern": [
     "# #",
     "# #",
-    "###"
+    "XXX"
   ],
   "key": {
     "#": {
       "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:iron_block"
     }
   },
   "result": {

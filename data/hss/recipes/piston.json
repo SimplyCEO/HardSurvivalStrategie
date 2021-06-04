@@ -10,13 +10,13 @@
       "item": "minecraft:redstone"
     },
     "#": {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:stone"
     },
     "T": {
-      "tag": "minecraft:all_planks"
+      "item": "minecraft:iron_block"
     },
     "X": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:compass"
     }
   },
   "result": {

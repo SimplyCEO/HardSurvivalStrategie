@@ -7,7 +7,7 @@
   ],
   "key": {
     "P": {
-      "tag": "minecraft:all_planks"
+      "tag": "hss:all_planks"
     },
     "H": {
       "item": "minecraft:honeycomb"

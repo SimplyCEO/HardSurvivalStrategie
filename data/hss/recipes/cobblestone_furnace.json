@@ -7,10 +7,10 @@
     ],
     "key": {
         "#": {
-            "tag": "minecraft:all_stones"
+            "tag": "hss:all_stones"
         },
         "/": {
-            "tag": "minecraft:combustible"
+            "tag": "hss:combustible"
         }
     },
     "result": {

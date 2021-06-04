@@ -10,7 +10,7 @@
       "item": "minecraft:white_wool"
     },
     "X": {
-      "tag": "minecraft:all_planks"
+      "tag": "hss:all_planks"
     }
   },
   "result": {

@@ -9,7 +9,7 @@
             "item": "minecraft:stick"
         },
         "_": {
-            "tag": "minecraft:all_slabs"
+            "tag": "hss:all_slabs"
         }
     },
     "result": {

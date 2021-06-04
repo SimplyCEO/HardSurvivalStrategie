@@ -13,7 +13,7 @@
       "item": "minecraft:flint"
     },
     "Y": {
-      "tag": "minecraft:arrow_handles"
+      "tag": "hss:arrow_handles"
     }
   },
   "result": {

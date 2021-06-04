@@ -7,7 +7,7 @@
   ],
   "key": {
     "L": {
-      "tag": "minecraft:all_logs"
+      "tag": "hss:all_logs"
     },
     "S": {
       "item": "minecraft:stick"

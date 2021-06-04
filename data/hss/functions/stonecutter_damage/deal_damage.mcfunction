@@ -1,1 +1,2 @@
-execute positioned as @p if block ~ ~-1 ~ stonecutter run effect give @p instant_damage
+execute positioned as @p align xyz if block ~ ~ ~ stonecutter run effect give @p instant_damage
+execute positioned as @p align xyz if block ~ ~ ~ stonecutter run playsound minecraft:entity.horse.land player @p ~ ~ ~

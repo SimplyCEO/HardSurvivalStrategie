@@ -10,7 +10,7 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "tag": "minecraft:wool"
+      "tag": "hss:all_wools"
     }
   },
   "result": {

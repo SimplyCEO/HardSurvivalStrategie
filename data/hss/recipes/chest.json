@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "tag": "minecraft:all_planks"
+            "tag": "hss:all_planks"
         },
         "I": {
             "item": "minecraft:iron_ingot"

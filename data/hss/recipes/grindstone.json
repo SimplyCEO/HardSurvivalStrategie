@@ -12,7 +12,7 @@
       "item": "minecraft:stone_slab"
     },
     "#": {
-      "tag": "minecraft:all_planks"
+      "tag": "hss:all_planks"
     }
   },
   "result": {
