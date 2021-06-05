@@ -1,0 +1,1 @@
+execute at @e[type=!item] if block ~ ~ ~ piston_head if block ~ ~-1 ~ smithing_table run summon area_effect_cloud ~ ~.2 ~ {Radius:0.1f,Duration:10,Effects:[{Id:7,Amplifier:5}]}

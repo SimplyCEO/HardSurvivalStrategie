@@ -1,2 +1,2 @@
-execute at @e[type=!item] if block ~ ~ ~ stonecutter run summon area_effect_cloud ~ ~.7 ~ {Radius:1f,Duration:60,Effects:[{Id:20,Amplifier:10,Duration:240}]}
+execute at @e[type=!item] if block ~ ~ ~ stonecutter run summon area_effect_cloud ~ ~.2 ~ {Radius:0.1f,Duration:10,Effects:[{Id:20,Amplifier:10,Duration:120}]}
 execute at @e[type=!item] if block ~ ~ ~ stonecutter run playsound minecraft:entity.horse.land player @p
