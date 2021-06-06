@@ -1,0 +1,2 @@
+execute as @e[type=item_frame,tag=AW_block,tag=!placed] at @s run function hss:advanced_crafting/place
+execute as @e[type=item_frame,tag=AW_block,tag=placed] at @s unless ~ ~ ~ barrel run function hss:advanced_crafting/remove

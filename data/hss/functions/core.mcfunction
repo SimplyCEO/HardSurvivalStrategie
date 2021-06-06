@@ -4,6 +4,7 @@
 # This is a open-source project. Anyone can modify, fork, or create another version of this datapack.
 
 function hss:no_bugs/main
+#function hss:advanced_crafting/main
 function hss:crawling/main
 function hss:custom_benches/main
 function hss:custom_brewing/main
