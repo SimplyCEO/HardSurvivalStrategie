@@ -1,5 +1,4 @@
 scoreboard objectives add count dummy
-scoreboard objectives add count_limit dummy
 scoreboard objectives add count_match dummy
 
 # Limit is set to run each 20t, so at the final will match 10 minutes.

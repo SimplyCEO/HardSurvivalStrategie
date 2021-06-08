@@ -24,6 +24,6 @@ function hss:tome/main
 # The default tick rate is set to 20t.
 
 scoreboard players add @a[limit=1] count 1
-execute as @a[limit=1] if score @s count > @s count_limit run scoreboard players set @a[limit=1] count 0
+execute if score @a[limit=1] count matches 601.. run scoreboard players set @a[limit=1] count 0
 
 schedule function hss:core 20t
