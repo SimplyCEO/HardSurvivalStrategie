@@ -33,5 +33,6 @@ execute if score AveragePlayersWeek apwCount matches 30.. run scoreboard players
 execute if score AveragePlayersWeek apwCount matches 30.. run scoreboard players set AveragePlayersWeek apwCount 0
 
 scoreboard players set logCount logCount 0
+scoreboard players set oreCount oreCount 0
 
 schedule function hss:core 20t

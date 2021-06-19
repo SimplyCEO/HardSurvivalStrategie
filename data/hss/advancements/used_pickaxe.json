@@ -1,0 +1,64 @@
+{
+    "rewards": {
+      "function": "hss:vein_mine/check_break"
+    },
+    "criteria": {
+      "Wooden_Pickaxe": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "item": {
+            "item": "minecraft:wooden_pickaxe",
+            "nbt": "{veinpickaxe:1b}"
+          }
+        }
+      },
+      "Improvised_Pickaxe": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "item": {
+            "item": "minecraft:golden_pickaxe",
+            "nbt": "{veinpickaxe:1b}"
+          }
+        }
+      },
+      "Iron_Pickaxe": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "item": {
+            "item": "minecraft:stone_pickaxe",
+            "nbt": "{veinpickaxe:1b}"
+          }
+        }
+      },
+      "Sapphire_Pickaxe": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "item": {
+            "item": "minecraft:iron_pickaxe",
+            "nbt": "{veinpickaxe:1b}"
+          }
+        }
+      },
+      "Diamond_Pickaxe": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "item": {
+            "item": "minecraft:diamond_pickaxe",
+            "nbt": "{veinpickaxe:1b}"
+          }
+        }
+      },
+      "Cobalt_Pickaxe": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "item": {
+            "item": "minecraft:netherite_pickaxe",
+            "nbt": "{veinpickaxe:1b}"
+          }
+        }
+      }
+    },
+    "requirements": [
+        ["Wooden_Pickaxe","Improvised_Pickaxe","Iron_Pickaxe","Sapphire_Pickaxe","Diamond_Pickaxe","Cobalt_Pickaxe"]
+    ]
+  }
