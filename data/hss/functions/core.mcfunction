@@ -32,4 +32,6 @@ scoreboard players add AveragePlayersWeek apwCount 1
 execute if score AveragePlayersWeek apwCount matches 30.. run scoreboard players set @a isChecked 0
 execute if score AveragePlayersWeek apwCount matches 30.. run scoreboard players set AveragePlayersWeek apwCount 0
 
+scoreboard players set logCount logCount 0
+
 schedule function hss:core 20t
