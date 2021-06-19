@@ -224,6 +224,10 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{veinbook:1b,display:{Lore:['{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":false}']}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
             }
           ]
         }
