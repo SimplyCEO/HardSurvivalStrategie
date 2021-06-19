@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "hss:tree_fall/check_break"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "tag": "hss:tree_fall_axes"
+        }
+      }
+    }
+  }
+}

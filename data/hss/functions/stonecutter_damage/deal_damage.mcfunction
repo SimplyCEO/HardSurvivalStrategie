@@ -1,2 +1,2 @@
-execute at @e[type=!item] if block ~ ~ ~ stonecutter unless entity @e[type=experience_orb,distance=..1,sort=nearest] run summon area_effect_cloud ~ ~.2 ~ {Radius:0.2f,Duration:10,Effects:[{Id:20,Amplifier:7,Duration:120}]}
+execute as @e[type=!item] at @s if block ~ ~ ~ stonecutter unless entity @e[type=experience_orb,distance=..1,sort=nearest] run effect give @s wither 20 2
 execute at @e[type=!item] if block ~ ~ ~ stonecutter unless entity @e[type=experience_orb,distance=..1,sort=nearest] run playsound minecraft:entity.horse.land block @p

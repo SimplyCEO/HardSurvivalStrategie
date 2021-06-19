@@ -1,1 +1,1 @@
-execute at @e[type=!item] if block ~ ~ ~ piston_head if block ~ ~-1 ~ smithing_table unless entity @e[type=experience_orb,distance=..1,sort=nearest] run summon area_effect_cloud ~ ~.2 ~ {Radius:0.2f,Duration:10,Effects:[{Id:20,Amplifier:5,Duration:120}]}
+execute as @e[type=!item] at @s if block ~ ~ ~ piston_head if block ~ ~-1 ~ smithing_table unless entity @e[type=experience_orb,distance=..1,sort=nearest] run effect give @s instant_damage 30 10
