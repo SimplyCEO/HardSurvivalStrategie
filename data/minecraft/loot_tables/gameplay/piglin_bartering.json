@@ -85,8 +85,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2.0,
-                "max": 4.0,
+                "min": 1.0,
+                "max": 2.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -237,6 +237,21 @@
             }
           ],
           "name": "minecraft:blackstone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{veinbook:1b,display:{Lore:['{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":false}']}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "name": "minecraft:enchanted_book"
         }
       ]
     }
