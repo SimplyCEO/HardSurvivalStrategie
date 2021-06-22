@@ -4,14 +4,14 @@
 # This is a open-source project. Anyone can modify, fork, or create another version of this datapack.
 
 function hss:no_bugs/main
-# function hss:advanced_crafting/main
+function hss:advanced_crafting/main
+function hss:chested_boat/main
 function hss:crawling/main
 function hss:custom_benches/main
 function hss:custom_brewing/main
 function hss:duplicate_ores/main
 function hss:pot_farmer/main
 function hss:smeltery/main
-function hss:stonecutter_damage/main
 function hss:tome/main
 
 # Since playing the datapack as client-server or as server is different,

@@ -1,0 +1,1 @@
+function hss:chested_boat/detect_chest

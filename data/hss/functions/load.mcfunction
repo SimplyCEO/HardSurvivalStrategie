@@ -1,10 +1,11 @@
-scoreboard objectives add count dummy
-scoreboard objectives add gm_player dummy
-scoreboard objectives add isChecked dummy
-scoreboard objectives add apwCount dummy
-scoreboard objectives add tree_fall dummy
-scoreboard objectives add logCount dummy
-scoreboard objectives add oreCount dummy
+scoreboard objectives add count dummy ["Seconds"]
+scoreboard objectives add gm_player dummy ["Player's Gamemode"]
+scoreboard objectives add isChecked dummy ["Player Check"]
+scoreboard objectives add apwCount dummy ["Timer"]
+scoreboard objectives add tree_fall dummy ["Tree Fall"]
+scoreboard objectives add logCount dummy ["Logs Destroyed"]
+scoreboard objectives add oreCount dummy ["Ores Destroyed"]
+scoreboard objectives add boatType dummy ["Boat Type ID"]
 
 # Limit is set to run each 20t, so at the final will match 10 minutes.
 # If you wish less or more, keep in mind that's necessary to use the math to convert it.

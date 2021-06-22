@@ -1,9 +1,9 @@
 {
     "type": "minecraft:stonecutting",
     "ingredient": {
-        "item": "minecraft:polished_granite"
+        "item": "minecraft:chiseled_nether_bricks"
     },
     "result": "minecraft:nether_brick",
     "group": "Sapphire",
-    "count": 9
+    "count": 8
 }

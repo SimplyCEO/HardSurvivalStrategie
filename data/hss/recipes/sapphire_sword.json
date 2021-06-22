@@ -1,23 +1,23 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "sss",
+        "  s",
         " S ",
-        " / "
+        "/  "
     ],
     "key": {
         "s": {
             "item": "minecraft:nether_brick"
         },
         "S": {
-            "item": "minecraft:polished_granite"
+            "item": "minecraft:chiseled_nether_bricks"
         },
         "/": {
             "item": "minecraft:golden_hoe"
         }
     },
     "result": {
-        "item": "minecraft:iron_pickaxe",
+        "item": "minecraft:iron_sword",
         "count": 1
     },
     "group": "Sapphire_Tools"

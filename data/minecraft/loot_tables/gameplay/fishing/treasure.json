@@ -69,7 +69,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{pages:['{\"text\":\" \"}'],title:\"Tome of Speed\",author:\"HSS\",resolved:1b}"
+              "tag": "{speedTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Speed\",author:\"HSS\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -83,7 +83,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{pages:['{\"text\":\" \"}'],title:\"Tome of Haste\",author:\"HSS\",resolved:1b}"
+              "tag": "{hasteTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Haste\",author:\"HSS\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -97,7 +97,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{pages:['{\"text\":\" \"}'],title:\"Tome of Strength\",author:\"HSS\",resolved:1b}"
+              "tag": "{strenghtTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Strength\",author:\"HSS\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -111,7 +111,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{pages:['{\"text\":\" \"}'],title:\"Tome of Jump Boost\",author:\"HSS\",resolved:1b}"
+              "tag": "{jumpBoostTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Jump Boost\",author:\"HSS\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -125,7 +125,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{pages:['{\"text\":\" \"}'],title:\"Tome of Regeneration\",author:\"HSS\",resolved:1b}"
+              "tag": "{regenerationTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Regeneration\",author:\"HSS\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -139,7 +139,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{pages:['{\"text\":\" \"}'],title:\"Tome of Resistance\",author:\"HSS\",resolved:1b}"
+              "tag": "{resistanceTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Resistance\",author:\"HSS\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -153,7 +153,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{pages:['{\"text\":\" \"}'],title:\"Tome of Fire Resistance\",author:\"HSS\",resolved:1b}"
+              "tag": "{fireResistanceTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Fire Resistance\",author:\"HSS\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -167,7 +167,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{pages:['{\"text\":\" \"}'],title:\"Tome of Water Breathing\",author:\"HSS\",resolved:1b}"
+              "tag": "{waterBreathingTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Water Breathing\",author:\"HSS\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -181,7 +181,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{pages:['{\"text\":\" \"}'],title:\"Tome of Invisibility\",author:\"HSS\",resolved:1b}"
+              "tag": "{invisibilityTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Invisibility\",author:\"HSS\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -195,7 +195,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{pages:['{\"text\":\" \"}'],title:\"Tome of Night Vision\",author:\"HSS\",resolved:1b}"
+              "tag": "{nightVisionTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Night Vision\",author:\"HSS\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -209,7 +209,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{pages:['{\"text\":\" \"}'],title:\"Tome of Absorption\",author:\"HSS\",resolved:1b}"
+              "tag": "{absorptionTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Absorption\",author:\"HSS\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -223,7 +223,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{veinbook:1b,display:{Lore:['{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":false}']}}"
+              "tag": "{veinBook:1b,display:{Lore:['{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":false}']}}"
             },
             {
               "function": "minecraft:set_count",
