@@ -1,1 +1,1 @@
-function hss:crawling/crawl
+function hss:crawling/detect_crawl

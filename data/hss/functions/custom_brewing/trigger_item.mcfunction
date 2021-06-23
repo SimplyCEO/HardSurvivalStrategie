@@ -1,0 +1,1 @@
+execute at @e[type=item] if block ~ ~ ~ cauldron if block ~ ~-1 ~ campfire run function hss:custom_brewing/check_recipe

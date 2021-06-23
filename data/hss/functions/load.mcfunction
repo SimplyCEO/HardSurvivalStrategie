@@ -6,6 +6,7 @@ scoreboard objectives add tree_fall dummy ["Tree Fall"]
 scoreboard objectives add logCount dummy ["Logs Destroyed"]
 scoreboard objectives add oreCount dummy ["Ores Destroyed"]
 scoreboard objectives add boatType dummy ["Boat Type ID"]
+scoreboard objectives add isOP dummy ["Operator Check"]
 
 # Limit is set to run each 20t, so at the final will match 10 minutes.
 # If you wish less or more, keep in mind that's necessary to use the math to convert it.

@@ -1,1 +1,1 @@
-function hss:duplicate_ores/stonecutter_duplication
+function hss:duplicate_ores/check_recipe

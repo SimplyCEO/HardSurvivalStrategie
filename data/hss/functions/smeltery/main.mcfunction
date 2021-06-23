@@ -1,1 +1,1 @@
-function hss:smeltery/smelter
+function hss:smeltery/trigger_item

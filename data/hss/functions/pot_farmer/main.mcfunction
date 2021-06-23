@@ -1,1 +1,1 @@
-function hss:pot_farmer/farmer
+function hss:pot_farmer/check_pot
