@@ -3,7 +3,7 @@
     "ingredient": {
         "item": "minecraft:warped_planks"
     },
-    "result": "minecraft:warped_slabs",
+    "result": "minecraft:warped_slab",
     "group": "Warped",
     "count": 2
 }

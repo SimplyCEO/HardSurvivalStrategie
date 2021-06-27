@@ -1,0 +1,1 @@
+execute as @e[type=player] if predicate hss:is_holding_item run function hss:sight_armour/spawn
