@@ -12,7 +12,7 @@ function hss:crawling/main
 function hss:custom_benches/main
 function hss:custom_brewing/main
 function hss:duplicate_ores/main
-#function hss:get_position/main
+function hss:get_position/main
 function hss:pot_farmer/main
 #function hss:sight_armour/main
 function hss:smeltery/main
@@ -38,8 +38,6 @@ execute if score combinerCount combinerCount matches 61.. run scoreboard players
 scoreboard players add AveragePlayersWeek apwCount 1
 execute if score AveragePlayersWeek apwCount matches 5.. run scoreboard players set @a isChecked 0
 execute if score AveragePlayersWeek apwCount matches 5.. run scoreboard players set AveragePlayersWeek apwCount 0
-
-clear @a clock{GUI:1b}
 
 scoreboard players set logCount logCount 0
 scoreboard players set oreCount oreCount 0
