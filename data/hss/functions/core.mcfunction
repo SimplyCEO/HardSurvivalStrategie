@@ -17,6 +17,7 @@ function hss:pot_farmer/main
 #function hss:sight_armour/main
 function hss:smeltery/main
 function hss:tome/main
+function hss:rubbish_guns/main
 
 # Since playing the datapack as client-server or as server is different,
 # Tick rate needs to be changed for every case:
@@ -28,18 +29,20 @@ function hss:tome/main
 # The default tick rate is set to 20t.
 
 scoreboard players add counter count 1
-execute if score counter count matches 601.. run scoreboard players set counter count 0
+execute if score counter count matches 1202.. run scoreboard players set counter count 0
 
 scoreboard players add combinerCount combinerCount 1
-execute if score combinerCount combinerCount matches 61.. run scoreboard players set combinerCount combinerCount 0
+execute if score combinerCount combinerCount matches 122.. run scoreboard players set combinerCount combinerCount 0
 
 # Player check function. Set apwCount(Average Players in a Week) to your server's desire.
 
 scoreboard players add AveragePlayersWeek apwCount 1
-execute if score AveragePlayersWeek apwCount matches 5.. run scoreboard players set @a isChecked 0
-execute if score AveragePlayersWeek apwCount matches 5.. run scoreboard players set AveragePlayersWeek apwCount 0
+execute if score AveragePlayersWeek apwCount matches 10.. run scoreboard players set @a isChecked 0
+execute if score AveragePlayersWeek apwCount matches 10.. run scoreboard players set AveragePlayersWeek apwCount 0
 
 scoreboard players set logCount logCount 0
 scoreboard players set oreCount oreCount 0
 
-schedule function hss:core 20t
+scoreboard players set @a[scores={usedGun=1..}] usedGun 0
+
+schedule function hss:core 16t

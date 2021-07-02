@@ -32,3 +32,7 @@ execute if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:hopper",Count:1b}] if d
 # Combiner
 
 execute if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:bee_nest",Count:1b}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:smooth_stone",Count:1b}] if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:bee_nest",Count:1b}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:smooth_stone",Count:1b}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:honey_block",Count:1b}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:smooth_stone",Count:1b}] if data block ~ ~ ~ Items[{Slot:19b,id:"minecraft:bee_nest",Count:1b}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:smooth_stone",Count:1b}] if data block ~ ~ ~ Items[{Slot:21b,id:"minecraft:bee_nest",Count:1b}] run function hss:recipes/advanced_crafting/combiner
+
+# Rubbish Guns
+
+execute if data block ~ ~ ~ Items[{Slot:1b,tag:{paraFalBarrel:1b},Count:1b}] if data block ~ ~ ~ Items[{Slot:11b,tag:{paraFalBody:1b},Count:1b}] if data block ~ ~ ~ Items[{Slot:21b,tag:{paraFalHandle:1b},Count:1b}] run function hss:recipes/advanced_crafting/para_fal

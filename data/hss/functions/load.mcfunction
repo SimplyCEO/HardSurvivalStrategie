@@ -17,6 +17,10 @@ scoreboard objectives add rotZ dummy ["Z Rotation"]
 scoreboard objectives add faceX dummy ["X Facing"]
 scoreboard objectives add faceY dummy ["Y Facing"]
 scoreboard objectives add faceZ dummy ["Z Facing"]
+scoreboard objectives add loadedGun minecraft.used:minecraft.carrot_on_a_stick ["Gun Loaded"]
+scoreboard objectives add usedGun minecraft.used:minecraft.crossbow ["Gun Used"]
+scoreboard objectives add slotSection dummy ["Slot Gun in Hotbar"]
+scoreboard objectives add natoMag dummy ["NATO Magazine bullets"]
 
 # Limit is set to run each 20t, so at the final will match 10 minutes.
 # If you wish less or more, keep in mind that's necessary to use the math to convert it.

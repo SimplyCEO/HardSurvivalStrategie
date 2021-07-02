@@ -1,0 +1,4 @@
+execute if entity @s[tag=!loaded,scores={natoMag=1..}] run replaceitem entity @s hotbar.7 crossbow{rubishedRifle:1b,CustomModelData:2,display:{Name:'{"text":"","italic":false}',Lore:['{"text":"","italic":false}']},ChargedProjectiles:[{id:"minecraft:air",Count:1b}],Charged:1b}
+execute if entity @s[tag=loaded,scores={natoMag=1..}] run replaceitem entity @s hotbar.7 crossbow{rubishedRifle:1b,CustomModelData:2,display:{Name:'{"text":"","italic":false}',Lore:['{"text":"","italic":false}']},ChargedProjectiles:[{id:"minecraft:air",Count:1b}],Charged:1b}
+execute if entity @s[tag=loaded,scores={natoMag=..0}] run replaceitem entity @s hotbar.7 carrot_on_a_stick{rubishedRifle:1b,CustomModelData:2,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.rubbish_rifle","color":"white","italic":false}']}}
+tag @s[tag=!loaded] add loaded

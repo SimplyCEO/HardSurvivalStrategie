@@ -18,6 +18,19 @@ execute as @e[type=item,nbt={Item:{tag:{rubyPickaxe:1b},Count:1b}}] at @s if blo
 execute as @e[type=item,nbt={Item:{tag:{rubyShovel:1b},Count:1b}}] at @s if block ~ ~-1 ~ smithing_table if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:nether_star",Count:1b}}] run function hss:recipes/repairing_table/ruby_shovel
 execute as @e[type=item,nbt={Item:{tag:{rubySword:1b},Count:1b}}] at @s if block ~ ~-1 ~ smithing_table if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:nether_star",Count:1b}}] run function hss:recipes/repairing_table/ruby_sword
 
+execute as @e[type=item,nbt={Item:{id:"minecraft:gold_axe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_axe
+execute as @e[type=item,nbt={Item:{id:"minecraft:wooden_axe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_axe
+execute as @e[type=item,nbt={Item:{id:"minecraft:stone_axe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_axe
+execute as @e[type=item,nbt={Item:{id:"minecraft:iron_axe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_axe
+execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_axe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_axe
+execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_axe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_axe
+execute as @e[type=item,nbt={Item:{id:"minecraft:gold_pickaxe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_pickaxe
+execute as @e[type=item,nbt={Item:{id:"minecraft:wooden_pickaxe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_pickaxe
+execute as @e[type=item,nbt={Item:{id:"minecraft:stone_pickaxe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_pickaxe
+execute as @e[type=item,nbt={Item:{id:"minecraft:iron_pickaxe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_pickaxe
+execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_pickaxe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_pickaxe
+execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_pickaxe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_pickaxe
+
 # Normal
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:golden_axe",Count:1b}}] at @s if block ~ ~-1 ~ smithing_table if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:cobblestone",Count:1b}}] run function hss:recipes/repairing_table/hatchet
