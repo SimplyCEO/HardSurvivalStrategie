@@ -1,1 +1,0 @@
-execute as @e[nbt={Inventory:[{Slot:-106b,id:"minecraft:lead",Count:1b}]},limit=1] run function hss:crawling/crawl

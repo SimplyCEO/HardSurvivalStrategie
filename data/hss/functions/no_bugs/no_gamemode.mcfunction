@@ -1,4 +1,1 @@
-execute as @p unless score @s isOP matches 1 unless score @s isChecked matches 1 store result score @s gm_player run data get entity @s playerGameType
-execute as @p unless score @s isOP matches 1 unless score @s isChecked matches 1 unless score @s gm_player matches 0 unless score @s gm_player matches 2 run kill @s
-execute as @p unless score @s isOP matches 1 unless score @s isChecked matches 1 unless score @s gm_player matches 0 unless score @s gm_player matches 2 run gamemode survival @p
-execute as @p unless score @s isOP matches 1 unless score @s isChecked matches 1 run scoreboard players set @s isChecked 1
+execute as @e[type=player,scores={isOP=0,isChecked=0}] at @s run function hss:no_bugs/no_gamemode_2

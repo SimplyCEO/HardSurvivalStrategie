@@ -35,4 +35,5 @@ execute if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:bee_nest",Count:1b}] if
 
 # Rubbish Guns
 
-execute if data block ~ ~ ~ Items[{Slot:1b,tag:{paraFalBarrel:1b},Count:1b}] if data block ~ ~ ~ Items[{Slot:11b,tag:{paraFalBody:1b},Count:1b}] if data block ~ ~ ~ Items[{Slot:21b,tag:{paraFalHandle:1b},Count:1b}] run function hss:recipes/advanced_crafting/para_fal
+execute if data block ~ ~ ~ Items[{Slot:1b,tag:{paraFalBarrel:1b},Count:1b}] if data block ~ ~ ~ Items[{Slot:11b,tag:{paraFalBody:1b},Count:1b}] if data block ~ ~ ~ Items[{Slot:21b,tag:{paraFalStock:1b},Count:1b}] run function hss:recipes/advanced_crafting/para_fal
+execute if data block ~ ~ ~ Items[{Slot:1b,tag:{benelliM4Barrel:1b},Count:1b}] if data block ~ ~ ~ Items[{Slot:11b,tag:{benelliM4Body:1b},Count:1b}] if data block ~ ~ ~ Items[{Slot:21b,tag:{benelliM4Stock:1b},Count:1b}] run function hss:recipes/advanced_crafting/benelli_m4

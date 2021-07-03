@@ -1,1 +1,0 @@
-execute as @e[type=item,nbt={Item:{id:"minecraft:chest_minecart",Count:1b}},limit=1] at @s if entity @e[type=boat,distance=..2,sort=nearest] run function hss:chested_boat/detect_boat_type

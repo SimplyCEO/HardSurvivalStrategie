@@ -1,4 +1,4 @@
-execute run summon item ~ ~.2 ~ {Item:{id:"minecraft:chiseled_polished_blackstone",Count:1b}}
-execute run playsound minecraft:entity.blaze.shoot block @p
-execute run summon experience_orb ~ ~.3 ~ {Value:5}
+summon item ~ ~.2 ~ {Item:{id:"minecraft:chiseled_polished_blackstone",Count:1b}}
+playsound minecraft:entity.blaze.shoot block @a ~ ~ ~
+summon experience_orb ~ ~.3 ~ {Value:5}
 kill @s

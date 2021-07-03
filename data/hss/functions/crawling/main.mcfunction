@@ -1,1 +1,0 @@
-function hss:crawling/detect_crawl

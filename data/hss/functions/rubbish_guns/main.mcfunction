@@ -1,4 +1,2 @@
-execute as @p[scores={loadedGun=1..}] at @s run function hss:rubbish_guns/prepare_gun
-execute as @p[scores={loadedGun=..0}] run tag @s remove loaded
-execute as @p[scores={loadedGun=..0}] run tag @s remove locked
-execute as @p[scores={loadedGun=..0}] run tag @s remove play
+execute as @e[type=player,scores={loadedGun=1..}] at @s run function hss:rubbish_guns/detect_gun
+execute as @e[type=player,scores={loadedGun=0}] at @s run function hss:rubbish_guns/detect_load

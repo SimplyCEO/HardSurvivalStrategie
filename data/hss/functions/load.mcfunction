@@ -20,7 +20,13 @@ scoreboard objectives add faceZ dummy ["Z Facing"]
 scoreboard objectives add loadedGun minecraft.used:minecraft.carrot_on_a_stick ["Gun Loaded"]
 scoreboard objectives add usedGun minecraft.used:minecraft.crossbow ["Gun Used"]
 scoreboard objectives add slotSection dummy ["Slot Gun in Hotbar"]
-scoreboard objectives add natoMag dummy ["NATO Magazine bullets"]
+scoreboard objectives add natoAmmo dummy ["NATO bullets"]
+scoreboard objectives add isNatoEmpty dummy ["Para-FAL Chamber"]
+scoreboard objectives add gaugeAmmo dummy ["Gauge bullets"]
+scoreboard objectives add isGaugeEmpty dummy ["Gauge Chamber"]
+scoreboard objectives add 9mmAmmo dummy ["9mm bullets"]
+scoreboard objectives add sniperAmmo dummy ["Sniper bullets"]
+scoreboard objectives add missile dummy ["Missiles"]
 
 # Limit is set to run each 20t, so at the final will match 10 minutes.
 # If you wish less or more, keep in mind that's necessary to use the math to convert it.

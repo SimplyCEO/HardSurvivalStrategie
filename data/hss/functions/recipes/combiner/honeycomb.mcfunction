@@ -1,4 +1,4 @@
-playsound entity.bee.hurt block @p
+playsound entity.bee.hurt block @a ~ ~ ~
 replaceitem block ~ ~ ~ container.6 honeycomb{citrusComb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.citrus_comb","color":"green","italic":false}'}}
 replaceitem block ~ ~ ~ container.14 honeycomb{citrusComb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.citrus_comb","color":"green","italic":false}'}}
 replaceitem block ~ ~ ~ container.16 honeycomb{citrusComb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.citrus_comb","color":"green","italic":false}'}}

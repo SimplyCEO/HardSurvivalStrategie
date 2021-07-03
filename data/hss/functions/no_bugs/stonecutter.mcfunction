@@ -1,2 +1,1 @@
-execute as @e[type=!item] at @s if block ~ ~ ~ stonecutter unless entity @e[type=experience_orb,distance=..1,sort=nearest] run effect give @s wither 20 2 true
-execute at @e[type=!item] if block ~ ~ ~ stonecutter unless entity @e[type=experience_orb,distance=..1,sort=nearest] run playsound minecraft:ui.stonecutter.take_result block @p ~ ~ ~
+execute as @e[type=!item,scores={isOP=0}] at @s if block ~ ~ ~ stonecutter unless entity @e[type=experience_orb,distance=..1,sort=nearest] run function hss:no_bugs/stonecutter_2

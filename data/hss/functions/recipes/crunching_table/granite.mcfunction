@@ -1,5 +1,5 @@
 summon item ~ ~ ~ {Item:{id:"minecraft:granite",Count:2b}}
-playsound minecraft:block.stone.break block @p
+playsound minecraft:block.stone.break block @a ~ ~ ~
 summon experience_orb ~ ~.3 ~ {Value:5}
 kill @e[type=item,distance=..2,nbt={Item:{id:"minecraft:cobblestone"}},sort=nearest]
 kill @s

@@ -42,7 +42,55 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{paraFalHandle:1b,CustomModelData:6,display:{Name:'{\"translate\":\"item.hss.para_fal_stock\",\"italic\":false}'}}"
+             "tag": "{paraFalStock:1b,CustomModelData:6,display:{Name:'{\"translate\":\"item.hss.para_fal_stock\",\"italic\":false}'}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ],
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+             "function": "minecraft:set_nbt",
+             "tag": "{benelliM4Barrel:1b,CustomModelData:7,display:{Name:'{\"translate\":\"item.hss.benelli_m4_barrel\",\"italic\":false}'}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ],
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+             "function": "minecraft:set_nbt",
+             "tag": "{benelliM4Body:1b,CustomModelData:8,display:{Name:'{\"translate\":\"item.hss.benelli_m4_body\",\"italic\":false}'}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ],
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+             "function": "minecraft:set_nbt",
+             "tag": "{benelliM4Stock:1b,CustomModelData:9,display:{Name:'{\"translate\":\"item.hss.benelli_m4_stock\",\"italic\":false}'}}"
             }
           ],
           "conditions": [
