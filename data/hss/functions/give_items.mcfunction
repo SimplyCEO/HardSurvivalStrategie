@@ -1,0 +1,11 @@
+# USE ONLY AS DEBUG
+
+give @e[type=player,scores={isOP=1}] armor_stand{advancedWorkbench:1b,display:{Name:'{"translate":"item.hss.advanced_workbench","italic":false}'},CustomModelData:1,EntityTag:{Silent:1b,Tags:["advanced_workbench_item"],Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
+give @e[type=player,scores={isOP=1}] armor_stand{advancedHopper:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.advanced_hopper","color":"dark_aqua","italic":false}'},CustomModelData:3,EntityTag:{Silent:1b,Tags:["advanced_hopper_item"],Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
+give @e[type=player,scores={isOP=1}] armor_stand{combiner:1b,display:{Name:'{"translate":"item.hss.combiner","color":"gold","italic":false}'},CustomModelData:4,EntityTag:{Silent:1b,Tags:["combiner_item"],Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
+give @e[type=player,scores={isOP=1}] armor_stand{hopperPot:1b,display:{Name:'{"translate":"item.hss.hopper_pot","italic":false}'},CustomModelData:2,EntityTag:{Silent:1b,Tags:["hopper_pot_item"],Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
+give @e[type=player,scores={isOP=1}] carrot_on_a_stick{rubbishGuns:1b,paraFAL:1b,CustomModelData:1,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.para_fal","color":"white","italic":false}']}} 1
+give @e[type=player,scores={isOP=1}] carrot_on_a_stick{rubbishGuns:1b,benelliM4:1b,CustomModelData:2,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.benelli_m4","color":"white","italic":false}']}} 1
+give @e[type=player,scores={isOP=1}] carrot_on_a_stick{rubbishGuns:1b,imbelGC:1b,CustomModelData:3,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.imbel_gc","color":"white","italic":false}']}} 1
+give @e[type=player,scores={isOP=1}] carrot_on_a_stick{rubbishGuns:1b,imbelAGLC:1b,CustomModelData:4,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.imbel_aglc","color":"white","italic":false}']}} 1
+give @e[type=player,scores={isOP=1}] carrot_on_a_stick{rubbishGuns:1b,igla:1b,CustomModelData:5,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.igla","color":"white","italic":false}']}} 1

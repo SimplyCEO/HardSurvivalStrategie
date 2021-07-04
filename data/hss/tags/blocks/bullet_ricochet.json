@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "#hss:not_air"
+    ]
+  }
