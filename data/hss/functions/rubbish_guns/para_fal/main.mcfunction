@@ -6,3 +6,4 @@ execute if entity @s[tag=!natoPlay,scores={isNatoEmpty=0,natoAmmo=1..}] run tag 
 execute if entity @s[tag=!natoLoaded,scores={isNatoEmpty=0,natoAmmo=1..}] run function hss:rubbish_guns/load_gun
 execute if entity @s[tag=natoLoaded,scores={usedGun=1..}] run function hss:rubbish_guns/para_fal/shoot
 execute if entity @s[scores={natoAmmo=0}] run scoreboard players set @s loadedGun 0
+execute if entity @s[tag=natoLoaded,scores={usedGun=0}] if predicate hss:is_para_fal run function hss:rubbish_guns/load_gun

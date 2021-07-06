@@ -1,2 +1,2 @@
-execute as @e[type=player,scores={loadedGun=1..}] at @s run function hss:rubbish_guns/detect_gun
-execute as @e[type=player,scores={loadedGun=0}] at @s run function hss:rubbish_guns/detect_load
+execute as @e[type=!item] at @s run function hss:rubbish_guns/get_entities
+execute as @e[type=item] at @s run function hss:rubbish_guns/part_maker/main

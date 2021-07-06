@@ -1,1 +1,1 @@
-execute as @e[type=player,scores={isOP=0,isChecked=0}] at @s run function hss:no_bugs/no_gamemode_2
+execute as @e[type=!item] unless score @s isOP matches 1 unless score @s isChecked matches 1 at @s run function hss:no_bugs/no_gamemode_2

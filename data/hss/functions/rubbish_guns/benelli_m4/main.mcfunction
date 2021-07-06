@@ -7,3 +7,4 @@ execute if entity @s[tag=!gaugePlay,scores={isGaugeEmpty=0,gaugeAmmo=1..}] run t
 execute if entity @s[tag=!gaugeLoaded,scores={isGaugeEmpty=0,gaugeAmmo=1..}] run function hss:rubbish_guns/load_gun
 execute if entity @s[tag=gaugeLoaded,scores={usedGun=1..}] run function hss:rubbish_guns/benelli_m4/shoot
 execute if entity @s[scores={gaugeAmmo=..0}] run scoreboard players set @s loadedGun 0
+execute if entity @s[tag=gaugeLoaded,scores={usedGun=0}] if predicate hss:is_benelli_m4 run function hss:rubbish_guns/load_gun
