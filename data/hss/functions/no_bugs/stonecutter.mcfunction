@@ -1,1 +1,0 @@
-execute as @e[type=!item] unless score @s isOP matches 1 at @s if block ~ ~ ~ stonecutter unless entity @e[type=experience_orb,distance=..1,sort=nearest] run function hss:no_bugs/stonecutter_2

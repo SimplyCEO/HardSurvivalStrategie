@@ -1,1 +1,0 @@
-execute as @e[type=!item] unless score @s isOP matches 1 at @s if block ~ ~ ~ composter if block ~ ~1 ~ #hss:not_barrier run function hss:no_bugs/composter_2
