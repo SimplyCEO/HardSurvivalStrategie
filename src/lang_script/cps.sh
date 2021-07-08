@@ -6,6 +6,6 @@ for a in $(seq $num); do
   count=$((count+1))
   line=$(head -n $count $file|tail -n 1)
   cp main_lang.json build/"$line".json
-  mv build/* ../HardSurvivalStrategie_ResourcePack/assets/hss/lang
-  cp exceptions/* ../HardSurvivalStrategie_ResourcePack/assets/hss/lang
+  mv build/* ../../resource_pack/assets/hss/lang
+  cp exceptions/* ../../resource_pack/assets/hss/lang
 done

@@ -206,5 +206,7 @@
     "blueprint.hss.ruby_hoe": "Blueprint de Enxada de Rubi",
     "blueprint.hss.ruby_pickaxe": "Blueprint de Picareta de Rubi",
     "blueprint.hss.ruby_shovel": "Blueprint de Pá de Rubi",
-    "blueprint.hss.ruby_sword": "Blueprint de Espada de Rubi"
+    "blueprint.hss.ruby_sword": "Blueprint de Espada de Rubi",
+    "enchantment.hss.vein_miner": "Vein Miner",
+    "gui.hss.bullets": "Balas"
 }

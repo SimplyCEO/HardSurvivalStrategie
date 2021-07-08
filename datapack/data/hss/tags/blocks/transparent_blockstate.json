@@ -29,6 +29,8 @@
         "minecraft:tripwire_hook",
         "minecraft:tripwire",
         "minecraft:lever",
-        "#minecraft:buttons"
+        "#minecraft:buttons",
+        "minecraft:torch",
+        "minecraft:wall_torch"
     ]
   }

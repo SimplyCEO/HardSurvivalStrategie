@@ -19,27 +19,18 @@ function hss:tome/main
 # Since playing the datapack as client-server or as server is different,
 # Tick rate needs to be changed for every case:
 #
-# 4t allows a smooth experience, but laggy ~ (recommended single-player)
-# 20t allows a great experience, but less laggy ~ (recommended closed multi-player servers)
-# 60t+ allows a bad experience, but much less laggy ~ (recommended open multi-player servers)
+# 1t allows a smooth experience, but laggy ~ (recommended single-player)
+# 4t allows a great experience, but less laggy ~ (recommended closed multi-player servers)
+# 20t+ allows a bad experience, but much less laggy ~ (recommended open multi-player servers)
 #
-# The default tick rate is set to 20t.
+# The default tick rate is set to 4t.
 
 scoreboard players add counter count 1
-execute if score counter count matches 3005.. run scoreboard players set counter count 0
+execute if score counter count matches 12020.. run scoreboard players set counter count 0
 
 scoreboard players add combinerCount combinerCount 1
-execute if score combinerCount combinerCount matches 305.. run scoreboard players set combinerCount combinerCount 0
+execute if score combinerCount combinerCount matches 1220.. run scoreboard players set combinerCount combinerCount 0
 
-# Player check function. Set apwCount(Average Players in a Week) to your server's desire.
+execute as @e[type=player] run function hss:reset_scores
 
-scoreboard players add AveragePlayersWeek apwCount 1
-execute if score AveragePlayersWeek apwCount matches 25.. run scoreboard players set @a isChecked 0
-execute if score AveragePlayersWeek apwCount matches 25.. run scoreboard players set AveragePlayersWeek apwCount 0
-
-scoreboard players set logCount logCount 0
-scoreboard players set oreCount oreCount 0
-
-scoreboard players set @a[scores={usedGun=1..}] usedGun 0
-
-schedule function hss:core 4t
+schedule function hss:core 1t

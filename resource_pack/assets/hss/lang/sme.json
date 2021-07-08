@@ -207,5 +207,7 @@
     "blueprint.hss.ruby_hoe": "Ruby Hoe Blueprint",
     "blueprint.hss.ruby_pickaxe": "Ruby Pickaxe Blueprint",
     "blueprint.hss.ruby_shovel": "Ruby Shovel Blueprint",
-    "blueprint.hss.ruby_sword": "Ruby Sword Blueprint"
+    "blueprint.hss.ruby_sword": "Ruby Sword Blueprint",
+    "enchantment.hss.vein_miner": "Vein Miner",
+    "gui.hss.bullets": "Bullets"
 }

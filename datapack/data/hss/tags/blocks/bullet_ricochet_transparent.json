@@ -7,7 +7,6 @@
         "minecraft:cobweb",
         "#minecraft:leaves",
         "#minecraft:saplings",
-        "#minecraft:climbable",
         "minecraft:sugar_cane",
         "minecraft:fern",
         "minecraft:large_fern",
@@ -20,7 +19,6 @@
         "minecraft:crimson_roots",
         "#minecraft:hoglin_repellents",
         "minecraft:snow",
-        "#minecraft:carpets",
         "minecraft:bamboo_sapling"
     ]
   }

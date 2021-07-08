@@ -1,1 +1,1 @@
-execute as @e[type=!item] unless score @s isOP matches 1.. at @s if block ~ ~ ~ cauldron if block ~ ~-1 ~ campfire unless entity @e[type=experience_orb,distance=..1,sort=nearest] run effect give @s instant_damage 5 0 true
+execute if block ~ ~ ~ cauldron if block ~ ~-1 ~ campfire unless entity @e[type=experience_orb,distance=..1,sort=nearest] run effect give @s instant_damage 5 0 true

@@ -1,3 +1,4 @@
+execute store result score @s slotSection run data get entity @s SelectedItemSlot
 execute if score @s slotSection matches 0 run function hss:rubbish_guns/slot_0
 execute if score @s slotSection matches 1 run function hss:rubbish_guns/slot_1
 execute if score @s slotSection matches 2 run function hss:rubbish_guns/slot_2

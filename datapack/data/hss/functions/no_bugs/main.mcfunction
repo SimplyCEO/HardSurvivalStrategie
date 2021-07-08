@@ -1,6 +1,6 @@
-function hss:no_bugs/stonecutter
-function hss:no_bugs/composter
-function hss:no_bugs/smelter
-function hss:no_bugs/crunching_table
-function hss:no_bugs/brewing_pit
-function hss:no_bugs/no_gamemode
+execute as @e[type=!item] at @s run function hss:no_bugs/stonecutter
+execute as @e[type=!item] at @s run function hss:no_bugs/composter
+execute as @e[type=!item] at @s run function hss:no_bugs/smelter
+execute as @e[type=!item] at @s run function hss:no_bugs/crunching_table
+execute as @e[type=!item] at @s run function hss:no_bugs/brewing_pit
+execute as @e[type=player] run function hss:no_bugs/no_gamemode

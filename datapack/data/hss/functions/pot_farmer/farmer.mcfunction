@@ -1,1 +1,1 @@
-execute if score counter count matches 3000 run function hss:pot_farmer/summon
+execute if score counter count matches 12000 run function hss:pot_farmer/summon
