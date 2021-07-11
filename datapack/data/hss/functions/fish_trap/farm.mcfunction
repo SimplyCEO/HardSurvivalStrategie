@@ -1,0 +1,2 @@
+setblock ~ ~1 ~ hopper{LootTable:"minecraft:gameplay/fishing",display:{Name:'{"translate":"block.hss.fish_trap","color":"white","italic":false}'}}
+execute if score waterCount waterCount matches 154 run setblock ~ ~1 ~ water

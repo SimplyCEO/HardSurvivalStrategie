@@ -6,59 +6,59 @@
       "rubbish_guns/bullet_ricochet_3"
     ]
   },
-  "load.para_fal": {
+  "load.fal": {
     "sounds": [
       {
-        "name": "rubbish_guns/para_fal_load"
+        "name": "rubbish_guns/fal_load"
       }
     ]
   },
-  "fire.para_fal": {
+  "fire.fal": {
     "sounds": [
       {
-        "name": "rubbish_guns/para_fal_fire"
+        "name": "rubbish_guns/fal_fire"
       }
     ]
   },
-  "unload.para_fal": {
+  "unload.fal": {
     "sounds": [
       {
-        "name": "rubbish_guns/para_fal_unload"
+        "name": "rubbish_guns/fal_unload"
       }
     ]
   },
-  "dry_fire.para_fal": {
+  "dry_fire.fal": {
     "sounds": [
       {
-        "name": "rubbish_guns/para_fal_dry_fire"
+        "name": "rubbish_guns/fal_dry_fire"
       }
     ]
   },
-  "pump.benelli_m4": {
+  "pump.m1014": {
     "sounds": [
       {
-        "name": "rubbish_guns/benelli_m4_pump"
+        "name": "rubbish_guns/m1014_pump"
       }
     ]
   },
-  "fire.benelli_m4": {
+  "fire.m1014": {
     "sounds": [
       {
-        "name": "rubbish_guns/benelli_m4_fire"
+        "name": "rubbish_guns/m1014_fire"
       }
     ]
   },
-  "load.benelli_m4": {
+  "load.m1014": {
     "sounds": [
       {
-        "name": "rubbish_guns/benelli_m4_load"
+        "name": "rubbish_guns/m1014_load"
       }
     ]
   },
-  "dry_fire.benelli_m4": {
+  "dry_fire.m1014": {
     "sounds": [
       {
-        "name": "rubbish_guns/benelli_m4_dry_fire"
+        "name": "rubbish_guns/m1014_dry_fire"
       }
     ]
   },

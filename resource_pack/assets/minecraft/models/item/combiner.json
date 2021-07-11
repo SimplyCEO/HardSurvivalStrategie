@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made by KanuX with Blockbench",
 	"textures": {
 		"particle": "block/combiner_bottom",
 		"layer0": "block/combiner_bottom",
@@ -55,9 +55,7 @@
 			"scale": [2.295, 2.295, 2.295]
 		},
 		"fixed": {
-			"rotation": [-90, 0, 0],
-			"translation": [0, 0, -15],
-			"scale": [2.01, 2.01, 2.01]
+			"scale": [0.5, 0.5, 0.5]
 		}
 	}
 }

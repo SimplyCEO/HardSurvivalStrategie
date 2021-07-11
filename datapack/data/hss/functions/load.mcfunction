@@ -1,7 +1,5 @@
 scoreboard objectives add count dummy ["Seconds"]
 scoreboard objectives add gm_player dummy ["Player's Gamemode"]
-scoreboard objectives add isChecked dummy ["Player Check"]
-scoreboard objectives add apwCount dummy ["Timer"]
 scoreboard objectives add treeCount dummy ["Tree Fall"]
 scoreboard objectives add veinCount dummy ["Vein Mine"]
 scoreboard objectives add logCount dummy ["Logs Destroyed"]
@@ -36,14 +34,10 @@ scoreboard objectives add iglaTiming dummy ["Igla Timing"]
 scoreboard objectives add isSneaking minecraft.custom:minecraft.sneak_time ["Sneaking"]
 scoreboard objectives add isRunning minecraft.custom:minecraft.sprint_one_cm ["Running"]
 scoreboard objectives add isDrinking minecraft.used:minecraft.potion ["Drinking"]
+scoreboard objectives add waterCount dummy ["Fish Trap Count"]
 
 # Limit is set to run each 4t, so at the final will match 10 minutes.
 # If you wish less or more, keep in mind that's necessary to use the math to convert it.
-
-scoreboard players set counter count 0
-scoreboard players set @a gm_player 0
-scoreboard players set @a isChecked 0
-scoreboard players set combinerCount combinerCount 0
 
 advancement revoke @a[advancements={hss:used_axe=true}] only hss:used_axe
 advancement revoke @a[advancements={hss:used_pickaxe=true}] only hss:used_pickaxe

@@ -223,12 +223,232 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{veinBook:1b,display:{Lore:['{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":false}']}}"
+              "tag": "{veinBook:1b,display:{Lore:['{\"translate\":\"enchantment.hss.vein_miner\",\"color\":\"gray\",\"italic\":false}']}}"
             },
             {
               "function": "minecraft:set_count",
               "count": 1
             }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{fishTrapBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.fish_trap\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_2\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ],
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{advancedHopperBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.advanced_hopper\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_5\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ],
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{gc9mmBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.gc_9mm\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_5\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{m1014Blueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.m1014\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_5\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{falBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.fal\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_5\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{aglcBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.aglc\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_5\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{iglaBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.igla\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_5\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{copperAxeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_axe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{copperHoeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_hoe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{copperPickaxeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_pickaxe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{copperShovelBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_shovel\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{copperSwordBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_sword\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{steelAxeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.steel_axe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_2\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{steelHoeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.steel_hoe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_2\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{steelPickaxeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.steel_pickaxe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_2\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{steelShovelBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.steel_shovel\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_2\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{steelSwordBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.steel_sword\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_2\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{rubyAxeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.ruby_axe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_3\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{rubyHoeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.ruby_hoe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_3\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{rubyPickaxeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.ruby_pickaxe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_3\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{rubyShovelBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.ruby_shovel\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_3\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{rubySwordBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.ruby_sword\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_3\",\"color\":\"white\",\"italic\":false}']}}"
+              }
           ]
         }
       ]

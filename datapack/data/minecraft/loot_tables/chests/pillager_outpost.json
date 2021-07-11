@@ -1,0 +1,245 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0.0,
+        "max": 1.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 3.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 5.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:wheat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 5.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:potato"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 5.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:carrot"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 3.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:dark_oak_log"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 3.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:experience_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 6.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 7.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:arrow"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:tripwire_hook"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{gc9mmBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.gc_9mm\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_5\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{m1014Blueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.m1014\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_5\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{falBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.fal\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_5\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{aglcBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.aglc\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_5\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:clock",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{iglaBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.igla\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_5\",\"color\":\"white\",\"italic\":false}']}}"
+              }
+          ]
+        }
+      ]
+    }
+  ]
+}

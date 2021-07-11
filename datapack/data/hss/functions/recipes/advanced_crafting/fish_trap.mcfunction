@@ -1,0 +1,10 @@
+replaceitem block ~ ~ ~ container.15 barrel{fishTrap:1b,CustomModelData:1,display:{Name:'{"translate":"item.hss.fish_trap","color":"white","italic":false}',Lore:['{"translate":"blueprint.hss.tier_2","color":"white","italic":false}']}}
+replaceitem block ~ ~ ~ container.1 air
+replaceitem block ~ ~ ~ container.2 air
+replaceitem block ~ ~ ~ container.3 air
+replaceitem block ~ ~ ~ container.10 air
+replaceitem block ~ ~ ~ container.11 air
+replaceitem block ~ ~ ~ container.12 air
+replaceitem block ~ ~ ~ container.19 air
+replaceitem block ~ ~ ~ container.20 air
+replaceitem block ~ ~ ~ container.21 air

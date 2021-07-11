@@ -11,6 +11,7 @@ function hss:combiner/main
 function hss:custom_benches/main
 function hss:custom_brewing/main
 function hss:duplicate_ores/main
+function hss:fish_trap/main
 function hss:pot_farmer/main
 function hss:rubbish_guns/main
 function hss:smeltery/main
@@ -26,11 +27,14 @@ function hss:tome/main
 # The default tick rate is set to 4t.
 
 scoreboard players add counter count 1
-execute if score counter count matches 12020.. run scoreboard players set counter count 0
+execute if score counter count matches 3005.. run scoreboard players set counter count 0
 
 scoreboard players add combinerCount combinerCount 1
-execute if score combinerCount combinerCount matches 1220.. run scoreboard players set combinerCount combinerCount 0
+execute if score combinerCount combinerCount matches 305.. run scoreboard players set combinerCount combinerCount 0
+
+scoreboard players add waterCount waterCount 1
+execute if score waterCount waterCount matches 155.. run scoreboard players set waterCount waterCount 0
 
 execute as @e[type=player] run function hss:reset_scores
 
-schedule function hss:core 1t
+schedule function hss:core 4t

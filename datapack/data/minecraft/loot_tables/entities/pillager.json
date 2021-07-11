@@ -10,7 +10,7 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{paraFalBarrel:1b,CustomModelData:4,display:{Name:'{\"translate\":\"item.hss.para_fal_barrel\",\"italic\":false}'}}"
+             "tag": "{falBarrel:1b,CustomModelData:4,display:{Name:'{\"translate\":\"item.hss.fal_barrel\",\"italic\":false}'}}"
             }
           ],
           "conditions": [
@@ -26,7 +26,7 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{paraFalBody:1b,CustomModelData:5,display:{Name:'{\"translate\":\"item.hss.para_fal_body\",\"italic\":false}'}}"
+             "tag": "{falBody:1b,CustomModelData:5,display:{Name:'{\"translate\":\"item.hss.fal_body\",\"italic\":false}'}}"
             }
           ],
           "conditions": [
@@ -42,7 +42,7 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{paraFalStock:1b,CustomModelData:6,display:{Name:'{\"translate\":\"item.hss.para_fal_stock\",\"italic\":false}'}}"
+             "tag": "{falStock:1b,CustomModelData:6,display:{Name:'{\"translate\":\"item.hss.fal_stock\",\"italic\":false}'}}"
             }
           ],
           "conditions": [
@@ -58,7 +58,7 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{benelliM4Barrel:1b,CustomModelData:7,display:{Name:'{\"translate\":\"item.hss.benelli_m4_barrel\",\"italic\":false}'}}"
+             "tag": "{m1014Barrel:1b,CustomModelData:7,display:{Name:'{\"translate\":\"item.hss.m1014_barrel\",\"italic\":false}'}}"
             }
           ],
           "conditions": [
@@ -74,7 +74,7 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{benelliM4Body:1b,CustomModelData:8,display:{Name:'{\"translate\":\"item.hss.benelli_m4_body\",\"italic\":false}'}}"
+             "tag": "{m1014Body:1b,CustomModelData:8,display:{Name:'{\"translate\":\"item.hss.m1014_body\",\"italic\":false}'}}"
             }
           ],
           "conditions": [
@@ -90,7 +90,7 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{benelliM4Stock:1b,CustomModelData:9,display:{Name:'{\"translate\":\"item.hss.benelli_m4_stock\",\"italic\":false}'}}"
+             "tag": "{m1014Stock:1b,CustomModelData:9,display:{Name:'{\"translate\":\"item.hss.m1014_stock\",\"italic\":false}'}}"
             }
           ],
           "conditions": [

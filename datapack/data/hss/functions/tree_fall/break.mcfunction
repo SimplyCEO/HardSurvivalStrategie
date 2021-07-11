@@ -1,1 +1,1 @@
-execute at @e[tag=tree_fall,limit=1] if block ~ ~ ~ #minecraft:logs run function hss:tree_fall/destroy
+execute at @e[tag=tree_fall,limit=1] if block ~ ~ ~ #hss:tree run function hss:tree_fall/destroy

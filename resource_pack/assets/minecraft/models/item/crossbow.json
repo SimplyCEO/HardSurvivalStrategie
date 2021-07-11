@@ -59,8 +59,8 @@
             },
             "model": "item/crossbow_firework"
         },
-        { "predicate": {"custom_model_data":1}, "model":"item/para_fal"},
-        { "predicate": {"custom_model_data":2}, "model":"item/benelli_m4"},
+        { "predicate": {"custom_model_data":1}, "model":"item/fal"},
+        { "predicate": {"custom_model_data":2}, "model":"item/m1014"},
         { "predicate": {"custom_model_data":3}, "model":"item/gc_9mm"},
         { "predicate": {"custom_model_data":4}, "model":"item/aglc"},
         { "predicate": {"custom_model_data":5}, "model":"item/igla"}
