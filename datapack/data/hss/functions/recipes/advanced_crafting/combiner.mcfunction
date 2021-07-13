@@ -1,4 +1,4 @@
-replaceitem block ~ ~ ~ container.15 armor_stand{combiner:1b,display:{Name:'{"translate":"item.hss.combiner","color":"white","italic":false}',Lore:['{"translate":"blueprint.hss.tier_4","color":"white","italic":false}']},CustomModelData:4,EntityTag:{Silent:1b,Tags:["combiner_item"],Invulnerable:1b,Invisible:1b,Fixed:1b}}
+replaceitem block ~ ~ ~ container.15 armor_stand{combiner:1b,display:{Name:'{"translate":"item.hss.combiner","color":"white","italic":false}',Lore:['{"translate":"blueprint.hss.tier_4","color":"white","italic":false}']},CustomModelData:4,EntityTag:{id:"minecraft:armor_stand",Silent:1b,Tags:["combiner_item"],Invulnerable:1b,Invisible:1b}}
 replaceitem block ~ ~ ~ container.1 air
 replaceitem block ~ ~ ~ container.2 air
 replaceitem block ~ ~ ~ container.3 air
