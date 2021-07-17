@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:copper_ingot"
+    },
+    "result": "minecraft:redstone",
+    "count": 16,
+    "group": "Electronics"
+}

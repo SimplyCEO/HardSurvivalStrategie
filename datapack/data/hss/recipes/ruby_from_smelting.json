@@ -4,7 +4,7 @@
         "item": "minecraft:diamond"
     },
     "result": "minecraft:nether_star",
-    "experience": 80.0,
+    "experience": 100.0,
     "cookingtime": 72000,
     "group": "Dark_Matter"
 }

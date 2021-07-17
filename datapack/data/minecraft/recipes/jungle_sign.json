@@ -7,11 +7,11 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:barrier"
+            "item": "minecraft:air"
         }
     },
     "result": {
-        "item": "minecraft:command_block",
+        "item": "minecraft:air",
         "count": 1
     },
     "group": "Impossible_Crafting"

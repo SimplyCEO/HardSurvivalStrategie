@@ -1,10 +1,10 @@
-replaceitem block ~ ~ ~ container.15 armor_stand{combiner:1b,display:{Name:'{"translate":"item.hss.combiner","color":"white","italic":false}',Lore:['{"translate":"blueprint.hss.tier_4","color":"white","italic":false}']},CustomModelData:4,EntityTag:{id:"minecraft:armor_stand",Silent:1b,Tags:["combiner_item"],Invulnerable:1b,Invisible:1b}}
-replaceitem block ~ ~ ~ container.1 air
-replaceitem block ~ ~ ~ container.2 air
-replaceitem block ~ ~ ~ container.3 air
-replaceitem block ~ ~ ~ container.10 air
-replaceitem block ~ ~ ~ container.11 air
-replaceitem block ~ ~ ~ container.12 air
-replaceitem block ~ ~ ~ container.19 air
-replaceitem block ~ ~ ~ container.20 air
-replaceitem block ~ ~ ~ container.21 air
+item replace block ~ ~ ~ container.15 with armor_stand{combiner:1b,display:{Name:'{"translate":"item.hss.combiner","color":"white","italic":false}',Lore:['{"translate":"blueprint.hss.tier_4","color":"white","italic":false}']},CustomModelData:4,EntityTag:{id:"minecraft:armor_stand",Silent:1b,Tags:["combiner_item"],Invulnerable:1b,Invisible:1b}}
+item replace block ~ ~ ~ container.1 with air
+item replace block ~ ~ ~ container.2 with air
+item replace block ~ ~ ~ container.3 with air
+item replace block ~ ~ ~ container.10 with air
+item replace block ~ ~ ~ container.11 with air
+item replace block ~ ~ ~ container.12 with air
+item replace block ~ ~ ~ container.19 with air
+item replace block ~ ~ ~ container.20 with air
+item replace block ~ ~ ~ container.21 with air

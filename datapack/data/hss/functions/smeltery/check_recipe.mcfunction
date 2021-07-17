@@ -9,4 +9,4 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:gold_nugget",Count:8b}}] at @s 
 execute as @e[type=item,nbt={Item:{id:"minecraft:gold_ingot",Count:8b}}] at @s if block ~ ~ ~ cauldron if block ~ ~-1 ~ lava run function hss:recipes/smeltery/gold_block
 execute as @e[type=item,nbt={Item:{id:"minecraft:emerald",Count:9b}}] at @s if block ~ ~ ~ cauldron if block ~ ~-1 ~ lava run function hss:recipes/smeltery/gold_ingot_from_coins
 execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_ingot",Count:8b}}] at @s if block ~ ~ ~ cauldron if block ~ ~-1 ~ lava run function hss:recipes/smeltery/cobalt_block
-execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_scrap",Count:8b}}] at @s if block ~ ~ ~ cauldron if block ~ ~-1 ~ lava run function hss:recipes/smeltery/copper_block
+execute as @e[type=item,nbt={Item:{id:"minecraft:copper_ingot",Count:8b}}] at @s if block ~ ~ ~ cauldron if block ~ ~-1 ~ lava run function hss:recipes/smeltery/copper_block

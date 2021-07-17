@@ -2,6 +2,5 @@ execute as @e[nbt={Item:{id:"minecraft:iron_ore",Count:1b}},distance=..1,sort=ne
 execute as @e[nbt={Item:{id:"minecraft:gold_ore",Count:1b}},distance=..1,sort=nearest] at @s if block ~ ~ ~ stonecutter if block ~ ~-1 ~ redstone_block run function hss:recipes/saw_cutter/gold_nugget
 execute as @e[nbt={Item:{id:"minecraft:diamond_ore",Count:1b}},distance=..1,sort=nearest] at @s if block ~ ~ ~ stonecutter if block ~ ~-1 ~ redstone_block run function hss:recipes/saw_cutter/diamond
 execute as @e[nbt={Item:{id:"minecraft:nether_gold_ore",Count:1b}},distance=..1,sort=nearest] at @s if block ~ ~ ~ stonecutter if block ~ ~-1 ~ redstone_block run function hss:recipes/saw_cutter/nether_brick
-execute as @e[nbt={Item:{id:"minecraft:redstone_ore",Count:1b}},distance=..1,sort=nearest] at @s if block ~ ~ ~ stonecutter if block ~ ~-1 ~ redstone_block run function hss:recipes/saw_cutter/netherite_scrap
 execute as @e[nbt={Item:{id:"minecraft:quartz_ore",Count:1b}},distance=..1,sort=nearest] at @s if block ~ ~ ~ stonecutter if block ~ ~-1 ~ redstone_block run function hss:recipes/saw_cutter/quartz
 execute as @e[nbt={Item:{id:"minecraft:ancient_debris",Count:1b}},distance=..1,sort=nearest] at @s if block ~ ~ ~ stonecutter if block ~ ~-1 ~ redstone_block run function hss:recipes/saw_cutter/destroy_saw_cutter

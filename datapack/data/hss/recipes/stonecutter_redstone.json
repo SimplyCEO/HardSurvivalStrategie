@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:netherite_scrap"
-    },
-    "result": "minecraft:redstone",
-    "count": 16,
-    "group": "Electronics"
-}

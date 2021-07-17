@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "ruby",
+  "ingredient": {
+    "item": "minecraft:emerald_ore"
+  },
+  "result": "minecraft:nether_star",
+  "experience": 1.0,
+  "cookingtime": 200
+}

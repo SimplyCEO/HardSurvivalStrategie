@@ -1,13 +1,13 @@
 playsound entity.bee.hurt block @a ~ ~ ~
-replaceitem block ~ ~ ~ container.6 honeycomb{citrusComb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.citrus_comb","color":"green","italic":false}'}}
-replaceitem block ~ ~ ~ container.14 honeycomb{citrusComb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.citrus_comb","color":"green","italic":false}'}}
-replaceitem block ~ ~ ~ container.16 honeycomb{citrusComb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.citrus_comb","color":"green","italic":false}'}}
-replaceitem block ~ ~ ~ container.24 honeycomb{citrusComb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.citrus_comb","color":"green","italic":false}'}}
-replaceitem block ~ ~ ~ container.1 air
-replaceitem block ~ ~ ~ container.3 air
-replaceitem block ~ ~ ~ container.11 air
-replaceitem block ~ ~ ~ container.19 air
-replaceitem block ~ ~ ~ container.21 air
-replaceitem block ~ ~ ~ container.4 clock{GUI:1b,CustomModelData:100,display:{Name:'{"text":""}'}}
-replaceitem block ~ ~ ~ container.13 clock{GUI:1b,CustomModelData:100,display:{Name:'{"text":""}'}}
-replaceitem block ~ ~ ~ container.22 clock{GUI:1b,CustomModelData:100,display:{Name:'{"text":""}'}}
+item replace block ~ ~ ~ container.6 with honeycomb{citrusComb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.citrus_comb","color":"green","italic":false}'}}
+item replace block ~ ~ ~ container.14 with honeycomb{citrusComb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.citrus_comb","color":"green","italic":false}'}}
+item replace block ~ ~ ~ container.16 with honeycomb{citrusComb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.citrus_comb","color":"green","italic":false}'}}
+item replace block ~ ~ ~ container.24 with honeycomb{citrusComb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.citrus_comb","color":"green","italic":false}'}}
+item replace block ~ ~ ~ container.1 with air
+item replace block ~ ~ ~ container.3 with air
+item replace block ~ ~ ~ container.11 with air
+item replace block ~ ~ ~ container.19 with air
+item replace block ~ ~ ~ container.21 with air
+item replace block ~ ~ ~ container.4 with clock{GUI:1b,CustomModelData:100,display:{Name:'{"text":""}'}}
+item replace block ~ ~ ~ container.13 with clock{GUI:1b,CustomModelData:100,display:{Name:'{"text":""}'}}
+item replace block ~ ~ ~ container.22 with clock{GUI:1b,CustomModelData:100,display:{Name:'{"text":""}'}}
