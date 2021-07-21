@@ -1,36 +1,276 @@
 {
+  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stick",
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ],
-          "conditions": [
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "minecraft:oak_planks"
+            },
             {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "item": "minecraft:wooden_axe"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:oak_planks",
-          "conditions": [
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.8
+                },
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "minecraft:oak_planks"
+            },
             {
-              "condition": "minecraft:random_chance",
-              "chance": 1
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count":
+                  {
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{oakStick:1b,CustomModelData:5,display:{Name:'{\"translate\":\"item.hss.oak_stick\",\"color\":\"white\",\"italic\":false}'}}"
+                },
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "minecraft:golden_axe"
+                  }
+                },
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "minecraft:stick"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count":
+                  {
+                    "min": 1,
+                    "max": 4
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{oakStick:1b,CustomModelData:5,display:{Name:'{\"translate\":\"item.hss.oak_stick\",\"color\":\"white\",\"italic\":false}'}}"
+                },
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "minecraft:wooden_axe"
+                  }
+                },
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "minecraft:stick"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count":
+                  {
+                    "min": 1,
+                    "max": 2
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{oakStick:1b,CustomModelData:5,display:{Name:'{\"translate\":\"item.hss.oak_stick\",\"color\":\"white\",\"italic\":false}'}}"
+                },
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "minecraft:stone_axe"
+                  }
+                },
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "minecraft:stick"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count":
+                  {
+                    "min": 0,
+                    "max": 4
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{oakStick:1b,CustomModelData:5,display:{Name:'{\"translate\":\"item.hss.oak_stick\",\"color\":\"white\",\"italic\":false}'}}"
+                },
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "minecraft:iron_axe"
+                  }
+                },
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "minecraft:stick"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count":
+                  {
+                    "min": 0,
+                    "max": 3
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{oakStick:1b,CustomModelData:5,display:{Name:'{\"translate\":\"item.hss.oak_stick\",\"color\":\"white\",\"italic\":false}'}}"
+                },
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "minecraft:diamond_axe"
+                  }
+                },
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "minecraft:stick"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count":
+                  {
+                    "min": 0,
+                    "max": 2
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{oakStick:1b,CustomModelData:5,display:{Name:'{\"translate\":\"item.hss.oak_stick\",\"color\":\"white\",\"italic\":false}'}}"
+                },
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "minecraft:netherite_axe"
+                  }
+                },
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "minecraft:stick"
             }
           ]
         }
@@ -38,4 +278,3 @@
     }
   ]
 }
-  

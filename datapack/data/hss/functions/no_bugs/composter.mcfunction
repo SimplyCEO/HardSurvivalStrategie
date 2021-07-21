@@ -1,1 +1,0 @@
-execute if block ~ ~ ~ composter if block ~ ~1 ~ #hss:not_barrier run function hss:no_bugs/composter_2

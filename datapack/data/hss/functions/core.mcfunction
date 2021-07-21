@@ -3,9 +3,10 @@
 #
 # This is a open-source project. Anyone can modify, fork, or create another version of this datapack.
 
-function hss:no_bugs/main
+function hss:anti_cheat/main
 function hss:advanced_crafting/main
 function hss:advanced_hopper/main
+function hss:biohazard/main
 function hss:chested_boat/main
 function hss:combiner/main
 function hss:custom_benches/main

@@ -2,12 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " # ",
-    " X ",
+    " G ",
     " X "
   ],
   "key": {
     "#": {
       "item": "minecraft:amethyst_shard"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
     },
     "X": {
       "item": "minecraft:copper_ingot"

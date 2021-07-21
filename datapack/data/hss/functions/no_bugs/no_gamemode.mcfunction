@@ -1,1 +1,0 @@
-execute unless score @s isOP matches 1 run function hss:no_bugs/no_gamemode_2

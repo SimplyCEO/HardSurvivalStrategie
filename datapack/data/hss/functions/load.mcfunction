@@ -35,6 +35,7 @@ scoreboard objectives add isSneaking minecraft.custom:minecraft.sneak_time ["Sne
 scoreboard objectives add isRunning minecraft.custom:minecraft.sprint_one_cm ["Running"]
 scoreboard objectives add isDrinking minecraft.used:minecraft.potion ["Drinking"]
 scoreboard objectives add waterCount dummy ["Fish Trap Count"]
+scoreboard objectives add biohazardCount dummy ["Biohazard"]
 
 # Limit is set to run each 4t, so at the final will match 10 minutes.
 # If you wish less or more, keep in mind that's necessary to use the math to convert it.

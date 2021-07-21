@@ -31,35 +31,6 @@
               "type": "minecraft:item",
               "functions": [
                 {
-                  "function": "minecraft:apply_bonus",
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops"
-                },
-                {
-                  "function": "minecraft:explosion_decay"
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.04
-                },
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:golden_sword"
-                  }
-                },
-                {
-                  "condition": "minecraft:survives_explosion"
-                }
-              ],
-              "name": "minecraft:string"
-            },
-            {
-              "type": "minecraft:item",
-              "functions": [
-                {
                   "function": "minecraft:set_count",
                   "count": {
                     "min": 0,
@@ -90,6 +61,43 @@
               "type": "minecraft:item",
               "functions": [
                 {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{twine:1b,CustomModelData:1,display:{Name:'{\"translate\":\"item.hss.twine\",\"color\":\"white\",\"italic\":false}'}}"
+                },
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.06
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "minecraft:golden_sword"
+                  }
+                },
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "minecraft:string"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{twine:1b,CustomModelData:1,display:{Name:'{\"translate\":\"item.hss.twine\",\"color\":\"white\",\"italic\":false}'}}"
+                },
+                {
                   "function": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops"
@@ -107,7 +115,7 @@
                 },
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.01
+                  "chance": 0.03
                 },
                 {
                   "condition": "minecraft:survives_explosion"

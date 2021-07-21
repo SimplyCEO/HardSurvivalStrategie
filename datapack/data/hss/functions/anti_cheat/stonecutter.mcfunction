@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ stonecutter unless entity @e[type=experience_orb,distance=..1,sort=nearest] run function hss:anti_cheat/stonecutter_2

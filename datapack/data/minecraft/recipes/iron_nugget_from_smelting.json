@@ -7,11 +7,11 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:air"
+            "item": "minecraft:barrier"
         }
     },
     "result": {
-        "item": "minecraft:air",
+        "item": "minecraft:barrier",
         "count": 1
     },
     "group": "Impossible_Crafting"

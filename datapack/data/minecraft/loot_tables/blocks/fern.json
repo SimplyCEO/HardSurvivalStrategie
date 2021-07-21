@@ -1,0 +1,131 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "enchantments": [
+                        {
+                          "enchantment": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "name": "minecraft:fern"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 0,
+                      "max": 1
+                    }
+                  },
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops"
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.08
+                  },
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  }
+                ],
+                "name": "minecraft:wheat_seeds"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{twine:1b,CustomModelData:1,display:{Name:'{\"translate\":\"item.hss.twine\",\"color\":\"white\",\"italic\":false}'}}"
+                  },
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops"
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.06
+                  },
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "item": "minecraft:golden_sword"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  }
+                ],
+                "name": "minecraft:string"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{twine:1b,CustomModelData:1,display:{Name:'{\"translate\":\"item.hss.twine\",\"color\":\"white\",\"italic\":false}'}}"
+                  },
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops"
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "item": "minecraft:flint"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.03
+                  },
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  }
+                ],
+                "name": "minecraft:string"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
