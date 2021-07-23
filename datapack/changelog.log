@@ -1,22 +1,14 @@
-HardSurvivaStrategie-concept-9
-
-## Additions ##
-
-- Uranium now emits radiation. From 250, the player will start to get damage. It's possible to cure drinking water. Every water bottle cures 50 biohazard points. The player lose 5 biohazard points every 10 minutes.
-- Acacia, Birch, Crimson, Dark Oak, Jungle, Oak, Spruce, and Warped sticks just for appearance.
-- CustomModelData for Twine.
-- TV and Ceiling fan (OP only/not working yet).
-- Texture for Fish Trap.
-- Fern loot table (for those who spawn in Spruce forests).
+HardSurvivaStrategie-concept-10
 
 ## Changes ##
 
-- Wood-related loot table changed to fit the Hatchet and the Saw as their kind of tool.
+- Language JSON structure sorted (english) and formated for easy modification.
+- Uranium now looks more like a Blob.
+- Fish Trap now haves it's own texture.
 
 ## Bug Fixes ##
 
-- Advanced Hopper and Combiner getting Armor Stand recipe instead of Ghast Spawn Egg.
-- Advanced Crafting and Combiner removing items from inside based on it's base (clock) and leaving the base block item.
-- Ghast Spawn Egg with texture bug.
-- Replaceitem not changed in Combiner scripts.
-- Vein Miner replacing existing enchantments.
+- Logs and Planks dropping more than itself using Fortune.
+- Stick named wrongly.
+- Jungle, Crimson, and Warped Stem without Planks recipes in Saw Cutter.
+- Some UI not rendering white fonts.
