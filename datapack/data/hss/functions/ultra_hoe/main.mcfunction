@@ -1,0 +1,1 @@
+execute as @e[type=player,nbt={SelectedItem:{Count:1b,tag:{veinHoe:1b}}}] run function hss:ultra_hoe/check_break

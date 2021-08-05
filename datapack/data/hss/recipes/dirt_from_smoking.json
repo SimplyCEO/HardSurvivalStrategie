@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "minecraft:cactus"
+    },
+    "result": "minecraft:dirt",
+    "experience": 1.0,
+    "cookingtime": 80
+  }

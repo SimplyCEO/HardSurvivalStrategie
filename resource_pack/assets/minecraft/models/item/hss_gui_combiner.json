@@ -2,8 +2,8 @@
 	"credit": "Made by KanuX with Blockbench",
 	"texture_size": [256, 256],
 	"textures": {
-		"layer0": "gui/container/advanced_crafting",
-		"particle": "gui/container/advanced_crafting"
+		"0": "gui/hss_container/combiner",
+		"particle": "gui/hss_container/combiner"
 	},
 	"elements": [
 		{
@@ -11,12 +11,12 @@
 			"from": [-14.5, 0, -14.5],
 			"to": [26.5, 0, -0.5],
 			"faces": {
-				"north": {"uv": [0, 3.5, 10.25, 7], "texture": "#layer0"},
-				"east": {"uv": [0, 3.5, 10.25, 7], "texture": "#layer0"},
-				"south": {"uv": [0, 3.5, 10.25, 7], "texture": "#layer0"},
-				"west": {"uv": [0, 3.5, 10.25, 7], "texture": "#layer0"},
-				"up": {"uv": [0, 3.5, 10.25, 7], "texture": "#layer0"},
-				"down": {"uv": [0, 3.5, 10.25, 7], "texture": "#layer0"}
+				"north": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"up": {"uv": [0, 0, 10.25, 3.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 10.25, 3.5], "texture": "#0"}
 			}
 		}
 	],

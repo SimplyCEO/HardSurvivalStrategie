@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "tag": "hss:vegetation"
+    },
+    "result": "minecraft:dead_bush",
+    "experience": 1.0,
+    "cookingtime": 80
+  }

@@ -30,6 +30,12 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:stone_pickaxe",Count:1b}}] at @
 execute as @e[type=item,nbt={Item:{id:"minecraft:iron_pickaxe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_pickaxe
 execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_pickaxe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_pickaxe
 execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_pickaxe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_pickaxe
+execute as @e[type=item,nbt={Item:{id:"minecraft:gold_hoe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_hoe
+execute as @e[type=item,nbt={Item:{id:"minecraft:wooden_hoe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_hoe
+execute as @e[type=item,nbt={Item:{id:"minecraft:stone_hoe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_hoe
+execute as @e[type=item,nbt={Item:{id:"minecraft:iron_hoe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_hoe
+execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_hoe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_hoe
+execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_hoe",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{veinBook:1b},Count:1b}},distance=..1,sort=nearest] if block ~ ~-1 ~ smithing_table run function hss:recipes/repairing_table/vein_miner_hoe
 
 # Normal
 

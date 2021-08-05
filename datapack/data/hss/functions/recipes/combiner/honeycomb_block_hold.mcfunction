@@ -1,4 +1,4 @@
-execute if score @e[tag=combinerStage,distance=..1,limit=1] combinerStage matches 0 run item replace block ~ ~ ~ container.4 with clock{GUI:1b,CustomModelData:100,display:{Name:'{"text":""}'}}
+execute unless score @e[tag=combinerStage,distance=..1,limit=1] combinerStage matches 1.. run item replace block ~ ~ ~ container.4 with clock{GUI:1b,CustomModelData:100,display:{Name:'{"text":""}'}}
 execute if score @e[tag=combinerStage,distance=..1,limit=1] combinerStage matches 1 run item replace block ~ ~ ~ container.4 with clock{GUI:1b,CustomModelData:101,display:{Name:'{"text":""}'}}
 execute if score @e[tag=combinerStage,distance=..1,limit=1] combinerStage matches 2 run item replace block ~ ~ ~ container.4 with clock{GUI:1b,CustomModelData:102,display:{Name:'{"text":""}'}}
 execute if score @e[tag=combinerStage,distance=..1,limit=1] combinerStage matches 3 run item replace block ~ ~ ~ container.4 with clock{GUI:1b,CustomModelData:103,display:{Name:'{"text":""}'}}
@@ -44,3 +44,4 @@ execute if score @e[tag=combinerStage,distance=..1,limit=1] combinerStage matche
 execute if score @e[tag=combinerStage,distance=..1,limit=1] combinerStage matches 43 run function hss:recipes/combiner/honeycomb_block
 scoreboard players add @e[tag=combinerStage,distance=..1] combinerStage 1
 execute if score @e[tag=combinerStage,distance=..1,limit=1] combinerStage matches 44 run scoreboard players set @e[tag=combinerStage,distance=..1] combinerStage 0
+scoreboard players set combinerCount count 0

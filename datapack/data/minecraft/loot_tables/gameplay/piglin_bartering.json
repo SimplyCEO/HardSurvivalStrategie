@@ -252,6 +252,21 @@
             }
           ],
           "name": "minecraft:enchanted_book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tome:1b,luckTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Luck\",author:\"HardSurvivalStrategie\",resolved:1b}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
         }
       ]
     }

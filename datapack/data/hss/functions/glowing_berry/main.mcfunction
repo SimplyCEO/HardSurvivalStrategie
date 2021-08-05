@@ -1,0 +1,1 @@
+execute as @e[type=player,scores={isGlowing=1..}] run function hss:glowing_berry/effect

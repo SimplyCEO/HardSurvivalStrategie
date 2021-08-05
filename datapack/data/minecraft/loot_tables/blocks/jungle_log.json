@@ -50,8 +50,7 @@
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count":
-                  {
+                  "count": {
                     "min": 1,
                     "max": 4
                   }
@@ -69,7 +68,9 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:golden_axe"
+                    "items": [
+                      "minecraft:golden_axe"
+                    ]
                   }
                 },
                 {
@@ -83,8 +84,7 @@
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count":
-                  {
+                  "count": {
                     "min": 1,
                     "max": 3
                   }
@@ -102,7 +102,9 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:wooden_axe"
+                    "items": [
+                      "minecraft:wooden_axe"
+                    ]
                   }
                 },
                 {
@@ -116,8 +118,7 @@
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count":
-                  {
+                  "count": {
                     "min": 1,
                     "max": 2
                   }
@@ -135,7 +136,9 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:stone_axe"
+                    "items": [
+                      "minecraft:stone_axe"
+                    ]
                   }
                 },
                 {
@@ -149,8 +152,7 @@
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count":
-                  {
+                  "count": {
                     "min": 0,
                     "max": 4
                   }
@@ -168,7 +170,9 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:iron_axe"
+                    "items": [
+                      "minecraft:iron_axe"
+                    ]
                   }
                 },
                 {
@@ -182,8 +186,7 @@
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count":
-                  {
+                  "count": {
                     "min": 0,
                     "max": 3
                   }
@@ -201,7 +204,9 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:diamond_axe"
+                    "items": [
+                      "minecraft:diamond_axe"
+                    ]
                   }
                 },
                 {
@@ -215,8 +220,7 @@
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count":
-                  {
+                  "count": {
                     "min": 0,
                     "max": 2
                   }
@@ -234,7 +238,9 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:netherite_axe"
+                    "items": [
+                      "minecraft:netherite_axe"
+                    ]
                   }
                 },
                 {

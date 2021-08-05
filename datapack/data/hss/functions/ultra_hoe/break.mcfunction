@@ -1,0 +1,1 @@
+execute at @e[tag=ultra_hoe,limit=1] if block ~ ~ ~ #hss:leaves run function hss:ultra_hoe/destroy

@@ -114,61 +114,6 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:clock",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{copperAxeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_axe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
-                }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:clock",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{copperHoeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_hoe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
-                }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:clock",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{copperPickaxeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_pickaxe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
-                }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:clock",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{copperShovelBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_shovel\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
-                }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:clock",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{copperSwordBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_sword\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
-                }
-            ]
-          },
-          {
-            "type": "minecraft:item",
             "weight": 5,
             "name": "minecraft:clock",
             "functions": [

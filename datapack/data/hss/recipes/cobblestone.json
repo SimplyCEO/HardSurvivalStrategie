@@ -2,12 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "###",
+        "#C#",
         "###"
     ],
     "key": {
         "#": {
             "item": "minecraft:stone_button"
+        },
+        "C": {
+            "item": "minecraft:clay_ball"
         }
     },
     "result": {

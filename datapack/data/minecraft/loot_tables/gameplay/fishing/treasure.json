@@ -69,7 +69,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{speedTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Speed\",author:\"HSS\",resolved:1b}"
+              "tag": "{tome:1b,speedTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Speed\",author:\"HardSurvivalStrategie\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -83,7 +83,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{hasteTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Haste\",author:\"HSS\",resolved:1b}"
+              "tag": "{tome:1b,hasteTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Haste\",author:\"HardSurvivalStrategie\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -97,7 +97,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{strenghtTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Strength\",author:\"HSS\",resolved:1b}"
+              "tag": "{tome:1b,strenghtTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Strength\",author:\"HardSurvivalStrategie\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -111,7 +111,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{jumpBoostTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Jump Boost\",author:\"HSS\",resolved:1b}"
+              "tag": "{tome:1b,jumpBoostTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Jump Boost\",author:\"HardSurvivalStrategie\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -125,7 +125,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{regenerationTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Regeneration\",author:\"HSS\",resolved:1b}"
+              "tag": "{tome:1b,regenerationTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Regeneration\",author:\"HardSurvivalStrategie\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -139,7 +139,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{resistanceTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Resistance\",author:\"HSS\",resolved:1b}"
+              "tag": "{tome:1b,resistanceTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Resistance\",author:\"HardSurvivalStrategie\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -153,7 +153,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{fireResistanceTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Fire Resistance\",author:\"HSS\",resolved:1b}"
+              "tag": "{tome:1b,fireResistanceTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Fire Resistance\",author:\"HardSurvivalStrategie\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -167,7 +167,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{waterBreathingTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Water Breathing\",author:\"HSS\",resolved:1b}"
+              "tag": "{tome:1b,waterBreathingTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Water Breathing\",author:\"HardSurvivalStrategie\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -181,7 +181,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{invisibilityTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Invisibility\",author:\"HSS\",resolved:1b}"
+              "tag": "{tome:1b,invisibilityTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Invisibility\",author:\"HardSurvivalStrategie\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -195,7 +195,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{nightVisionTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Night Vision\",author:\"HSS\",resolved:1b}"
+              "tag": "{tome:1b,nightVisionTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Night Vision\",author:\"HardSurvivalStrategie\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -209,7 +209,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{absorptionTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Absorption\",author:\"HSS\",resolved:1b}"
+              "tag": "{tome:1b,absorptionTome:1b,pages:['{\"text\":\" \"}'],title:\"Tome of Absorption\",author:\"HardSurvivalStrategie\",resolved:1b}"
             },
             {
               "function": "minecraft:set_count",
@@ -298,56 +298,6 @@
               {
                   "function": "minecraft:set_nbt",
                   "tag": "{iglaBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.igla\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_5\",\"color\":\"white\",\"italic\":false}']}}"
-              }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:clock",
-          "functions": [
-              {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{copperAxeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_axe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
-              }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:clock",
-          "functions": [
-              {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{copperHoeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_hoe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
-              }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:clock",
-          "functions": [
-              {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{copperPickaxeBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_pickaxe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
-              }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:clock",
-          "functions": [
-              {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{copperShovelBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_shovel\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
-              }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:clock",
-          "functions": [
-              {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{copperSwordBlueprint:1b,CustomModelData:1,display:{Name:'{\"translate\":\"blueprint.hss.copper_sword\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"blueprint.hss.tier_1\",\"color\":\"white\",\"italic\":false}']}}"
               }
           ]
         },

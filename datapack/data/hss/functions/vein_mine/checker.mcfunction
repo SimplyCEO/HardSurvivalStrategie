@@ -1,12 +1,10 @@
-scoreboard players set veinCount veinCount 0
+scoreboard players set veinCount count 0
+effect give @s mining_fatigue 5 4 true
 
-execute at @e[type=item,distance=..9,nbt={Item:{id:"minecraft:coal"}},sort=nearest] align xyz run summon area_effect_cloud ~.5 ~.5 ~.5 {Tags:["vein_mine_item"],Duration:2}
-execute at @e[type=item,distance=..9,nbt={Item:{id:"minecraft:iron_ore"}},sort=nearest] align xyz run summon area_effect_cloud ~.5 ~.5 ~.5 {Tags:["vein_mine_item"],Duration:2}
-execute at @e[type=item,distance=..9,nbt={Item:{id:"minecraft:gold_ore"}},sort=nearest] align xyz run summon area_effect_cloud ~.5 ~.5 ~.5 {Tags:["vein_mine_item"],Duration:2}
-execute at @e[type=item,distance=..9,nbt={Item:{id:"minecraft:diamond"}},sort=nearest] align xyz run summon area_effect_cloud ~.5 ~.5 ~.5 {Tags:["vein_mine_item"],Duration:2}
-execute at @e[type=item,distance=..9,nbt={Item:{id:"minecraft:lapis_lazuli"}},sort=nearest] align xyz run summon area_effect_cloud ~.5 ~.5 ~.5 {Tags:["vein_mine_item"],Duration:2}
-execute at @e[type=item,distance=..9,nbt={Item:{id:"minecraft:redstone_ore"}},sort=nearest] align xyz run summon area_effect_cloud ~.5 ~.5 ~.5 {Tags:["vein_mine_item"],Duration:2}
-execute at @e[type=item,distance=..9,nbt={Item:{id:"minecraft:ancient_debris"}},sort=nearest] align xyz run summon area_effect_cloud ~.5 ~.5 ~.5 {Tags:["vein_mine_item"],Duration:2}
-execute at @e[type=item,distance=..9,nbt={Item:{id:"minecraft:nether_star"}},sort=nearest] align xyz run summon area_effect_cloud ~.5 ~.5 ~.5 {Tags:["vein_mine_item"],Duration:2}
+execute positioned ^ ^ ^1 align xyz positioned ~.5 ~.5 ~.5 run summon area_effect_cloud ~ ~ ~ {Tags:["vein_mine_check"],Duration:2}
+execute positioned ^ ^ ^2 align xyz positioned ~.5 ~.5 ~.5 run summon area_effect_cloud ~ ~ ~ {Tags:["vein_mine_check"],Duration:2}
+execute positioned ^ ^ ^3 align xyz positioned ~.5 ~.5 ~.5 run summon area_effect_cloud ~ ~ ~ {Tags:["vein_mine_check"],Duration:2}
+execute positioned ^ ^ ^4 align xyz positioned ~.5 ~.5 ~.5 run summon area_effect_cloud ~ ~ ~ {Tags:["vein_mine_check"],Duration:2}
+execute positioned ^ ^ ^5 align xyz positioned ~.5 ~.5 ~.5 run summon area_effect_cloud ~ ~ ~ {Tags:["vein_mine_check"],Duration:2}
 
-execute as @e[tag=vein_mine_item] at @s run function hss:vein_mine/block_array
+execute as @e[tag=vein_mine_check] at @s run function hss:vein_mine/block_array

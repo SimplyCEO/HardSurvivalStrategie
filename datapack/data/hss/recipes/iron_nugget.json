@@ -4,7 +4,7 @@
         "item": "minecraft:coarse_dirt"
     },
     "result": "minecraft:iron_nugget",
-    "experience": 0.1,
+    "experience": 1.0,
     "cookingtime": 400,
     "group": "Iron"
 }

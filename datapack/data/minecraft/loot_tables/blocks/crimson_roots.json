@@ -81,7 +81,9 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:golden_sword"
+                    "items": [
+                      "minecraft:golden_sword"
+                    ]
                   }
                 },
                 {
@@ -110,7 +112,9 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:flint"
+                    "items": [
+                      "minecraft:flint"
+                    ]
                   }
                 },
                 {

@@ -25,15 +25,14 @@
                   }
                 }
               ],
-              "name": "minecraft:stripped_oak_log"
+              "name": "minecraft:stripped_spruce_log"
             },
             {
               "type": "minecraft:item",
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count":
-                  {
+                  "count": {
                     "min": 1,
                     "max": 5
                   }
@@ -51,22 +50,23 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:golden_axe"
+                    "items": [
+                      "minecraft:golden_axe"
+                    ]
                   }
                 },
                 {
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "minecraft:oak_planks"
+              "name": "minecraft:spruce_planks"
             },
             {
               "type": "minecraft:item",
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count":
-                  {
+                  "count": {
                     "min": 1,
                     "max": 6
                   }
@@ -84,22 +84,23 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:wooden_axe"
+                    "items": [
+                      "minecraft:wooden_axe"
+                    ]
                   }
                 },
                 {
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "minecraft:oak_planks"
+              "name": "minecraft:spruce_planks"
             },
             {
               "type": "minecraft:item",
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count":
-                  {
+                  "count": {
                     "min": 1,
                     "max": 7
                   }
@@ -117,22 +118,23 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:stone_axe"
+                    "items": [
+                      "minecraft:stone_axe"
+                    ]
                   }
                 },
                 {
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "minecraft:oak_planks"
+              "name": "minecraft:spruce_planks"
             },
             {
               "type": "minecraft:item",
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count":
-                  {
+                  "count": {
                     "min": 2,
                     "max": 4
                   }
@@ -150,22 +152,23 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:iron_axe"
+                    "items": [
+                      "minecraft:iron_axe"
+                    ]
                   }
                 },
                 {
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "minecraft:oak_planks"
+              "name": "minecraft:spruce_planks"
             },
             {
               "type": "minecraft:item",
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count":
-                  {
+                  "count": {
                     "min": 2,
                     "max": 5
                   }
@@ -183,22 +186,23 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:diamond_axe"
+                    "items": [
+                      "minecraft:diamond_axe"
+                    ]
                   }
                 },
                 {
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "minecraft:oak_planks"
+              "name": "minecraft:spruce_planks"
             },
             {
               "type": "minecraft:item",
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count":
-                  {
+                  "count": {
                     "min": 2,
                     "max": 6
                   }
@@ -216,14 +220,16 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:netherite_axe"
+                    "items": [
+                      "minecraft:netherite_axe"
+                    ]
                   }
                 },
                 {
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "minecraft:oak_planks"
+              "name": "minecraft:spruce_planks"
             }
           ]
         }

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "minecraft:potion"
+    },
+    "result": "minecraft:glass_bottle",
+    "experience": 1.0,
+    "cookingtime": 80
+  }

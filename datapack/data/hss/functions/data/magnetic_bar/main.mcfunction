@@ -1,0 +1,1 @@
+execute as @e[type=item,dx=14,dy=14,dz=14,sort=nearest] run tp @s ~7 ~7 ~7

@@ -94,5 +94,11 @@
     "sounds": [
       "rubbish_guns/metal_bending"
     ]
+  },
+  "player.breath": {
+    "sounds": [
+      "player/breath",
+      "player/breath2"
+    ]
   }
 }
