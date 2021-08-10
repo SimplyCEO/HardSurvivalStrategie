@@ -104,6 +104,13 @@
     "container.crafting":                                                       "\u00A7fMesa de Trabalho",
 
     "enchantment.hss.vein_miner":                                               "Vein Miner",
+    "entity.hss.lavarig_evoker":                                                "[§dHERO§f] Lavalífera Evoker",
+    "entity.hss.lavarig_illusioner":                                            "[§dHERO§f] Lavalífera Illusioner",
+    "entity.hss.rideable_ghast":                                                "[§dHERO§f] Lavalífera Ghast",
+    "entity.hss.lavarig_piglin":                                                "[§dHERO§f] Lavalífera Piglin",
+    "entity.hss.lavarig_pillager":                                              "[§dHERO§f] Lavalífera Pillager",
+    "entity.hss.lavarig_vindicator":                                            "[§dHERO§f] Lavalífera Vindicator",
+    "entity.hss.niel":"Niel",
 
     "effect.minecraft.wither":                                                  "Sangramento",
 
@@ -153,6 +160,7 @@
     "item.hss.m1014_barrel":                                                    "Cano da M1014",
     "item.hss.m1014_body":                                                      "Corpo da M1014",
     "item.hss.m1014_stock":                                                     "Coronha da M1014",
+    "item.hss.magnetic_bar":                                                    "Barra Magnética",
     "item.hss.oak_stick":                                                       "Graveto de Carvalho",
     "item.hss.ruby_axe":                                                        "Machado de Rubi",
     "item.hss.ruby_hoe":                                                        "Enxada de Rubi",
@@ -168,6 +176,7 @@
     "item.hss.steel_sword":                                                     "Espada de Aço",
     "item.hss.twine":                                                           "Fibra",
     "item.hss.warped_stick":                                                    "Graveto Distorcido",
+    "item.hss.wrench":                                                          "Chave de Boca",
 
     "item.minecraft.sweet_berries":                                             "Bagos",
     "item.minecraft.wooden_shovel":                                             "Remo de Barco",

@@ -100,5 +100,9 @@
       "player/breath",
       "player/breath2"
     ]
+  },"hev.boot_up": {
+    "sounds": [
+      "hev/boot_up"
+    ]
   }
 }

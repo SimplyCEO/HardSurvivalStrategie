@@ -1,1 +1,0 @@
-execute at @e[type=item] if block ~ ~ ~ water_cauldron if block ~ ~-1 ~ #minecraft:campfires[lit=true] run function hss:custom_brewing/check_recipe

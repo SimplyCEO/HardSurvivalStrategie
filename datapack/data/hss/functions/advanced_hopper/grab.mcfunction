@@ -1,1 +1,0 @@
-execute positioned ~-9 ~-9 ~-9 as @e[type=item,dx=18,dy=18,dz=18,sort=nearest] run tp @s ~9 ~9.7 ~9

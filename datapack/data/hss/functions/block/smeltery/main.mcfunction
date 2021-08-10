@@ -1,0 +1,1 @@
+execute at @e[type=item] if block ~ ~ ~ cauldron if block ~ ~-1 ~ lava run function hss:block/smeltery/check_recipe

@@ -1,17 +1,19 @@
-function hss:advanced_crafting/main
-function hss:anti_cheat/main
-function hss:combiner/main
-function hss:current_time/main
-function hss:custom_benches/main
-function hss:custom_brewing/main
+#execute as @e[type=player,scores={debug=1}] run tellraw @s "[§b§lMODULE§f] Module loaded."
+
+function hss:block/advanced_crafting/main
+function hss:modules/anti_bugs/main
+function hss:block/combiner/main
+function hss:modules/current_time/main
+function hss:block/custom_benches/main
+function hss:block/custom_brewing/main
 function hss:entity/main
 function hss:gui/main
-function hss:pot_farmer/main
-function hss:rubbish_guns/main
-function hss:smeltery/main
+function hss:block/pot_farmer/main
+function hss:modules/rubbish_weapons/main
+function hss:block/smeltery/main
+#function hss:modules/tree_fall/main
+#function hss:modules/ultra_hoe/main
+#function hss:modules/vein_mine/main
 function hss:structures/main
-function hss:tree_fall/main
-function hss:ultra_hoe/main
-function hss:vein_mine/main
 
-execute as @e[type=player] at @s run function hss:reset_scores
+execute as @e[type=player] at @s run function hss:modules/reset_scores

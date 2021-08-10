@@ -1,1 +1,0 @@
-execute unless score @s isOP matches 1 run function hss:anti_cheat/no_gamemode_2

@@ -3,6 +3,8 @@
 #
 # This is a open-source project. Anyone can modify, fork, or create another version of this datapack.
 
+#execute as @e[type=player,scores={debug=1}] run tellraw @s "[§4§lCORE§f] Loop created."
+
 function hss:modules
 execute if score counter count matches 0 run function hss:functions
 

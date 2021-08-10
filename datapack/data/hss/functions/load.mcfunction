@@ -11,6 +11,8 @@ scoreboard objectives add hours dummy ["Hours"]
 scoreboard objectives add dayTime dummy ["Day Time"]
 
 scoreboard objectives add biohazardCount dummy ["Biohazard Count"]
+scoreboard objectives add hazardSuit dummy ["Hazard Suit Set"]
+scoreboard objectives add hsMaterial dummy ["Hazard Suit Material"] 
 
 scoreboard objectives add gm_player dummy ["Player's Gamemode"]
 scoreboard objectives add isOP dummy ["Operator Check"]
@@ -86,14 +88,13 @@ scoreboard objectives add bleedingLvl dummy ["Bleeding"]
 scoreboard objectives add eatenP_Pie minecraft.used:minecraft.pumpkin_pie ["Pumpkin Pie"]
 scoreboard objectives add firstDrink dummy ["Already Drank"]
 
-scoreboard objectives add totalWalkMeter minecraft.custom:minecraft.walk_one_cm ["Walkometer Total"]
-scoreboard objectives add totalSprintMeter minecraft.custom:minecraft.sprint_one_cm ["Sprintometer Total"]
-scoreboard objectives add walkMeter dummy ["Walkometer"]
-scoreboard objectives add sprintMeter dummy ["Sprintometer"]
-
 scoreboard objectives add killedIllusioner minecraft.killed:minecraft.illusioner ["Killed Illusioner"]
 
 scoreboard objectives add thirstBool dummy ["Thirst Boolean"]
+
+scoreboard objectives add debug dummy ["Debug"]
+
+#tellraw @a "§4§lAttention! §6The §3datapack§6 got §3downgraded§6! If you feel that something is incorrect, please, quicky §2update§6 to the latest version. §f[§7§lHardSurvivalStrategie 1.7.0 Concept 11§f]"
 
 # Limit is set to run each 4t, so at the final will match 10 minutes.
 # If you wish less or more, keep in mind that's necessary to use the math to convert it.

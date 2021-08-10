@@ -105,6 +105,13 @@
     "container.crafting":                                                       "\u00A7fWorkbench",
 
     "enchantment.hss.vein_miner":                                               "Vein Miner",
+    "entity.hss.lavarig_evoker":                                                "[§dHERO§f] Lavarig Evoker",
+    "entity.hss.lavarig_illusioner":                                            "[§dHERO§f] Lavarig Illusioner",
+    "entity.hss.rideable_ghast":                                                "[§dHERO§f] Lavarig Ghast",
+    "entity.hss.lavarig_piglin":                                                "[§dHERO§f] Lavarig Piglin",
+    "entity.hss.lavarig_pillager":                                              "[§dHERO§f] Lavarig Pillager",
+    "entity.hss.lavarig_vindicator":                                            "[§dHERO§f] Lavarig Vindicator",
+    "entity.hss.niel":"Niel",
 
     "effect.minecraft.wither":                                                  "Bleeding",
 
@@ -154,6 +161,7 @@
     "item.hss.m1014_barrel":                                                    "M1014 Barrel",
     "item.hss.m1014_body":                                                      "M1014 Body",
     "item.hss.m1014_stock":                                                     "M1014 Stock",
+    "item.hss.magnetic_bar":                                                    "Magnetic Bar",
     "item.hss.oak_stick":                                                       "Oak Stick",
     "item.hss.ruby_axe":                                                        "Ruby Axe",
     "item.hss.ruby_hoe":                                                        "Ruby Hoe",
@@ -169,6 +177,7 @@
     "item.hss.steel_sword":                                                     "Steel Sword",
     "item.hss.twine":                                                           "Twine",
     "item.hss.warped_stick":                                                    "Warped Stick",
+    "item.hss.wrench":                                                          "Wrench",
 
     "item.minecraft.sweet_berries":                                             "Berries",
     "item.minecraft.wooden_shovel":                                             "Boat Paddle",

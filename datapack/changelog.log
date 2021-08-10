@@ -19,6 +19,9 @@ HardSurvivalStrategie-concept-11
 - Added Illusioner spawn.
 - Added Junkyard.
 - Added Magnetic Bar.
+- Added Lavarig.
+- Added Hazard Suits (for the moment, using colour only: white, yellow, and blue).
+- Added Wrench.
 
 ## Changes ##
 
@@ -59,3 +62,6 @@ HardSurvivalStrategie-concept-11
 - Vegetation tag added.
 - Needed functions has been set to 'modules.mcfunction' and other common behaviour functions to 'functions.mcfunction' to run each second, instead of miliseconds.
 - Added Walkometer and Sprintometer for custom functions.
+- Added debug. (/function hss:debug to toggle debug on and off)
+- Amethyst Bud and Cluster tag added.
+- Coral tag added.

@@ -1,0 +1,1 @@
+execute at @e[tag=tree_fall,limit=1] if block ~ ~ ~ #hss:tree run function hss:modules/tree_fall/destroy

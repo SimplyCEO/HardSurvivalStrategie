@@ -1,0 +1,1 @@
+execute as @e[nbt={Inventory:[{Slot:-106b,tag:{tome:1b},Count:1b}]}] if score tickCount count matches 0 run function hss:modules/tome/tomes

@@ -1,0 +1,2 @@
+execute at @e[type=item] if block ~ ~ ~ piston_head if block ~ ~-1 ~ smithing_table run function hss:block/custom_benches/check_recipe_crunching_table
+execute at @e[type=item] if block ~ ~-1 ~ smithing_table run function hss:block/custom_benches/check_recipe_repairing_table

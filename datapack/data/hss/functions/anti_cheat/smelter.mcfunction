@@ -1,1 +1,0 @@
-execute if block ~ ~ ~ cauldron if block ~ ~-1 ~ lava unless entity @e[type=experience_orb,distance=..1,sort=nearest] run effect give @s instant_damage 5 1 true
