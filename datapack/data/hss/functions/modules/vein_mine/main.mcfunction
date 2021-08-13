@@ -1,1 +1,1 @@
-execute as @e[type=player,nbt={SelectedItem:{Count:1b,tag:{veinPickaxe:1b}}}] run function hss:vein_mine/check_break
+execute as @e[type=player,nbt={SelectedItem:{Count:1b,tag:{veinPickaxe:1b}}}] run function hss:modules/vein_mine/check_break

@@ -13,6 +13,9 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:warped_stem",Count:9b}}] at @s 
 execute as @e[type=item,nbt={Item:{id:"minecraft:crafting_table",Count:1b}}] if entity @e[type=item,distance=...3,nbt={Item:{id:"minecraft:smithing_table",Count:1b}},sort=nearest] if entity @e[type=item,distance=...3,nbt={Item:{id:"minecraft:anvil",Count:1b}},sort=nearest] at @s if block ~ ~ ~ piston_head if block ~ ~-1 ~ smithing_table run function hss:recipes/crunching_table/advanced_workbench
 execute as @e[type=item,nbt={Item:{id:"minecraft:shulker_shell",Count:2b}}] if entity @e[type=item,distance=...3,nbt={Item:{id:"minecraft:chest",Count:1b}},sort=nearest] at @s if block ~ ~ ~ piston_head if block ~ ~-1 ~ smithing_table run function hss:recipes/crunching_table/portable_box
 execute as @e[type=item,nbt={Item:{id:"minecraft:coal",Count:8b}}] at @s if block ~ ~ ~ piston_head if block ~ ~-1 ~ smithing_table run function hss:recipes/crunching_table/coal_block
+execute as @e[type=item,nbt={Item:{id:"minecraft:chiseled_quartz_block",Count:1b}}] at @s if block ~ ~ ~ piston_head if block ~ ~-1 ~ smithing_table run function hss:recipes/crunching_table/steel_plate
+execute as @e[type=item,nbt={Item:{id:"minecraft:gold_block",Count:1b}}] at @s if block ~ ~ ~ piston_head if block ~ ~-1 ~ smithing_table run function hss:recipes/crunching_table/gold_plate
+execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] at @s if block ~ ~ ~ piston_head if block ~ ~-1 ~ smithing_table run function hss:recipes/crunching_table/cobalt_plate
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:coal",Count:64b}}] at @s if block ~ ~ ~ piston_head if block ~ ~-1 ~ smithing_table run function hss:recipes/crunching_table/stack/coal_block
 execute as @e[type=item,nbt={Item:{id:"minecraft:coal_block",Count:64b}}] at @s if block ~ ~ ~ piston_head if block ~ ~-1 ~ smithing_table run function hss:recipes/crunching_table/stack/diamond

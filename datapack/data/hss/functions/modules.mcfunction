@@ -11,9 +11,9 @@ function hss:gui/main
 function hss:block/pot_farmer/main
 function hss:modules/rubbish_weapons/main
 function hss:block/smeltery/main
-#function hss:modules/tree_fall/main
-#function hss:modules/ultra_hoe/main
-#function hss:modules/vein_mine/main
 function hss:structures/main
+function hss:modules/tree_fall/main
+function hss:modules/ultra_hoe/main
+function hss:modules/vein_mine/main
 
 execute as @e[type=player] at @s run function hss:modules/reset_scores

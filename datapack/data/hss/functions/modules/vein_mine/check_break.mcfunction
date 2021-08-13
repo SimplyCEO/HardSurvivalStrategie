@@ -1,14 +1,14 @@
-execute if score @s usedW_Pickaxe matches 1.. run tag @s add isChecked
-execute if score @s usedG_Pickaxe matches 1.. run tag @s add isChecked
-execute if score @s usedS_Pickaxe matches 1.. run tag @s add isChecked
-execute if score @s usedI_Pickaxe matches 1.. run tag @s add isChecked
-execute if score @s usedD_Pickaxe matches 1.. run tag @s add isChecked
-execute if score @s usedN_Pickaxe matches 1.. run tag @s add isChecked
-scoreboard players set @s usedW_Pickaxe 0
-scoreboard players set @s usedG_Pickaxe 0
-scoreboard players set @s usedS_Pickaxe 0
-scoreboard players set @s usedI_Pickaxe 0
-scoreboard players set @s usedD_Pickaxe 0
-scoreboard players set @s usedN_Pickaxe 0
+execute if score @s usedW_Pickaxe matches 1.. run tag @s add playerChecked
+execute if score @s usedG_Pickaxe matches 1.. run tag @s add playerChecked
+execute if score @s usedS_Pickaxe matches 1.. run tag @s add playerChecked
+execute if score @s usedI_Pickaxe matches 1.. run tag @s add playerChecked
+execute if score @s usedD_Pickaxe matches 1.. run tag @s add playerChecked
+execute if score @s usedN_Pickaxe matches 1.. run tag @s add playerChecked
+scoreboard players reset @s usedW_Pickaxe
+scoreboard players reset @s usedG_Pickaxe
+scoreboard players reset @s usedS_Pickaxe
+scoreboard players reset @s usedI_Pickaxe
+scoreboard players reset @s usedD_Pickaxe
+scoreboard players reset @s usedN_Pickaxe
 
-execute as @e[tag=isChecked] at @s run function hss:vein_mine/break_is_checked
+execute as @e[tag=playerChecked] at @s run function hss:modules/vein_mine/break_is_checked

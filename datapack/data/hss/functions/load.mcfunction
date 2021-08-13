@@ -3,6 +3,8 @@ scoreboard objectives add count dummy ["Count"]
 scoreboard objectives add posX dummy ["X"]
 scoreboard objectives add posY dummy ["Y"]
 scoreboard objectives add posZ dummy ["Z"]
+scoreboard objectives add rotY dummy ["RY"]
+scoreboard objectives add rotZ dummy ["RZ"]
 scoreboard objectives add age dummy ["Age"]
 
 scoreboard objectives add seconds dummy ["Seconds"]

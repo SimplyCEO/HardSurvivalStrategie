@@ -4,6 +4,6 @@
     "layer0": "minecraft:item/tropical_fish"
   },
   "overrides":[
-    {"predicate": {"custom_model_data":3}, "model":"item/leather"}
+    {"predicate": {"custom_model_data":1}, "model":"item/radiation_pills"}
   ]
 }

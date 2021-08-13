@@ -1,14 +1,14 @@
-execute if score @s usedW_Hoe matches 1.. run tag @s add isChecked
-execute if score @s usedG_Hoe matches 1.. run tag @s add isChecked
-execute if score @s usedS_Hoe matches 1.. run tag @s add isChecked
-execute if score @s usedI_Hoe matches 1.. run tag @s add isChecked
-execute if score @s usedD_Hoe matches 1.. run tag @s add isChecked
-execute if score @s usedN_Hoe matches 1.. run tag @s add isChecked
-scoreboard players set @s usedW_Hoe 0
-scoreboard players set @s usedG_Hoe 0
-scoreboard players set @s usedS_Hoe 0
-scoreboard players set @s usedI_Hoe 0
-scoreboard players set @s usedD_Hoe 0
-scoreboard players set @s usedN_Hoe 0
+execute if score @s usedW_Hoe matches 1.. run tag @s add playerChecked
+execute if score @s usedG_Hoe matches 1.. run tag @s add playerChecked
+execute if score @s usedS_Hoe matches 1.. run tag @s add playerChecked
+execute if score @s usedI_Hoe matches 1.. run tag @s add playerChecked
+execute if score @s usedD_Hoe matches 1.. run tag @s add playerChecked
+execute if score @s usedN_Hoe matches 1.. run tag @s add playerChecked
+scoreboard players reset @s usedW_Hoe
+scoreboard players reset @s usedG_Hoe
+scoreboard players reset @s usedS_Hoe
+scoreboard players reset @s usedI_Hoe
+scoreboard players reset @s usedD_Hoe
+scoreboard players reset @s usedN_Hoe
 
-execute as @e[tag=isChecked] at @s run function hss:ultra_hoe/break_is_checked
+execute as @e[tag=playerChecked] at @s run function hss:modules/ultra_hoe/break_is_checked

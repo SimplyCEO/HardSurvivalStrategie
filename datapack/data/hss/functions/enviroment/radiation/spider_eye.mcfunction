@@ -1,2 +1,2 @@
-scoreboard players set @s eatenSpiderEye 0
+scoreboard players remove @s eatenSpiderEye 1
 scoreboard players add @s biohazardCount 10

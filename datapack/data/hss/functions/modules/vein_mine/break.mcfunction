@@ -1,1 +1,1 @@
-execute at @e[tag=vein_mine,limit=1] if block ~ ~ ~ #hss:ores run function hss:vein_mine/destroy
+execute at @e[tag=vein_mine,limit=1] if block ~ ~ ~ #hss:ores run function hss:modules/vein_mine/destroy

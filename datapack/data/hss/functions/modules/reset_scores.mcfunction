@@ -21,3 +21,21 @@ execute if score @s isDrinking matches 1.. positioned ~ ~1.5 ~ if block ^ ^ ^4 #
 execute if score @s isDrinking matches 1.. positioned ~ ~1.5 ~ if block ^ ^ ^5 #minecraft:cauldrons run scoreboard players set @s biohazardCount 5000
 execute unless score @s firstDrink matches 1 run function hss:enviroment/thirst/set
 execute if score @s hazardSuit matches 1.. run scoreboard players reset @s hazardSuit
+execute if score @s usedW_Axe matches 1.. run scoreboard players reset @s usedW_Axe
+execute if score @s usedG_Axe matches 1.. run scoreboard players reset @s usedG_Axe
+execute if score @s usedS_Axe matches 1.. run scoreboard players reset @s usedS_Axe
+execute if score @s usedI_Axe matches 1.. run scoreboard players reset @s usedI_Axe
+execute if score @s usedD_Axe matches 1.. run scoreboard players reset @s usedD_Axe
+execute if score @s usedN_Axe matches 1.. run scoreboard players reset @s usedN_Axe
+execute if score @s usedW_Hoe matches 1.. run scoreboard players reset @s usedW_Hoe
+execute if score @s usedG_Hoe matches 1.. run scoreboard players reset @s usedG_Hoe
+execute if score @s usedS_Hoe matches 1.. run scoreboard players reset @s usedS_Hoe
+execute if score @s usedI_Hoe matches 1.. run scoreboard players reset @s usedI_Hoe
+execute if score @s usedD_Hoe matches 1.. run scoreboard players reset @s usedD_Hoe
+execute if score @s usedN_Hoe matches 1.. run scoreboard players reset @s usedN_Hoe
+execute if score @s usedW_Pickaxe matches 1.. run scoreboard players reset @s usedW_Pickaxe
+execute if score @s usedG_Pickaxe matches 1.. run scoreboard players reset @s usedG_Pickaxe
+execute if score @s usedS_Pickaxe matches 1.. run scoreboard players reset @s usedS_Pickaxe
+execute if score @s usedI_Pickaxe matches 1.. run scoreboard players reset @s usedI_Pickaxe
+execute if score @s usedD_Pickaxe matches 1.. run scoreboard players reset @s usedD_Pickaxe
+execute if score @s usedN_Pickaxe matches 1.. run scoreboard players reset @s usedN_Pickaxe

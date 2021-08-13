@@ -100,9 +100,15 @@
       "player/breath",
       "player/breath2"
     ]
-  },"hev.boot_up": {
+  },
+  "hev.boot_up": {
     "sounds": [
       "hev/boot_up"
+    ]
+  },
+  "player.taking_pills": {
+    "sounds": [
+      "player/taking_pills"
     ]
   }
 }

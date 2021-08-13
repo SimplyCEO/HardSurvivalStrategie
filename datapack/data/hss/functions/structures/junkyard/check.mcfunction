@@ -31,7 +31,7 @@ execute if block ~12 ~-1 ~24 grass_block run scoreboard players add @s count 1
 execute if block ~15 ~-1 ~24 grass_block run scoreboard players add @s count 1
 execute if block ~18 ~-1 ~24 grass_block run scoreboard players add @s count 1
 execute if block ~21 ~-1 ~24 grass_block run scoreboard players add @s count 1
-execute if score @s age matches 0 if score @s posY matches 59..63 if score @s count matches 16..24 if score randomStructure count matches 0 run function hss:structures/junkyard/spawn
+execute if score @s age matches 0 if score @s posY matches 59..63 if score @s count matches 16..24 if score randomS_Junkyard count matches 0 run function hss:structures/junkyard/spawn
 tag @s add check
-scoreboard players add randomStructure count 1
+scoreboard players add randomS_Junkyard count 1
 scoreboard players set @s count 0

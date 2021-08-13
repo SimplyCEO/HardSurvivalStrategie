@@ -1,2 +1,2 @@
-scoreboard players set @s eatenFlesh 0
+scoreboard players remove @s eatenFlesh 1
 scoreboard players add @s biohazardCount 7

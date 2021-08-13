@@ -10,5 +10,5 @@ execute if score @s eatenSalmon matches 1.. run function hss:enviroment/radiatio
 execute if score @s eatenT_Fish matches 1.. run function hss:enviroment/radiation/tropical_fish
 execute if score @s eatenPufferfish matches 1.. run function hss:enviroment/radiation/pufferfish
 execute if score @s eatenCod matches 1.. run function hss:enviroment/radiation/cod
-execute unless score @s hazardSuit matches 12.. if entity @s[nbt={Dimension:"minecraft:the_nether"}] run scoreboard players add @s biohazardCount 1
-execute unless score @s hazardSuit matches 18.. if entity @s[nbt={Dimension:"minecraft:the_end"}] if entity @e[type=ender_dragon,distance=..64,sort=nearest] run scoreboard players add @s biohazardCount 1
+execute unless score @s hazardSuit matches 20.. if entity @s[nbt={Dimension:"minecraft:the_nether"}] run scoreboard players add @s biohazardCount 1
+execute unless score @s hazardSuit matches 30.. if entity @s[nbt={Dimension:"minecraft:the_end"}] if entity @e[type=ender_dragon,distance=..96,sort=nearest] run scoreboard players add @s biohazardCount 1
