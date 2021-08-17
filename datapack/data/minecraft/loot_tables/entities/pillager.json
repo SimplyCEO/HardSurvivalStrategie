@@ -138,7 +138,7 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{radiationPills:1b,CustomModelData:22,display:{Name:'{\"translate\":\"item.hss.radiation_pills\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"description.hss.radiation_pills\",\"color\":\"gray\",\"italic\":false}']}}}"
+             "tag": "{radiationPills:1b,CustomModelData:22,display:{Name:'{\"translate\":\"item.hss.radiation_pills\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"description.hss.radiation_pills\",\"color\":\"gray\",\"italic\":false}']}}"
             }
           ],
           "conditions": [
