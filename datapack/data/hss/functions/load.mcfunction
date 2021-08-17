@@ -65,6 +65,7 @@ scoreboard objectives add missile dummy ["Missiles"]
 scoreboard objectives add isIglaEmpty dummy ["Igla Chamber"]
 scoreboard objectives add missilesCount dummy ["Igla Waste Count"]
 scoreboard objectives add iglaTiming dummy ["Igla Timing"]
+scoreboard objectives add rowTime dummy ["Bullet Row"]
 
 scoreboard objectives add isSneaking minecraft.custom:minecraft.sneak_time ["Sneaking"]
 scoreboard objectives add isRunning minecraft.custom:minecraft.sprint_one_cm ["Running"]
@@ -89,6 +90,8 @@ scoreboard objectives add damageTaken minecraft.custom:minecraft.damage_taken ["
 scoreboard objectives add bleedingLvl dummy ["Bleeding"]
 scoreboard objectives add eatenP_Pie minecraft.used:minecraft.pumpkin_pie ["Pumpkin Pie"]
 scoreboard objectives add firstDrink dummy ["Already Drank"]
+scoreboard objectives add usedPearl minecraft.used:minecraft.ender_pearl ["Pearl Used"]
+scoreboard objectives add usedScope minecraft.used:minecraft.spyglass ["Scope Used"]
 
 scoreboard objectives add killedIllusioner minecraft.killed:minecraft.illusioner ["Killed Illusioner"]
 

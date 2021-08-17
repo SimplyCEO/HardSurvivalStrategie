@@ -1,0 +1,26 @@
+HardSurvivalStrategie-1.7.0-concept-12
+
+## Adittions ##
+
+- Added Stationary Pearl. Sneak peak.
+- Added loot table for Illusioner.
+- Added AGLC. Different from other weapons, the recipe use the Spyglass on top.
+- Added bullets. Each made with iron_nugget, gunpowder, and gold_nugget.
+
+## Changes ##
+
+- Changed Illusioner rate spawn to 1/9 instead of 1/5.
+- Changed Pillager loot table to get 5/100 for M1014 parts, 3/100 for FAL parts, and 1/100 for AGLC parts.
+
+## Bug Fixes ##
+
+- Filling a cauldron with a water bottle increase the thrist point.
+- Unused 'glowing_berry' folder.
+- Bullets getting stuck at underground levels.
+- Load one gun will automatically load another gun when hold.
+- Unused 'bullet_travel' folder.
+
+## For developers ##
+
+- Tag 'grass_break' added for entity_type, complementing lightweight mobs or datapack based mobs.
+- Added item image 'mojang_fix_it.png' for those broken items that Mojang makes, such as the spyglass.

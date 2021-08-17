@@ -1,98 +1,133 @@
 {
   "bullet.ricochet": {
     "sounds": [
-      "rubbish_guns/bullet_ricochet_1",
-      "rubbish_guns/bullet_ricochet_2",
-      "rubbish_guns/bullet_ricochet_3"
+      "rubbish_weapons/bullet_ricochet_1",
+      "rubbish_weapons/bullet_ricochet_2",
+      "rubbish_weapons/bullet_ricochet_3"
     ]
   },
   "load.fal": {
     "sounds": [
       {
-        "name": "rubbish_guns/fal_load"
+        "name": "rubbish_weapons/fal_load"
       }
     ]
   },
   "fire.fal": {
     "sounds": [
       {
-        "name": "rubbish_guns/fal_fire"
+        "name": "rubbish_weapons/fal_fire"
       }
     ]
   },
   "unload.fal": {
     "sounds": [
       {
-        "name": "rubbish_guns/fal_unload"
+        "name": "rubbish_weapons/fal_unload"
       }
     ]
   },
   "dry_fire.fal": {
     "sounds": [
       {
-        "name": "rubbish_guns/fal_dry_fire"
+        "name": "rubbish_weapons/fal_dry_fire"
       }
     ]
   },
   "pump.m1014": {
     "sounds": [
       {
-        "name": "rubbish_guns/m1014_pump"
+        "name": "rubbish_weapons/m1014_pump"
       }
     ]
   },
   "fire.m1014": {
     "sounds": [
       {
-        "name": "rubbish_guns/m1014_fire"
+        "name": "rubbish_weapons/m1014_fire"
       }
     ]
   },
   "load.m1014": {
     "sounds": [
       {
-        "name": "rubbish_guns/m1014_load"
+        "name": "rubbish_weapons/m1014_load"
       }
     ]
   },
   "dry_fire.m1014": {
     "sounds": [
       {
-        "name": "rubbish_guns/m1014_dry_fire"
+        "name": "rubbish_weapons/m1014_dry_fire"
       }
     ]
   },
   "load.gc_9mm": {
     "sounds": [
       {
-        "name": "rubbish_guns/gc_9mm_load"
+        "name": "rubbish_weapons/gc_9mm_load"
       }
     ]
   },
   "fire.gc_9mm": {
     "sounds": [
       {
-        "name": "rubbish_guns/gc_9mm_fire"
+        "name": "rubbish_weapons/gc_9mm_fire"
       }
     ]
   },
   "unload.gc_9mm": {
     "sounds": [
       {
-        "name": "rubbish_guns/gc_9mm_unload"
+        "name": "rubbish_weapons/gc_9mm_unload"
+      }
+    ]
+  },
+  "dry_fire.aglc": {
+    "sounds": [
+      {
+        "name": "rubbish_weapons/aglc_dry_fire"
+      }
+    ]
+  },
+  "load.aglc": {
+    "sounds": [
+      {
+        "name": "rubbish_weapons/aglc_load"
+      }
+    ]
+  },
+  "fire.aglc": {
+    "sounds": [
+      {
+        "name": "rubbish_weapons/aglc_fire"
+      }
+    ]
+  },
+  "unload.aglc": {
+    "sounds": [
+      {
+        "name": "rubbish_weapons/aglc_unload"
+      }
+    ]
+  },
+  "bolt_action.aglc": {
+    "sounds": [
+      {
+        "name": "rubbish_weapons/aglc_bolt_action"
       }
     ]
   },
   "dry_fire.gc_9mm": {
     "sounds": [
       {
-        "name": "rubbish_guns/gc_9mm_dry_fire"
+        "name": "rubbish_weapons/gc_9mm_dry_fire"
       }
     ]
   },
   "metal.metal_bending": {
     "sounds": [
-      "rubbish_guns/metal_bending"
+      "rubbish_weapons/metal_bending"
     ]
   },
   "player.breath": {

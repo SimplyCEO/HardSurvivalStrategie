@@ -5,8 +5,8 @@
 
 #execute as @e[type=player,scores={debug=1}] run tellraw @s "[§4§lCORE§f] Loop created."
 
-function hss:modules
 execute if score counter count matches 0 run function hss:functions
+function hss:modules
 
 # Since playing the datapack as client-server or as server is different,
 # Tick rate needs to be changed for every case:

@@ -7,7 +7,8 @@
             "mainhand": {
                 "items": [
                     "minecraft:crossbow",
-                    "minecraft:carrot_on_a_stick"
+                    "minecraft:carrot_on_a_stick",
+                    "minecraft:spyglass"
                 ],
                 "nbt": "{rubbishGuns:1b}",
                 "count": 1

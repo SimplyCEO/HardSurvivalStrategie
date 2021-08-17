@@ -101,7 +101,7 @@
     "container.smoker":                                                         "\u00A7fDefumador",
     "container.dispenser":                                                      "\u00A7fColocador",
     "container.upgrade":                                                        "\u00A7fMelhorar Equipamento",
-    "container.crafting":                                                       "\u00A7fMesa de Trabalho",
+    "container.crafting":                                                       "\u00A7fFabricação",
 
     "enchantment.hss.vein_miner":                                               "Vein Miner",
     "entity.hss.lavarig_evoker":                                                "[§dHERO§f] Lavalífera Evoker",
@@ -117,6 +117,10 @@
 
     "gui.hss.bullets":                                                          "Balas",
 
+    "item.hss.12_gauge":                                                        "12 Gauge",
+    "item.hss.7_62mm":                                                          "7,62x51mm",
+    "item.hss.7_62mm_projectile":                                               "Projétil: [7,62x51mm]",
+    "item.hss.9mm":                                                             "9x19mm",
     "item.hss.advanced_hopper":                                                 "Funil Avançado",
     "item.hss.advanced_workbench":                                              "Advanced Mesa de Trabalho",
     "item.hss.acacia_stick":                                                    "Graveto de Acácia",
@@ -127,7 +131,7 @@
     "item.hss.axolotl_skewer":                                                  "Espetinho de Axolotl",
     "item.hss.birch_stick":                                                     "Graveto de Bétula",
     "item.hss.bedrock_axe":                                                     "Machado de Rocha-mãe",
-    "item.hss.bedrock_hoe":                                                     "Exnada de Rocha-mãe",
+    "item.hss.bedrock_hoe":                                                     "Enxada de Rocha-mãe",
     "item.hss.bedrock_pickaxe":                                                 "Picareta de Rocha-mãe",
     "item.hss.bedrock_shovel":                                                  "Pá de Rocha-mãe",
     "item.hss.bedrock_sword":                                                   "Espada de Rocha-mãe",
