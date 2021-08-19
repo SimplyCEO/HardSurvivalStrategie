@@ -16,7 +16,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.07
             }
           ],
           "name": "minecraft:clock"
@@ -32,7 +32,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.07
             }
           ],
           "name": "minecraft:clock"
@@ -48,7 +48,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.07
             }
           ],
           "name": "minecraft:clock"
@@ -64,7 +64,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.03
+              "chance": 0.05
             }
           ],
           "name": "minecraft:clock"
@@ -80,6 +80,38 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+             "function": "minecraft:set_nbt",
+             "tag": "{falStock:1b,CustomModelData:6,display:{Name:'{\"translate\":\"item.hss.fal_stock\",\"italic\":false}'}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+             "function": "minecraft:set_nbt",
+             "tag": "{aglcBarrel:1b,CustomModelData:13,display:{Name:'{\"translate\":\"item.hss.aglc_barrel\",\"italic\":false}'}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
               "chance": 0.03
             }
           ],
@@ -90,13 +122,13 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{aglcStock:1b,CustomModelData:6,display:{Name:'{\"translate\":\"item.hss.aglc_stock\",\"italic\":false}'}}"
+             "tag": "{aglcBody:1b,CustomModelData:14,display:{Name:'{\"translate\":\"item.hss.aglc_body\",\"italic\":false}'}}"
             }
           ],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.01
+              "chance": 0.03
             }
           ],
           "name": "minecraft:clock"
@@ -106,29 +138,13 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{aglcBody:1b,CustomModelData:5,display:{Name:'{\"translate\":\"item.hss.aglc_body\",\"italic\":false}'}}"
+             "tag": "{aglcStock:1b,CustomModelData:15,display:{Name:'{\"translate\":\"item.hss.aglc_stock\",\"italic\":false}'}}"
             }
           ],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.01
-            }
-          ],
-          "name": "minecraft:clock"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-             "function": "minecraft:set_nbt",
-             "tag": "{aglcStock:1b,CustomModelData:6,display:{Name:'{\"translate\":\"item.hss.aglc_stock\",\"italic\":false}'}}"
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.01
+              "chance": 0.03
             }
           ],
           "name": "minecraft:clock"
@@ -144,7 +160,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.24
+              "chance": 0.28
             }
           ],
           "name": "minecraft:clock"

@@ -1,3 +1,4 @@
+execute unless score @s isNatoEmpty matches 0 run scoreboard players set @s isNatoEmpty 1
 execute if entity @s[tag=!natoLoaded,scores={isNatoEmpty=1}] store result score @s natoAmmo run clear @s gunpowder{7_62mm:1b} 21
 execute if entity @s[scores={isNatoEmpty=1,natoAmmo=1..}] run scoreboard players set @s isNatoEmpty 0
 function hss:modules/rubbish_weapons/sounds

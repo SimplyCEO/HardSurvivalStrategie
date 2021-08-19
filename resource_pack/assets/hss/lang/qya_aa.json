@@ -63,6 +63,11 @@
     "block.minecraft.cauldron":                                                 "Iron Pit",
     "block.minecraft.lantern":                                                  "Lamp",
     "block.minecraft.brewing_stand":                                            "Medicine Table",
+    "block.minecraft.end_stone":                                                "Moon Stone",
+    "block.minecraft.end_stone_bricks":                                         "Moon Stone Bricks",
+    "block.minecraft.end_stone_brick_stairs":                                   "Moon Stone Brick Stairs",
+    "block.minecraft.end_stone_brick_slab":                                     "Moon Stone Brick Slab",
+    "block.minecraft.end_stone_brick_wall":                                     "Moon Stone Brick Wall",
     "block.minecraft.note_block":                                               "Music Block",
     "block.minecraft.shulker_box":                                              "Portable Box",
     "block.minecraft.piston":                                                   "Pusher",
@@ -104,7 +109,25 @@
     "container.upgrade":                                                        "\u00A7fUpgrade Gear",
     "container.crafting":                                                       "\u00A7fCrafting",
 
+    "description.hss.radiation_pills":                                          "This drug is contraindicated in case of suspicion of Dengue.",
+
     "enchantment.hss.vein_miner":                                               "Vein Miner",
+    "enchantment.level.5":                                                      "VI",
+    "enchantment.level.6":                                                      "VII",
+    "enchantment.level.7":                                                      "VIII",
+    "enchantment.level.8":                                                      "IX",
+    "enchantment.level.9":                                                      "X",
+    "enchantment.level.10":                                                     "XI",
+    "enchantment.level.11":                                                     "XII",
+    "enchantment.level.12":                                                     "XIII",
+    "enchantment.level.13":                                                     "XIV",
+    "enchantment.level.14":                                                     "XV",
+    "enchantment.level.15":                                                     "XVI",
+    "enchantment.level.16":                                                     "XVII",
+    "enchantment.level.17":                                                     "XVIII",
+    "enchantment.level.18":                                                     "XIX",
+    "enchantment.level.19":                                                     "XX",
+
     "entity.hss.lavarig_evoker":                                                "[§dHERO§f] Lavarig Evoker",
     "entity.hss.lavarig_illusioner":                                            "[§dHERO§f] Lavarig Illusioner",
     "entity.hss.rideable_ghast":                                                "[§dHERO§f] Lavarig Ghast",
@@ -112,7 +135,6 @@
     "entity.hss.lavarig_pillager":                                              "[§dHERO§f] Lavarig Pillager",
     "entity.hss.lavarig_vindicator":                                            "[§dHERO§f] Lavarig Vindicator",
     "entity.hss.niel":                                                          "Niel",
-    "description.hss.radiation_pills":                                          "This drug is contraindicated in case of suspicion of Dengue.",
 
     "effect.minecraft.wither":                                                  "Bleeding",
 
@@ -257,6 +279,8 @@
     "item.minecraft.golden_chestplate":                                         "Wooden Chestplate",
     "item.minecraft.golden_leggings":                                           "Wooden Knee-Pads",
     "item.minecraft.golden_boots":                                              "Wooden Sandals",
+
+    "menu.modded":                                                              " (https://github.com/KanuX-14/HardSurvivalStrategie)",
 
     "potion.potency.5":                                                         "VI",
     "potion.potency.6":                                                         "VII",

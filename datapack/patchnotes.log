@@ -6,11 +6,14 @@ HardSurvivalStrategie-1.7.0-concept-12
 - Added loot table for Illusioner.
 - Added AGLC. Different from other weapons, the recipe use the Spyglass on top.
 - Added bullets. Each made with iron_nugget, gunpowder, and gold_nugget.
+- Added Dimension Changer. Whenever you fall into the void, the dimension is changed based in logic.
 
 ## Changes ##
 
 - Changed Illusioner rate spawn to 1/9 instead of 1/5.
 - Changed Pillager loot table to get 5/100 for M1014 parts, 3/100 for FAL parts, and 1/100 for AGLC parts.
+- Custom benches now accept more than one recipe per time.
+- Enviroment textures changes. 3D sun and moon, more rain, more snow, black End sky, blue End Stone (now Moon Stone).
 
 ## Bug Fixes ##
 
@@ -19,6 +22,7 @@ HardSurvivalStrategie-1.7.0-concept-12
 - Bullets getting stuck at underground levels.
 - Load one gun will automatically load another gun when hold.
 - Unused 'bullet_travel' folder.
+- Script not identifying whenever the player's weapon is empty or not.
 
 ## For developers ##
 

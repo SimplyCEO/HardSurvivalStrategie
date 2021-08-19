@@ -90,7 +90,23 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{aglcStock:1b,CustomModelData:6,display:{Name:'{\"translate\":\"item.hss.aglc_stock\",\"italic\":false}'}}"
+             "tag": "{falStock:1b,CustomModelData:6,display:{Name:'{\"translate\":\"item.hss.fal_stock\",\"italic\":false}'}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ],
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+             "function": "minecraft:set_nbt",
+             "tag": "{aglcBarrel:1b,CustomModelData:13,display:{Name:'{\"translate\":\"item.hss.aglc_barrel\",\"italic\":false}'}}"
             }
           ],
           "conditions": [
@@ -106,7 +122,7 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{aglcBody:1b,CustomModelData:5,display:{Name:'{\"translate\":\"item.hss.aglc_body\",\"italic\":false}'}}"
+             "tag": "{aglcBody:1b,CustomModelData:14,display:{Name:'{\"translate\":\"item.hss.aglc_body\",\"italic\":false}'}}"
             }
           ],
           "conditions": [
@@ -122,7 +138,7 @@
           "functions": [
             {
              "function": "minecraft:set_nbt",
-             "tag": "{aglcStock:1b,CustomModelData:6,display:{Name:'{\"translate\":\"item.hss.aglc_stock\",\"italic\":false}'}}"
+             "tag": "{aglcStock:1b,CustomModelData:15,display:{Name:'{\"translate\":\"item.hss.aglc_stock\",\"italic\":false}'}}"
             }
           ],
           "conditions": [

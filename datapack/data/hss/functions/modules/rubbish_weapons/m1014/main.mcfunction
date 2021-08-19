@@ -1,3 +1,4 @@
+execute unless score @s isGaugeEmpty matches 0 run scoreboard players set @s isGaugeEmpty 1
 execute if entity @s[tag=!gaugeLoaded,scores={isGaugeEmpty=1}] store result score @s gaugeAmmo run clear @s gunpowder{12_gauge:1b} 7
 execute if entity @s[scores={isGaugeEmpty=1,gaugeAmmo=1..}] run scoreboard players set @s isGaugeEmpty 0
 function hss:modules/rubbish_weapons/sounds

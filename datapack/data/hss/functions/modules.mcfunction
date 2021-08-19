@@ -7,6 +7,7 @@ function hss:modules/current_time/main
 function hss:block/custom_benches/main
 function hss:block/custom_brewing/main
 function hss:entity/main
+execute as @e[type=player] at @s run function hss:modules/get_position/main
 function hss:gui/main
 function hss:block/pot_farmer/main
 function hss:modules/rubbish_weapons/main

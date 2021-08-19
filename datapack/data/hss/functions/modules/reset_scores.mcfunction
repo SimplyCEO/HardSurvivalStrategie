@@ -8,6 +8,11 @@ execute unless score @s gaugeTiming matches 0 run scoreboard players remove @s g
 execute unless score @s 9mmTiming matches 0 run scoreboard players remove @s 9mmTiming 1
 execute unless score @s sniperTiming matches 0 run scoreboard players remove @s sniperTiming 1
 execute unless score @s iglaTiming matches 0 run scoreboard players remove @s iglaTiming 1
+execute if score @s natoTiming matches ..-1 run scoreboard players remove @s natoTiming 0
+execute if score @s gaugeTiming matches ..-1 run scoreboard players remove @s gaugeTiming 0
+execute if score @s 9mmTiming matches ..-1 run scoreboard players remove @s 9mmTiming 0
+execute if score @s sniperTiming matches ..-1 run scoreboard players remove @s sniperTiming 0
+execute if score @s iglaTiming matches ..-1 run scoreboard players remove @s iglaTiming 0
 execute if score @s isSneaking matches 1.. run scoreboard players reset @s isSneaking
 execute if score @s isRunning matches 1.. run scoreboard players reset @s isRunning
 execute if score @s isJumping matches 1.. run scoreboard players reset @s isJumping

@@ -1,7 +1,7 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "item/spruce_stick"
+        "layer0": "item/hardened_stick"
     },
     "overrides": [
         { "predicate": {"custom_model_data":1}, "model":"item/acacia_stick"},

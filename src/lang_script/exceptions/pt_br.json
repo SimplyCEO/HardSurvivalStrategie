@@ -63,6 +63,11 @@
     "block.minecraft.cauldron":                                                 "Poço de Ferro",
     "block.minecraft.lantern":                                                  "Lampião",
     "block.minecraft.brewing_stand":                                            "Mesa Medicinal",
+    "block.minecraft.end_stone":                                                "Pedra Lunar",
+    "block.minecraft.end_stone_bricks":                                         "Tijolos de Pedra Lunar",
+    "block.minecraft.end_stone_brick_stairs":                                   "Escada de Tijolo de Pedra Lunar",
+    "block.minecraft.end_stone_brick_slab":                                     "Laje de Tijolo de Pedra Lunar",
+    "block.minecraft.end_stone_brick_wall":                                     "Parede de Tijolo de Pedra Lunar",
     "block.minecraft.note_block":                                               "Bloco de Música",
     "block.minecraft.piston":                                                   "Empurrador",
     "block.minecraft.composter":                                                "Reciclador",
@@ -103,7 +108,25 @@
     "container.upgrade":                                                        "\u00A7fMelhorar Equipamento",
     "container.crafting":                                                       "\u00A7fFabricação",
 
+    "description.hss.radiation_pills":                                          "Este medicamento é contraindicado em caso de suspeita de Dengue.",
+
     "enchantment.hss.vein_miner":                                               "Vein Miner",
+    "enchantment.level.5":                                                      "VI",
+    "enchantment.level.6":                                                      "VII",
+    "enchantment.level.7":                                                      "VIII",
+    "enchantment.level.8":                                                      "IX",
+    "enchantment.level.9":                                                      "X",
+    "enchantment.level.10":                                                     "XI",
+    "enchantment.level.11":                                                     "XII",
+    "enchantment.level.12":                                                     "XIII",
+    "enchantment.level.13":                                                     "XIV",
+    "enchantment.level.14":                                                     "XV",
+    "enchantment.level.15":                                                     "XVI",
+    "enchantment.level.16":                                                     "XVII",
+    "enchantment.level.17":                                                     "XVIII",
+    "enchantment.level.18":                                                     "XIX",
+    "enchantment.level.19":                                                     "XX",
+
     "entity.hss.lavarig_evoker":                                                "[§dHERO§f] Lavalífera Evoker",
     "entity.hss.lavarig_illusioner":                                            "[§dHERO§f] Lavalífera Illusioner",
     "entity.hss.rideable_ghast":                                                "[§dHERO§f] Lavalífera Ghast",
@@ -111,7 +134,6 @@
     "entity.hss.lavarig_pillager":                                              "[§dHERO§f] Lavalífera Pillager",
     "entity.hss.lavarig_vindicator":                                            "[§dHERO§f] Lavalífera Vindicator",
     "entity.hss.niel":                                                          "Niel",
-    "description.hss.radiation_pills":                                          "Este medicamento é contraindicado em caso de suspeita de Dengue.",
 
     "effect.minecraft.wither":                                                  "Sangramento",
 
@@ -255,6 +277,8 @@
     "item.minecraft.golden_chestplate":                                         "Peitoral de Madeira",
     "item.minecraft.golden_leggings":                                           "Joelheiras de Madeira",
     "item.minecraft.golden_boots":                                              "Sandálias de Madeira",
+
+    "menu.modded":                                                              " (https://github.com/KanuX-14/HardSurvivalStrategie)",
 
     "potion.potency.5":                                                         "VI",
     "potion.potency.6":                                                         "VII",
