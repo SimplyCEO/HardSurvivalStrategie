@@ -28,3 +28,4 @@ HardSurvivalStrategie-1.7.0-concept-12
 
 - Tag 'grass_break' added for entity_type, complementing lightweight mobs or datapack based mobs.
 - Added item image 'mojang_fix_it.png' for those broken items that Mojang makes, such as the spyglass.
+- Added the 'Makefile' for easy build. Options are 'build' and 'remove'.

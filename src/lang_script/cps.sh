@@ -9,3 +9,4 @@ for a in $(seq $num); do
   mv build/* ../../resource_pack/assets/hss/lang
   cp exceptions/* ../../resource_pack/assets/hss/lang
 done
+rm -rf build
