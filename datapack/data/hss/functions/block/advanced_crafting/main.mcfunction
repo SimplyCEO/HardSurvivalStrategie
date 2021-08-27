@@ -1,3 +1,2 @@
 execute as @e[tag=advanced_workbench_item,tag=!placed] at @s positioned ~ ~.7 ~ run function hss:block/advanced_crafting/place
 execute as @e[tag=advanced_workbench,tag=placed] at @s unless block ~ ~ ~ barrel run function hss:block/advanced_crafting/remove
-execute as @e[tag=advanced_workbench,tag=placed] at @s positioned ~-5 ~-5 ~-5 if entity @e[type=player,dx=10,dy=10,dz=10,sort=nearest] at @s run function hss:block/advanced_crafting/recipes

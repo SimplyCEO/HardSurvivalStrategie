@@ -4,14 +4,11 @@ function hss:block/advanced_crafting/main
 function hss:modules/anti_bugs/main
 function hss:block/combiner/main
 function hss:modules/current_time/main
-function hss:block/custom_benches/main
-function hss:block/custom_brewing/main
 function hss:entity/main
 execute as @e[type=player] at @s run function hss:modules/get_position/main
 function hss:gui/main
 function hss:block/pot_farmer/main
 function hss:modules/rubbish_weapons/main
-function hss:block/smeltery/main
 function hss:structures/main
 function hss:modules/tree_fall/main
 function hss:modules/ultra_hoe/main

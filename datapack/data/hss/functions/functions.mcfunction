@@ -5,9 +5,12 @@ function hss:data/main
 function hss:block/advanced_hopper/main
 function hss:modules/biohazard/main
 function hss:modules/chested_boat/main
-function hss:block/duplicate_ores/main
+function hss:block/custom_benches/main
+execute if score tickCount count matches 0 run function hss:block/custom_brewing/main
+function hss:block/saw_cutter/main
 function hss:enviroment/main
 function hss:block/fish_trap/main
+execute if score tickCount count matches 0 run function hss:block/smeltery/main
 function hss:modules/tome/main
 
 scoreboard players add tickCount count 1

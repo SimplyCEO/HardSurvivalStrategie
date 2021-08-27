@@ -14,6 +14,8 @@ HardSurvivalStrategie-1.7.0-concept-12
 - Changed Pillager loot table to get 5/100 for M1014 parts, 3/100 for FAL parts, and 1/100 for AGLC parts.
 - Custom benches now accept more than one recipe per time.
 - Enviroment textures changes. 3D sun and moon, more rain, more snow, black End sky, blue End Stone (now Moon Stone).
+- Now it's possible to stack items in Advanced Workbench, Brewing Pit, Crunching Table, Smelter, Saw Cutter, and Pole.
+- Now craftings with the Iron Pit takes 4 seconds for each and others 1 second for each.
 
 ## Bug Fixes ##
 
@@ -29,3 +31,4 @@ HardSurvivalStrategie-1.7.0-concept-12
 - Tag 'grass_break' added for entity_type, complementing lightweight mobs or datapack based mobs.
 - Added item image 'mojang_fix_it.png' for those broken items that Mojang makes, such as the spyglass.
 - Added the 'Makefile' for easy build. Options are 'build' and 'remove'.
+- Saw Cutter folder changed to 'saw_cutter'.
