@@ -86,10 +86,11 @@ scoreboard objectives add is9mmEmpty dummy ["GC 9mm Chamber"]
 scoreboard objectives add 9mmBullets dummy ["GC 9mm Waste Count"]
 scoreboard objectives add 9mmTiming dummy ["GC 9mm Timing"]
 scoreboard objectives add sniperAmmo dummy ["Sniper bullets"]
+scoreboard objectives add iglaAmmo dummy ["Igla Missiles"]
 scoreboard objectives add isSniperEmpty dummy ["AGLC Chamber"]
 scoreboard objectives add sniperBullets dummy ["AGLC Waste Count"]
 scoreboard objectives add sniperTiming dummy ["AGLC Timing"]
-scoreboard objectives add missile dummy ["Missiles"]
+scoreboard objectives add iglaMissiles dummy ["Igla Waste Count"]
 scoreboard objectives add isIglaEmpty dummy ["Igla Chamber"]
 scoreboard objectives add missilesCount dummy ["Igla Waste Count"]
 scoreboard objectives add iglaTiming dummy ["Igla Timing"]
@@ -120,12 +121,15 @@ scoreboard objectives add eatenP_Pie minecraft.used:minecraft.pumpkin_pie ["Pump
 scoreboard objectives add firstDrink dummy ["Already Drank"]
 scoreboard objectives add usedPearl minecraft.used:minecraft.ender_pearl ["Pearl Used"]
 scoreboard objectives add usedScope minecraft.used:minecraft.spyglass ["Scope Used"]
+scoreboard objectives add toolDamage dummy ["Tool Damage"]
+scoreboard objectives add toolID dummy ["Tool ID"]
 
 scoreboard objectives add killedIllusioner minecraft.killed:minecraft.illusioner ["Killed Illusioner"]
 
 scoreboard objectives add thirstBool dummy ["Thirst Boolean"]
 
 scoreboard objectives add debug dummy ["Debug"]
+scoreboard objectives add verbose dummy ["Verbose"]
 
 #tellraw @a "§4§lAttention! §6The §3datapack§6 got §3downgraded§6! If you feel that something is incorrect, please, quicky §2update§6 to the latest version. §f[§7§lHardSurvivalStrategie 1.7.0 Concept 11§f]"
 

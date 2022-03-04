@@ -1,1 +1,1 @@
-execute as @e[type=item] at @s if block ~ ~ ~ cauldron if block ~ ~1 ~ #minecraft:trapdoors[open=false] if block ~ ~-1 ~ lava run function hss:block/smeltery/check_recipe
+execute as @e[type=minecraft:item] at @s if block ~ ~ ~ minecraft:cauldron if block ~ ~1 ~ #minecraft:trapdoors[open=false] if block ~ ~-1 ~ minecraft:lava run function hss:block/smeltery/check_recipe

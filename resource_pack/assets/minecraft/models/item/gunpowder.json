@@ -7,6 +7,6 @@
         {"predicate": {"custom_model_data":1}, "model":"item/7_62mm"},
         {"predicate": {"custom_model_data":2}, "model":"item/12_gauge"},
         {"predicate": {"custom_model_data":3}, "model":"item/9mm"},
-        {"predicate": {"custom_model_data":4}, "model":"item/missile"}
+        {"predicate": {"custom_model_data":4}, "model":"item/igla_missile"}
       ]
 }

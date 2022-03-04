@@ -1,4 +1,4 @@
-#execute as @e[type=player,scores={debug=1}] run tellraw @s "[§b§lMODULE§f] Module§9 hss:modules/anti_bugs/main §floaded."
+execute as @e[type=player,scores={debug=1,verbose=1}] run tellraw @s "[§b§lMODULE§f] Module§9 hss:modules/anti_bugs/main §floaded."
 
 execute as @e[type=boat] at @s if entity @e[type=minecart,distance=..1,sort=nearest] run function hss:modules/anti_bugs/boat_bug
 execute as @e[type=!item] at @s if block ~ ~ ~ #minecraft:cauldrons if block ~ ~-1 ~ #minecraft:campfires[lit=true] unless entity @e[type=experience_orb,distance=..1,sort=nearest] run function hss:modules/anti_bugs/brewing_pit

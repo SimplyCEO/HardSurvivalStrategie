@@ -8,6 +8,7 @@
       "minecraft:skeleton",
       "minecraft:stray",
       "minecraft:wither_skeleton",
-      "minecraft:wither"
+      "minecraft:wither",
+      "minecraft:husk"
     ]
   }

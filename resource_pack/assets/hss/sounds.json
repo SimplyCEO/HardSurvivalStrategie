@@ -83,10 +83,10 @@
       }
     ]
   },
-  "dry_fire.aglc": {
+  "dry_fire.gc_9mm": {
     "sounds": [
       {
-        "name": "rubbish_weapons/aglc_dry_fire"
+        "name": "rubbish_weapons/gc_9mm_dry_fire"
       }
     ]
   },
@@ -118,10 +118,45 @@
       }
     ]
   },
-  "dry_fire.gc_9mm": {
+  "dry_fire.aglc": {
     "sounds": [
       {
-        "name": "rubbish_weapons/gc_9mm_dry_fire"
+        "name": "rubbish_weapons/aglc_dry_fire"
+      }
+    ]
+  },
+  "load.igla": {
+    "sounds": [
+      {
+        "name": "rubbish_weapons/fal_load"
+      }
+    ]
+  },
+  "fire.igla": {
+    "sounds": [
+      {
+        "name": "rubbish_weapons/igla_fire"
+      }
+    ]
+  },
+  "unload.igla": {
+    "sounds": [
+      {
+        "name": "rubbish_weapons/igla_unload"
+      }
+    ]
+  },
+  "missile.igla": {
+    "sounds": [
+      {
+        "name": "rubbish_weapons/igla_missile"
+      }
+    ]
+  },
+  "missile.igla.inbound": {
+    "sounds": [
+      {
+        "name": "rubbish_weapons/igla_missile_inbound"
       }
     ]
   },

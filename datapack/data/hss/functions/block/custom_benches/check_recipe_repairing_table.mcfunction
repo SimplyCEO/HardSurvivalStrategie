@@ -1,10 +1,10 @@
 # Tagged
 
-execute as @e[type=item,nbt={Item:{tag:{copperAxe:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:netherite_scrap",Count:3b}}] run function hss:recipes/repairing_table/copper_axe
-execute as @e[type=item,nbt={Item:{tag:{copperHoe:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:netherite_scrap",Count:2b}}] run function hss:recipes/repairing_table/copper_hoe
-execute as @e[type=item,nbt={Item:{tag:{copperPickaxe:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:netherite_scrap",Count:3b}}] run function hss:recipes/repairing_table/copper_pickaxe
-execute as @e[type=item,nbt={Item:{tag:{copperShovel:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:netherite_scrap",Count:1b}}] run function hss:recipes/repairing_table/copper_shovel
-execute as @e[type=item,nbt={Item:{tag:{copperSword:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:netherite_scrap",Count:1b}}] run function hss:recipes/repairing_table/copper_sword
+execute as @e[type=item,nbt={Item:{tag:{copperAxe:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:copper_ingot",Count:3b}}] run function hss:recipes/repairing_table/copper_axe
+execute as @e[type=item,nbt={Item:{tag:{copperHoe:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:copper_ingot",Count:2b}}] run function hss:recipes/repairing_table/copper_hoe
+execute as @e[type=item,nbt={Item:{tag:{copperPickaxe:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:copper_ingot",Count:3b}}] run function hss:recipes/repairing_table/copper_pickaxe
+execute as @e[type=item,nbt={Item:{tag:{copperShovel:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:copper_ingot",Count:1b}}] run function hss:recipes/repairing_table/copper_shovel
+execute as @e[type=item,nbt={Item:{tag:{copperSword:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:copper_ingot",Count:1b}}] run function hss:recipes/repairing_table/copper_sword
 
 execute as @e[type=item,nbt={Item:{tag:{steelAxe:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{tag:{steelIngot:1b},Count:3b}}] run function hss:recipes/repairing_table/steel_axe
 execute as @e[type=item,nbt={Item:{tag:{steelHoe:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{tag:{steelIngot:1b},Count:2b}}] run function hss:recipes/repairing_table/steel_hoe

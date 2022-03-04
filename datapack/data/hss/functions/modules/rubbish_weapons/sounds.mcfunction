@@ -10,6 +10,5 @@ execute if predicate hss:is_gc_9mm if entity @s[scores={is9mmEmpty=1,9mmAmmo=0}]
 execute if predicate hss:is_aglc if entity @s[scores={isSneaking=1..,usedScope=1..,sniperTiming=0}] run playsound hss:fire.aglc player @a ~ ~ ~
 execute if predicate hss:is_aglc if entity @s[scores={isSniperEmpty=1,sniperAmmo=0}] run playsound hss:dry_fire.aglc player @a ~ ~ ~
 
-execute if predicate hss:is_igla if entity @s[tag=!iglaLoaded,scores={iglaAmmo=1..}] run playsound hss:load.igla player @a ~ ~ ~
-execute if predicate hss:is_igla if entity @s[scores={usedGun=1..}] run playsound hss:fire.igla player @a ~ ~ ~
-execute if predicate hss:is_igla if entity @s[scores={iglaAmmo=0}] run playsound hss:unload.igla player @a ~ ~ ~
+execute if predicate hss:is_igla if entity @s[scores={usedGun=1..,iglaTiming=0}] run playsound hss:fire.igla player @a ~ ~ ~
+execute if predicate hss:is_igla if entity @s[scores={isIglaEmpty=1,iglaAmmo=0}] run playsound hss:dry_fire.igla player @a ~ ~ ~

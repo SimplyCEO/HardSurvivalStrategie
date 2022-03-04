@@ -1,4 +1,4 @@
-#execute as @e[type=player,scores={debug=1}] run tellraw @s "[§b§lMODULE§f] Module loaded."
+execute as @e[type=player,scores={debug=1,verbose=1}] run tellraw @s "[§b§lMODULE§f] Module loaded."
 
 function hss:block/advanced_crafting/main
 function hss:modules/anti_bugs/main
@@ -10,6 +10,7 @@ function hss:gui/main
 function hss:block/pot_farmer/main
 function hss:modules/rubbish_weapons/main
 function hss:structures/main
+execute as @e[type=player] run function hss:modules/tool_break/main
 function hss:modules/tree_fall/main
 function hss:modules/ultra_hoe/main
 function hss:modules/vein_mine/main

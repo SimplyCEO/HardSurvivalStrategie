@@ -1,4 +1,4 @@
-#execute as @e[type=player,scores={debug=1}] run tellraw @s "[§2§lFUNCTION§f] Loaded function."
+execute as @e[type=player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lFUNCTION§f] Loaded function."
 
 function hss:data/main
 

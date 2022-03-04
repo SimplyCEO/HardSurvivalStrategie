@@ -1,4 +1,4 @@
-#execute as @e[type=player,scores={debug=1}] run tellraw @s "[§b§lMODULE§f] Module§9 hss:modules/reset_scores §floaded."
+execute as @e[type=player,scores={debug=1,verbose=1}] run tellraw @s "[§b§lMODULE§f] Module§9 hss:modules/reset_scores §floaded."
 
 execute if score @s usedGun matches 1.. run scoreboard players set @s usedGun 0
 execute if score @s loadedGun matches 1.. run scoreboard players set @s loadedGun 0
@@ -8,11 +8,11 @@ execute unless score @s gaugeTiming matches 0 run scoreboard players remove @s g
 execute unless score @s 9mmTiming matches 0 run scoreboard players remove @s 9mmTiming 1
 execute unless score @s sniperTiming matches 0 run scoreboard players remove @s sniperTiming 1
 execute unless score @s iglaTiming matches 0 run scoreboard players remove @s iglaTiming 1
-execute if score @s natoTiming matches ..-1 run scoreboard players remove @s natoTiming 0
-execute if score @s gaugeTiming matches ..-1 run scoreboard players remove @s gaugeTiming 0
-execute if score @s 9mmTiming matches ..-1 run scoreboard players remove @s 9mmTiming 0
-execute if score @s sniperTiming matches ..-1 run scoreboard players remove @s sniperTiming 0
-execute if score @s iglaTiming matches ..-1 run scoreboard players remove @s iglaTiming 0
+execute if score @s natoTiming matches ..-1 run scoreboard players set @s natoTiming 0
+execute if score @s gaugeTiming matches ..-1 run scoreboard players set @s gaugeTiming 0
+execute if score @s 9mmTiming matches ..-1 run scoreboard players set @s 9mmTiming 0
+execute if score @s sniperTiming matches ..-1 run scoreboard players set @s sniperTiming 0
+execute if score @s iglaTiming matches ..-1 run scoreboard players set @s iglaTiming 0
 execute if score @s isSneaking matches 1.. run scoreboard players reset @s isSneaking
 execute if score @s isRunning matches 1.. run scoreboard players reset @s isRunning
 execute if score @s isJumping matches 1.. run scoreboard players reset @s isJumping
@@ -54,3 +54,5 @@ execute if score @s[tag=9mmLoaded,scores={9mmAmmo=0}] is9mmEmpty matches 1 run t
 execute if score @s[tag=9mmLoaded,scores={9mmAmmo=0}] is9mmEmpty matches 1 run tag @s remove 9mmLoaded
 execute if score @s[tag=sniperLoaded,scores={sniperAmmo=0}] isSniperEmpty matches 1 run tag @s remove sniperPlay
 execute if score @s[tag=sniperLoaded,scores={sniperAmmo=0}] isSniperEmpty matches 1 run tag @s remove sniperLoaded
+execute if score @s[tag=iglaLoaded,scores={iglaAmmo=0}] isIglaEmpty matches 1 run tag @s remove iglaPlay
+execute if score @s[tag=iglaLoaded,scores={iglaAmmo=0}] isIglaEmpty matches 1 run tag @s remove iglaLoaded

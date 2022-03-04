@@ -1,3 +1,5 @@
+execute as @e[type=player,scores={debug=1}] run tellraw @s "[§b§lMODULE§f] Module§9 hss:recipes/combiner/honeycomb_block §floaded."
+
 playsound entity.bee.hurt block @a ~ ~ ~
 item replace block ~ ~ ~ container.6 with honeycomb_block{concentratedHoneycomb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.concentrated_honeycomb","color":"green","italic":false}'}}
 item replace block ~ ~ ~ container.14 with honeycomb_block{concentratedHoneycomb:1b,Enchantments:[{id:1,lvl:1}],display:{Name:'{"translate":"item.hss.concentrated_honeycomb","color":"green","italic":false}'}}

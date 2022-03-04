@@ -1,12 +1,14 @@
 HardSurvivalStrategie-1.7.0-concept-12
+Because of some problems, i had to give a time for the project. Now work is needed!
 
 ## Adittions ##
 
 - Added Stationary Pearl. Sneak peak.
 - Added loot table for Illusioner.
 - Added AGLC. Different from other weapons, the recipe use the Spyglass on top.
-- Added bullets. Each made with iron_nugget, gunpowder, and gold_nugget.
+- Added bullets. Each made with Iron Nugget, Gunpowder, and Gold Nugget.
 - Added Dimension Changer. Whenever you fall into the void, the dimension is changed based in logic.
+- Added tool breaking. Whenever your tool is almost to break, you will receive some ammount of Mining Fatigue.
 
 ## Changes ##
 
@@ -25,10 +27,15 @@ HardSurvivalStrategie-1.7.0-concept-12
 - Load one gun will automatically load another gun when hold.
 - Unused 'bullet_travel' folder.
 - Script not identifying whenever the player's weapon is empty or not.
+- Copper items not getting repaired.
+- Shulker Box not identifying it's own type of data (new function in 1.18).
+- Husk not being recognized as undead.
+- Duplicating recipes under Crunching Table.
 
 ## For developers ##
 
 - Tag 'grass_break' added for entity_type, complementing lightweight mobs or datapack based mobs.
 - Added item image 'mojang_fix_it.png' for those broken items that Mojang makes, such as the spyglass.
-- Added the 'Makefile' for easy build. Options are 'build' and 'remove'.
+- Added the 'Makefile' for easy build. Options are 'build' and 'clean'.
 - Saw Cutter folder changed to 'saw_cutter'.
+- Added verbose logs. Activate using `function hss:verbose`.
