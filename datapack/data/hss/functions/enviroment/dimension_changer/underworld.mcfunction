@@ -1,1 +1,0 @@
-execute if score @s posY matches 288.. run execute in minecraft:overworld run tp @s ~ -32 ~

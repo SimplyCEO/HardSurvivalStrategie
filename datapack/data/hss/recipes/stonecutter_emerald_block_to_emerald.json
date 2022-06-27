@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:emerald_block"
-    },
-    "result": "minecraft:nether_star",
-    "group": "Ruby",
-    "count": 9
-}

@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:crimson_stem"
-    },
-    "result": "minecraft:crimson_door",
-    "group": "Crimson",
-    "count": 1
-}

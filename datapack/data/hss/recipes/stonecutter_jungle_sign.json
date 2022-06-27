@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:jungle_log"
-    },
-    "result": "minecraft:jungle_sign",
-    "group": "Jungle",
-    "count": 1
-}

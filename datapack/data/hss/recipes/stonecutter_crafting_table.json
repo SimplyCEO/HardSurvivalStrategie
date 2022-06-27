@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "tag": "hss:all_logs"
-    },
-    "result": "minecraft:crafting_table",
-    "group": "Workbench",
-    "count": 1
-}

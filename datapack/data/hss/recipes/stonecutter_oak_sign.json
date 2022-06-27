@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:oak_log"
-    },
-    "result": "minecraft:oak_sign",
-    "group": "Oak",
-    "count": 1
-}

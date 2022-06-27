@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:lapis_block"
-    },
-    "result": "minecraft:lapis_lazuli",
-    "group": "Lapis Lazuli",
-    "count": 9
-}

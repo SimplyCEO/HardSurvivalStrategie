@@ -1,1 +1,0 @@
-execute as @e[tag=!stationary,type=ender_pearl,distance=..5,sort=nearest] run tag @s add stationary

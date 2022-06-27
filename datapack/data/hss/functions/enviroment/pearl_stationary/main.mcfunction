@@ -1,1 +1,0 @@
-execute at @e[tag=stationary] run function hss:enviroment/pearl_stationary/stop
