@@ -1,3 +1,5 @@
+execute as @e[type=player,scores={debug=1}] run tellraw @s "[§b§lMODULE§f] Module§9 hss:modules/rubbish_weapons/detect_gun §floaded."
+
 execute if score @s natoTiming matches ..0 if predicate hss:is_fal run function hss:modules/rubbish_weapons/fal/main
 execute if score @s gaugeTiming matches ..0 if predicate hss:is_m1014 run function hss:modules/rubbish_weapons/m1014/main
 execute if score @s 9mmTiming matches ..0 if predicate hss:is_gc_9mm run function hss:modules/rubbish_weapons/gc_9mm/main

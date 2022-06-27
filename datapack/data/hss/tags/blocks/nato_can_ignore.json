@@ -23,7 +23,7 @@
         "minecraft:snow",
         "minecraft:water",
         "minecraft:lava",
-        "#minecraft:carpets",
+        "#minecraft:wool_carpets",
         "#minecraft:wool",
         "minecraft:bamboo_sapling",
         "#hss:oak_related",
