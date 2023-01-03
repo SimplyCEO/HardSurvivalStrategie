@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "N##",
+        " ##",
+        "N##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dark_oak_planks"
+        },
+        "N": {
+            "item": "minecraft:iron_nugget"
+        }
+    },
+    "result": {
+        "item": "minecraft:dark_oak_door",
+        "count": 1
+    },
+    "group": "door"
+}
