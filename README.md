@@ -1,21 +1,34 @@
-# HardSurvivalStrategie
-Minecraft Datapack with realistic crafting and behaviour.
+HardSurvivalStrategie
+=====================
 
-The project is still in Alpha, so, there are things to update. Also, the project will continually getting updated when Minecraft get a official update itself.
+HSS is a Minecraft data pack with realistic behaviour and crafting.
 
-## Requirements ##
-This Data Pack needs the [HardSurvivalStrategie Resource Pack](https://github.com/KanuX-14/HardSurvivalStrategie_ResourcePack.git) to work well.
+The project is still in Alpha, so, there are things to add/update.<br>
+Also, the project will continuously getting updated when Minecraft get a official update itself.
 
-## Installation ##
-- Data Pack:
+Reference about the data pack can be seen through the [wiki](https://github.com/SimplyCEO/HardSurvivalStrategie/wiki).
 
-Move the Data Pack into your world's datapack folder (.minecraft/saves/WORLD/datapacks/). Be sure that the Data Pack is true root (data, pack.mcmeta) inside a .zip archive.
+Requirements
+------------
 
-- Resource Pack:
+This data pack needs the [HardSurvivalStrategie Resource Pack](/resource_pack/) to work well.
 
-Move the Resource Pack into your minecraft's resourcepack folder (.minecraft/resourcepacks/). Be sure that the Resource Pack is true root (assets, pack.mcmeta, pack.png) inside a .zip archive.
+Installation
+------------
 
-## Features ##
+- Data pack:
+
+Move the data pack into your world's `datapacks` folder `.minecraft/saves/WORLD/datapacks/`.<br>
+Be sure that the data pack is true root (eg.: `data`, `pack.mcmeta`) inside a ZIP archive.
+
+- Resource pack:
+
+Move the resource pack into your minecraft's `resourcepacks` folder `.minecraft/resourcepacks/`.<br>
+Be sure that the resource pack is true root (eg.: `assets`, `pack.mcmeta`, `pack.png`) inside a ZIP archive.
+
+Features
+--------
+
 - New crafting path! Now it's more harder to upgrade your stuff. Get ready to survive with wooden tools and grinding to reach to the top!
 
 - New ores! Counting with Copper, Ruby, Sapphire, and Cobalt.
@@ -24,6 +37,6 @@ Move the Resource Pack into your minecraft's resourcepack folder (.minecraft/res
 
 - New survival functions. The stone age never got more harder than this one.
 
-- Coins? Well, not yet. In some future updates the ability to get coins will be implemented... so... you shouldn't use Villager Trading.
+- Why using emeralds when you can use coins? WIP: Villagers are still vanilla.
 
 - Spell books! Now added to cast mana to get extra powers while holding it in second hand.
