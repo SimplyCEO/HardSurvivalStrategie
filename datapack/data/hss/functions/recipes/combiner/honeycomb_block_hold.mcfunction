@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute as @e[type=player,scores={debug=1}] run tellraw @s "[§b§lMODULE§f] Module§9 hss:recipes/combiner/honeycomb_block_hold §floaded."
 
 execute unless score @s combinerStage matches 1.. run item replace block ~ ~ ~ container.4 with clock{GUI:1b,CustomModelData:100,display:{Name:'{"text":""}'}}

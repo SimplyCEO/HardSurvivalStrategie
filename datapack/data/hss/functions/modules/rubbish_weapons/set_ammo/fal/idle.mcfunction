@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute store result score player_nato_count_ammo count run scoreboard players get @s natoAmmo 
 execute align xyz run summon armor_stand ~ ~ ~ {Small:1b,Marker:1b,Invulnerable:1b,Invisible:1b,Silent:1b,NoGravity:1b,ArmorItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{rubbishGuns:1b,fal:1b,isEmpty:0b,munition:0b,durability:0b,CustomModelData:1,display:{Name:'[{"translate":"item.hss.fal","color":"white","italic":false}]'}}},{},{},{}],Tags:["player_nato_count_ammo"]}
 execute store result entity @e[tag=player_nato_count_ammo,distance=..1,limit=1] ArmorItems[0].tag.munition byte 1 run scoreboard players get @s natoAmmo

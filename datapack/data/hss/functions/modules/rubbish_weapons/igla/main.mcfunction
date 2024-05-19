@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute unless score @s isIglaEmpty matches 0 run scoreboard players set @s isIglaEmpty 1
 execute if entity @s[tag=!iglaLoaded,scores={isIglaEmpty=1}] store result score @s iglaAmmo run clear @s gunpowder{missile:1b} 1
 execute if entity @s[scores={isIglaEmpty=1,iglaAmmo=1..}] run scoreboard players set @s isIglaEmpty 0

@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute at @s positioned ~ ~.5 ~ if block ^ ^ ^.1 #hss:transparent_blockstate at @s run tp @s ^ ^ ^.1 ~ ~.009
 execute at @s positioned ~ ~.5 ~ run particle dust 1.0 1.0 1.0 0.8
 execute at @s positioned ~ ~.5 ~ if block ^ ^ ^.1 #hss:transparent_blockstate at @s run tp @s ^ ^ ^.1 ~ ~.009

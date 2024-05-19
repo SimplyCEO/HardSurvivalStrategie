@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute as @e[type=player,scores={debug=1}] run tellraw @s "[§2§lCHESTED BOAT§f] Module§9 hss:modules/chested_boat/update_boat §floaded."
 
 kill @e[type=boat,distance=..2,sort=nearest]

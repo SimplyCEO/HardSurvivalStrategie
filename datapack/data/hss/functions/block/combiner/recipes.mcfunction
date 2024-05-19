@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 scoreboard players add combinerCount count 1
 execute unless data block ~ ~ ~ Items[{Slot:22b,tag:{GUI:1b},Count:1b}] run function hss:block/combiner/restart
 execute unless data block ~ ~ ~ Items[{Slot:13b,tag:{GUI:1b},Count:1b}] run function hss:block/combiner/restart

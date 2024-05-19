@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 scoreboard players add @s 9mmBullets 1
 scoreboard players set @s 9mmTiming 1
 execute as @s[scores={9mmBullets=630..}] run function hss:modules/rubbish_weapons/gc_9mm/break_gun

@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute unless score @s is9mmEmpty matches 0 run scoreboard players set @s is9mmEmpty 1
 execute if entity @s[tag=!9mmLoaded,scores={is9mmEmpty=1}] store result score @s 9mmAmmo run clear @s gunpowder{9mm:1b} 15
 execute if entity @s[scores={is9mmEmpty=1,9mmAmmo=1..}] run scoreboard players set @s is9mmEmpty 0

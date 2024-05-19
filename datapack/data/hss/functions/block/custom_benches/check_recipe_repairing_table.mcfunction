@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 # Tagged
 
 execute as @e[type=item,nbt={Item:{tag:{copperAxe:1b},Count:1b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:copper_ingot",Count:3b}}] run function hss:recipes/repairing_table/copper_axe

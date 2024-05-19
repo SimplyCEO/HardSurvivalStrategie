@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute if score @s usedW_Hoe matches 1.. run tag @s add playerChecked
 execute if score @s usedG_Hoe matches 1.. run tag @s add playerChecked
 execute if score @s usedS_Hoe matches 1.. run tag @s add playerChecked

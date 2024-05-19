@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 scoreboard players add @s sniperBullets 1
 scoreboard players set @s sniperTiming 9
 execute as @s[scores={sniperBullets=1800..}] run function hss:modules/rubbish_weapons/aglc/break_gun

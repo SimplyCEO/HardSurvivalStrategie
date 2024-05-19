@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute if block ~ ~ ~ potted_oak_sapling run summon item ~ ~.5 ~ {Item:{id:"minecraft:oak_log",Count:1b}}
 execute if block ~ ~ ~ potted_spruce_sapling run summon item ~ ~.5 ~ {Item:{id:"minecraft:spruce_log",Count:1b}}
 execute if block ~ ~ ~ potted_birch_sapling run summon item ~ ~.5 ~ {Item:{id:"minecraft:birch_log",Count:1b}}

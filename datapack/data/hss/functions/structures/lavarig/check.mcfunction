@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute store result score @s posY run data get entity @s Pos[1]
 execute store result score @s age run data get entity @s Age
 execute if block ~3 ~-1 ~ lava run scoreboard players add @s count 1

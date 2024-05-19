@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute store result score @s count run data get entity @s Item.Count
 
 execute if score @s[nbt={Item:{id:"minecraft:iron_ore"}}] count matches 1.. run function hss:recipes/saw_cutter/raw_iron

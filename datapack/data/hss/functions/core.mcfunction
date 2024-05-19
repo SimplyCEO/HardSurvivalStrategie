@@ -1,7 +1,10 @@
-# All the scripts are made by myself.
-# GitHub: https://github.com/KanuX-14
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
 #
-# This is a open-source project. Anyone can modify, fork, or create another version of this datapack.
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
 
 #execute as @e[type=player,scores={debug=1}] run tellraw @s "[§4§lCORE§f] Loop created."
 

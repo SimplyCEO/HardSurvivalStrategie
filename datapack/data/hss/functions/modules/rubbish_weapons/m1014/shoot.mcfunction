@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 scoreboard players add @s gaugeBullets 1
 scoreboard players set @s gaugeTiming 3
 execute as @s[scores={gaugeBullets=990..}] run function hss:modules/rubbish_weapons/m1014/break_gun

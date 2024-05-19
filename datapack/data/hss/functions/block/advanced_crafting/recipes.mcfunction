@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute store result score @s slot0 run data get block ~ ~ ~ Items[{Slot:1b}].Count
 execute store result score @s slot1 run data get block ~ ~ ~ Items[{Slot:2b}].Count
 execute store result score @s slot2 run data get block ~ ~ ~ Items[{Slot:3b}].Count

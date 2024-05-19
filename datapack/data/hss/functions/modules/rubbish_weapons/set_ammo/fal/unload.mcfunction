@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute if score player_gun_slot count matches 0 run item replace entity @s hotbar.0 with carrot_on_a_stick{rubbishGuns:1b,fal:1b,isEmpty:1b,munition:0b,durability:0b,CustomModelData:1,display:{Name:'{"translate":"item.hss.fal","color":"white","italic":false}',Lore:['{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}}
 execute if score player_gun_slot count matches 1 run item replace entity @s hotbar.1 with carrot_on_a_stick{rubbishGuns:1b,fal:1b,isEmpty:1b,munition:0b,durability:0b,CustomModelData:1,display:{Name:'{"translate":"item.hss.fal","color":"white","italic":false}',Lore:['{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}}
 execute if score player_gun_slot count matches 2 run item replace entity @s hotbar.2 with carrot_on_a_stick{rubbishGuns:1b,fal:1b,isEmpty:1b,munition:0b,durability:0b,CustomModelData:1,display:{Name:'{"translate":"item.hss.fal","color":"white","italic":false}',Lore:['{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}}

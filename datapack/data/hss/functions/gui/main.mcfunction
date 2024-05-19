@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute store result score dayTime dayTime run time query daytime
 execute if score dayTime dayTime matches 0..3000 run function hss:gui/day
 execute if score dayTime dayTime matches 3001..9499 run function hss:gui/afternoon

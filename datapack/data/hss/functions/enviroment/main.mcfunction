@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute as @e[type=player,scores={isDrinking=1..}] run function hss:enviroment/thirst/sip
 execute as @e[type=player,scores={thirstCount=0..}] run function hss:enviroment/thirst/main
 execute at @e[type=!#hss:grass_break] unless block ~ ~ ~ #minecraft:mineable/axe unless block ~ ~ ~ #minecraft:mineable/pickaxe unless block ~ ~ ~ #minecraft:mineable/shovel unless block ~ ~ ~ #minecraft:carpets unless block ~ ~ ~ #minecraft:beds unless block ~ ~ ~ water if block ~ ~-1 ~ #minecraft:leaves run setblock ~ ~-1 ~ air destroy

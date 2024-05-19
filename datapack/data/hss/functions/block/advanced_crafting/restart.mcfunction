@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute if block ~ ~-1 ~ hopper run setblock ~ ~-1 ~ air destroy
 execute positioned ~ ~-1 ~ as @e[type=hopper_minecart,distance=..1,sort=nearest] run kill @s
 item replace block ~ ~ ~ container.0 with clock{GUI:1b,CustomModelData:115,display:{Name:'{"text":""}'}}

@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute unless score @s isSniperEmpty matches 0 run scoreboard players set @s isSniperEmpty 1
 execute if entity @s[tag=!sniperLoaded,scores={isSniperEmpty=1}] store result score @s sniperAmmo run clear @s gunpowder{7_62mm:1b} 5
 execute if entity @s[scores={isSniperEmpty=1,sniperAmmo=1..}] run scoreboard players set @s isSniperEmpty 0

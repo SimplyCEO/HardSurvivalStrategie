@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute store result score @s count run data get entity @s Item.Count
 
 execute if score @s[type=item,nbt={Item:{id:"minecraft:glass_bottle"}}] count matches 1.. if score @e[type=item,distance=..1,nbt={Item:{id:"minecraft:wheat"}},sort=nearest,limit=1] count matches 1.. if score @e[type=item,distance=..1,nbt={Item:{id:"minecraft:bone_meal"}},sort=nearest,limit=1] count matches 1.. if score @e[type=item,distance=..1,nbt={Item:{id:"minecraft:red_mushroom"}},sort=nearest,limit=1] count matches 1.. run function hss:recipes/brewing/beer

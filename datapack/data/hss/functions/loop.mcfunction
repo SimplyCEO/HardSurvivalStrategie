@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute as @e[tag=natoBullet] at @s run function hss:modules/rubbish_weapons/fire/fal
 execute as @e[tag=gaugeBullet] at @s run function hss:modules/rubbish_weapons/fire/m1014
 execute as @e[tag=9mmBullet] at @s run function hss:modules/rubbish_weapons/fire/gc_9mm

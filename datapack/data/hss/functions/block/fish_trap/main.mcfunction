@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 scoreboard players add waterCount count 1
 execute as @e[type=item,nbt={Item:{tag:{fishTrap:1b},Count:1b}},tag=!placed] at @s if block ~ ~ ~ water if block ~-2 ~-1 ~-2 water if block ~-2 ~-1 ~-1 water if block ~-2 ~-1 ~ water if block ~-2 ~-1 ~1 water if block ~-2 ~-1 ~2 water if block ~-1 ~-1 ~-2 water if block ~-1 ~-1 ~2 water if block ~ ~-1 ~-2 water if block ~ ~-1 ~2 water if block ~1 ~-1 ~-2 water if block ~1 ~-1 ~2 water if block ~2 ~-1 ~-2 water if block ~2 ~-1 ~-1 water if block ~2 ~-1 ~ water if block ~2 ~-1 ~1 water if block ~2 ~-1 ~2 water if block ~-2 ~ ~-2 water if block ~-2 ~ ~-1 water if block ~-2 ~ ~ water if block ~-2 ~ ~1 water if block ~-2 ~ ~2 water if block ~-1 ~ ~-2 water if block ~-1 ~ ~2 water if block ~ ~ ~-2 water if block ~ ~ ~2 water if block ~1 ~ ~-2 water if block ~1 ~ ~2 water if block ~2 ~ ~-2 water if block ~2 ~ ~-1 water if block ~2 ~ ~ water if block ~2 ~ ~1 water if block ~2 ~ ~2 water if block ~-2 ~1 ~-2 water if block ~-2 ~1 ~-1 water if block ~-2 ~1 ~ water if block ~-2 ~1 ~1 water if block ~-2 ~1 ~2 water if block ~-1 ~1 ~-2 water if block ~-1 ~1 ~2 water if block ~ ~1 ~-2 water if block ~ ~1 ~2 water if block ~1 ~1 ~-2 water if block ~1 ~1 ~2 water if block ~2 ~1 ~-2 water if block ~2 ~1 ~-1 water if block ~2 ~1 ~ water if block ~2 ~1 ~1 water if block ~2 ~1 ~2 water align xyz run function hss:block/fish_trap/place
 execute as @e[tag=fish_trap,tag=placed] at @s unless block ~ ~ ~ barrel run function hss:block/fish_trap/remove

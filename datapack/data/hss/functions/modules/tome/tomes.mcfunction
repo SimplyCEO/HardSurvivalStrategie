@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute if entity @e[nbt={Inventory:[{Slot:-106b,tag:{speedTome:1b}}]}] run effect give @s minecraft:speed 5 0 true
 execute if entity @e[nbt={Inventory:[{Slot:-106b,tag:{hasteTome:1b}}]}] run effect give @s minecraft:haste 5 0 true
 execute if entity @e[nbt={Inventory:[{Slot:-106b,tag:{strenghtTome:1b}}]}] run effect give @s minecraft:strength 5 0 true

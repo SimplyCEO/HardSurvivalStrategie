@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 tp @s ~ -64 ~
 setblock ~24 ~ ~24 structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"KanuX",rotation:"NONE",posX:-24,mode:"LOAD",posY:-17,sizeX:48,posZ:-24,integrity:1.0f,showair:0b,name:"hss:lavarig",sizeY:48,sizeZ:48,showboundingbox:1b}
 setblock ~24 ~1 ~24 redstone_block

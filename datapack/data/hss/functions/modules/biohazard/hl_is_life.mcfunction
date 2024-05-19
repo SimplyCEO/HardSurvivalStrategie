@@ -1,3 +1,11 @@
+# This script file is owned by SimplyCEO, from repository:
+# https://github.com/SimplyCEO/HardSurvivalStrategie
+#
+# You are allowed to translate, adapt, alter, transform, modify, or arrange it
+# according with the OSL-3.0 license.
+#
+# Thanks for playing!
+
 execute unless score @s hazardSuit matches 64 run tag @s remove HEV
 execute unless score @s hazardSuit matches 64 run tag @s remove HEV_boost
 effect give @s[tag=HEV] speed 5 1 true
