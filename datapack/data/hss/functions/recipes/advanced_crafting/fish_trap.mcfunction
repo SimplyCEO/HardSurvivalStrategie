@@ -6,6 +6,27 @@
 #
 # Thanks for playing!
 
+####################
+# ITEM INFORMATION #
+####################
+
+# TAG: fishTrap
+# PLACEHOLDER: minecraft:barrel (1)
+# RECIPE:
+#
+# |---|---|---|
+# | X | X | X |
+# |---|---|---|
+# | X | B | X |
+# |---|---|---|
+# | X | X | X |
+# |---|---|---|
+#
+# X = minecraft:oak_fence
+# B = minecraft:barrel
+#
+# Note: Blueprint needed.
+
 execute unless score @s slot9 matches 1.. run item replace block ~ ~ ~ container.15 with barrel{fishTrap:1b,CustomModelData:1,display:{Name:'{"translate":"item.hss.fish_trap","color":"white","italic":false}',Lore:['{"translate":"blueprint.hss.tier_2","color":"white","italic":false}']}}
 scoreboard players add @s slot9 1
 execute if score @s slot9 matches 1.. run execute store result block ~ ~ ~ Items[{Slot:15b}].Count int 1 run scoreboard players get @s slot9

@@ -6,6 +6,26 @@
 #
 # Thanks for playing!
 
+####################
+# ITEM INFORMATION #
+####################
+
+# TAG: copperPickaxe
+# PLACEHOLDER: minecraft:stone_pickaxe (1)
+# RECIPE:
+#
+# |---|---|---|
+# | X | X | X |
+# |---|---|---|
+# |   | B |   |
+# |---|---|---|
+# |   | / |   |
+# |---|---|---|
+#
+# X = minecraft:copper_ingot
+# B = minecraft:copper_block
+# / = Hardened Stick
+
 execute unless score @s slot9 matches 1.. run item replace block ~ ~ ~ container.15 with stone_pickaxe{copperPickaxe:1b,CustomModelData:1,display:{Name:'{"translate":"item.hss.copper_pickaxe","italic":false}'}}
 scoreboard players add @s slot9 1
 execute if score @s slot9 matches 1.. run execute store result block ~ ~ ~ Items[{Slot:15b}].Count int 1 run scoreboard players get @s slot9

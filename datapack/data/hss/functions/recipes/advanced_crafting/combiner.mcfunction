@@ -6,6 +6,28 @@
 #
 # Thanks for playing!
 
+####################
+# ITEM INFORMATION #
+####################
+
+# TAG: combiner
+# PLACEHOLDER: minecraft:ghast_spawn_egg (4)
+# RECIPE:
+#
+# |---|---|---|
+# | B | S | B |
+# |---|---|---|
+# | S | H | S |
+# |---|---|---|
+# | B | S | B |
+# |---|---|---|
+#
+# B = minecraft:bee_nest
+# S = minecraft:smooth_stone
+# H = minecraft:honey_block
+#
+# Note: Blueprint needed.
+
 execute unless score @s slot9 matches 1.. run item replace block ~ ~ ~ container.15 with ghast_spawn_egg{combiner:1b,display:{Name:'{"translate":"item.hss.combiner","color":"white","italic":false}',Lore:['{"translate":"blueprint.hss.tier_4","color":"white","italic":false}']},CustomModelData:4,EntityTag:{id:"minecraft:armor_stand",Silent:1b,Tags:["combiner_item"],Invulnerable:1b,Invisible:1b}}
 scoreboard players add @s slot9 1
 execute if score @s slot9 matches 1.. run execute store result block ~ ~ ~ Items[{Slot:15b}].Count int 1 run scoreboard players get @s slot9

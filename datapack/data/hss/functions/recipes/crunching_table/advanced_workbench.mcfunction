@@ -6,6 +6,28 @@
 #
 # Thanks for playing!
 
+####################
+# ITEM INFORMATION #
+####################
+
+# TAG: advancedWorkbench
+# PLACEHOLDER: minecraft:ghast_spawn_egg (1)
+# RECIPE:
+#
+#     |---|
+#     |XXX|
+#     |-+-|
+#       |
+#      XXX
+#
+#      CSA
+#     |---|
+#     |XXX|
+#
+# C = Workbench
+# S = Smithing Table
+# A = Anvil
+
 scoreboard players remove @s count 1
 execute unless score @s count matches 0 store result entity @s Item.Count int 1 run scoreboard players get @s count
 execute if score @s count matches 0 run kill @s

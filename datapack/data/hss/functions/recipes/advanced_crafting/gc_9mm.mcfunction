@@ -6,6 +6,28 @@
 #
 # Thanks for playing!
 
+####################
+# ITEM INFORMATION #
+####################
+
+# TAG: gc_9mm
+# PLACEHOLDER: minecraft:carrot_on_a_stick (4)
+# SECOND PLACEHOLDER: minecraft:crossbow (4)
+# RECIPE:
+#
+# |---|---|---|
+# | X | X | X |
+# |---|---|---|
+# |   | S | X |
+# |---|---|---|
+# |   | X |   |
+# |---|---|---|
+#
+# X = steelIngot
+# S = spring
+#
+# Note: Blueprint needed.
+
 execute unless score @s slot9 matches 1.. run item replace block ~ ~ ~ container.15 with carrot_on_a_stick{rubbishGuns:1b,gc_9mm:1b,CustomModelData:3,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.gc_9mm","color":"white","italic":false}','{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}}
 scoreboard players add @s slot9 1
 execute if score @s slot9 matches 1.. run execute store result block ~ ~ ~ Items[{Slot:15b}].Count int 1 run scoreboard players get @s slot9

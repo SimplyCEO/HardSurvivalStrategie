@@ -6,6 +6,21 @@
 #
 # Thanks for playing!
 
+####################
+# BLOCK UI MAPPING #
+####################
+
+#
+#       |-----|-----|-----|
+#       | 1b  | 2b  | 3b  |
+# |-----|-----|-----|-----|         \   |-----|
+# | 9b  | 10b | 11b | 12b |     -----]  | 15b |
+# |-----|-----|-----|-----|         /   |-----|
+#       | 19b | 20b | 21b |
+#       |-----|-----|-----|
+#
+# Note: 9b slot referes to blueprint, if needed.
+
 execute store result score @s slot0 run data get block ~ ~ ~ Items[{Slot:1b}].Count
 execute store result score @s slot1 run data get block ~ ~ ~ Items[{Slot:2b}].Count
 execute store result score @s slot2 run data get block ~ ~ ~ Items[{Slot:3b}].Count

@@ -6,6 +6,27 @@
 #
 # Thanks for playing!
 
+####################
+# ITEM INFORMATION #
+####################
+
+# TAG: missile
+# PLACEHOLDER: minecraft:gunpowder (4)
+# RECIPE:
+#
+# |---|---|---|
+# | X | I | X |
+# |---|---|---|
+# | X | G | X |
+# |---|---|---|
+# | X | F | X |
+# |---|---|---|
+#
+# X = steelIngot
+# I = minecraft:tnt
+# G = minecraft:gunpowder
+# F = minecraft:firework_rocket
+
 execute unless score @s slot9 matches 1.. run item replace block ~ ~ ~ container.15 with gunpowder{missile:1b,CustomModelData:4,display:{Name:'{"translate":"item.hss.missile","italic":false}'}}
 scoreboard players add @s slot9 1
 execute if score @s slot9 matches 1.. run execute store result block ~ ~ ~ Items[{Slot:15b}].Count int 1 run scoreboard players get @s slot9

@@ -6,6 +6,28 @@
 #
 # Thanks for playing!
 
+####################
+# ITEM INFORMATION #
+####################
+
+# TAG: rubyAxe
+# PLACEHOLDER: minecraft:netherite_axe (1)
+# RECIPE:
+#
+# |---|---|---|
+# | X | X |   |
+# |---|---|---|
+# | X | B |   |
+# |---|---|---|
+# |   | / |   |
+# |---|---|---|
+#
+# X = Ruby
+# B = Ruby Block
+# / = Hardened Stick
+#
+# Note: Blueprint needed.
+
 execute unless score @s slot9 matches 1.. run item replace block ~ ~ ~ container.15 with netherite_axe{rubyAxe:1b,CustomModelData:1,display:{Name:'{"translate":"item.hss.ruby_axe","italic":false}'}}
 scoreboard players add @s slot9 1
 execute if score @s slot9 matches 1.. run execute store result block ~ ~ ~ Items[{Slot:15b}].Count int 1 run scoreboard players get @s slot9
