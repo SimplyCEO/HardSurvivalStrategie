@@ -26,3 +26,4 @@ execute if score tickCount count matches 4 run scoreboard players set tickCount 
 
 execute if score counter seconds matches 1 run scoreboard players set @e[tag=nearestPlayer] count 0
 execute if score potFarmer count matches 601 run scoreboard players set potFarmer count 0
+execute if score tickCount count matches 0 run scoreboard players set @e[type=minecraft:player] usedGun 0
