@@ -6,7 +6,6 @@
 #
 # Thanks for playing!
 
-setblock 0 -64 0 minecraft:oak_sign
 execute store result score player_nato_count_ammo count run scoreboard players get @s natoAmmo 
 data modify block 0 -64 0 Text1 set value '[{"translate":"gui.hss.bullets","color":"gold","italic":false},{"text":": ","color":"white","italic":false},{"translate":"%s ","with":[{"score":{"name":"player_nato_count_ammo","objective":"count"}}],"color":"green","italic":false}]'
 execute align xyz run summon armor_stand ~ ~ ~ {Small:1b,Marker:1b,Invulnerable:1b,Invisible:1b,Silent:1b,NoGravity:1b,ArmorItems:[{id:"minecraft:crossbow",Count:1b,tag:{rubbishGuns:1b,fal:1b,isEmpty:0b,munition:0b,durability:0b,CustomModelData:1,display:{Name:'[{"translate":"gui.hss.bullets","color":"gold","italic":false},{"text":": ","color":"white","italic":false},{"translate":"int ","color":"green","italic":false}]'},ChargedProjectiles:[{id:"minecraft:gunpowder",Count:0b,tag:{display:{Name:'{"translate":"item.hss.7_62mm","color":"white","italic":false}'}}}],Charged:1b}},{},{},{}],Tags:["player_nato_count_ammo"]}
