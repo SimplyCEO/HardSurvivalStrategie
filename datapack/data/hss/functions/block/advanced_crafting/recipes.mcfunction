@@ -30,7 +30,6 @@ execute store result score @s slot5 run data get block ~ ~ ~ Items[{Slot:12b}].C
 execute store result score @s slot6 run data get block ~ ~ ~ Items[{Slot:19b}].Count
 execute store result score @s slot7 run data get block ~ ~ ~ Items[{Slot:20b}].Count
 execute store result score @s slot8 run data get block ~ ~ ~ Items[{Slot:21b}].Count
-execute store result score @s slot9 run data get block ~ ~ ~ Items[{Slot:15b}].Count
 
 execute if score @s slot0 matches 1.. run scoreboard players remove @s slot0 1
 execute if score @s slot1 matches 1.. run scoreboard players remove @s slot1 1

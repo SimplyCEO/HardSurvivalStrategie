@@ -27,9 +27,7 @@
 # G = minecraft:gunpowder
 # F = minecraft:firework_rocket
 
-execute unless score @s slot9 matches 1.. run item replace block ~ ~ ~ container.15 with gunpowder{missile:1b,CustomModelData:4,display:{Name:'{"translate":"item.hss.missile","italic":false}'}}
-scoreboard players add @s slot9 1
-execute if score @s slot9 matches 1.. run execute store result block ~ ~ ~ Items[{Slot:15b}].Count int 1 run scoreboard players get @s slot9
+item replace block ~ ~ ~ container.15 with minecraft:gunpowder{missile:1b,CustomModelData:4,display:{Name:'{"translate":"item.hss.missile","italic":false}'}}
 execute store result block ~ ~ ~ Items[{Slot:1b}].Count int 1 run scoreboard players get @s slot0
 execute store result block ~ ~ ~ Items[{Slot:2b}].Count int 1 run scoreboard players get @s slot1
 execute store result block ~ ~ ~ Items[{Slot:3b}].Count int 1 run scoreboard players get @s slot2
