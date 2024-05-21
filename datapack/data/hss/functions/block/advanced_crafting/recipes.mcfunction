@@ -21,6 +21,10 @@
 #
 # Note: 9b slot referes to blueprint, if needed.
 
+# Update crafting grid
+
+tag @s remove hss_item_preview
+
 execute store result score @s slot0 run data get block ~ ~ ~ Items[{Slot:1b}].Count
 execute store result score @s slot1 run data get block ~ ~ ~ Items[{Slot:2b}].Count
 execute store result score @s slot2 run data get block ~ ~ ~ Items[{Slot:3b}].Count
@@ -31,23 +35,20 @@ execute store result score @s slot6 run data get block ~ ~ ~ Items[{Slot:19b}].C
 execute store result score @s slot7 run data get block ~ ~ ~ Items[{Slot:20b}].Count
 execute store result score @s slot8 run data get block ~ ~ ~ Items[{Slot:21b}].Count
 
-execute if score @s slot0 matches 1.. run scoreboard players remove @s slot0 1
-execute if score @s slot1 matches 1.. run scoreboard players remove @s slot1 1
-execute if score @s slot2 matches 1.. run scoreboard players remove @s slot2 1
-execute if score @s slot3 matches 1.. run scoreboard players remove @s slot3 1
-execute if score @s slot4 matches 1.. run scoreboard players remove @s slot4 1
-execute if score @s slot5 matches 1.. run scoreboard players remove @s slot5 1
-execute if score @s slot6 matches 1.. run scoreboard players remove @s slot6 1
-execute if score @s slot7 matches 1.. run scoreboard players remove @s slot7 1
-execute if score @s slot8 matches 1.. run scoreboard players remove @s slot8 1
-
-execute unless data block ~ ~ ~ Items[{Slot:13b,tag:{GUI:1b}}] run function hss:block/advanced_crafting/restart
-execute unless data block ~ ~ ~ Items[{Slot:0b,tag:{GUI:1b}}] run function hss:block/advanced_crafting/restart
+execute if entity @s[tag=hss_received_field] if score @s slot0 matches 1.. run scoreboard players remove @s slot0 1
+execute if entity @s[tag=hss_received_field] if score @s slot1 matches 1.. run scoreboard players remove @s slot1 1
+execute if entity @s[tag=hss_received_field] if score @s slot2 matches 1.. run scoreboard players remove @s slot2 1
+execute if entity @s[tag=hss_received_field] if score @s slot3 matches 1.. run scoreboard players remove @s slot3 1
+execute if entity @s[tag=hss_received_field] if score @s slot4 matches 1.. run scoreboard players remove @s slot4 1
+execute if entity @s[tag=hss_received_field] if score @s slot5 matches 1.. run scoreboard players remove @s slot5 1
+execute if entity @s[tag=hss_received_field] if score @s slot6 matches 1.. run scoreboard players remove @s slot6 1
+execute if entity @s[tag=hss_received_field] if score @s slot7 matches 1.. run scoreboard players remove @s slot7 1
+execute if entity @s[tag=hss_received_field] if score @s slot8 matches 1.. run scoreboard players remove @s slot8 1
 
 # Copper items
 
 execute if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:copper_ingot"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:copper_ingot"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:copper_ingot"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:copper_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/copper_axe
-execute unless data block ~ ~ ~ Items[{Slot:3b}] if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:copper_ingot"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:copper_ingot"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:copper_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/copper_hoe
+execute unless data block ~ ~ ~ Items[{Slot:3b}] unless data block ~ ~ ~ Items[{Slot:10b}] if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:copper_ingot"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:copper_ingot"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:copper_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/copper_hoe
 execute if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:copper_ingot"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:copper_ingot"}] if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:copper_ingot"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:copper_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/copper_pickaxe
 execute unless data block ~ ~ ~ Items[{Slot:1b}] unless data block ~ ~ ~ Items[{Slot:3b}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:copper_ingot"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:copper_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/copper_shovel
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:copper_ingot"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:copper_block"}] if data block ~ ~ ~ Items[{Slot:19b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/copper_sword
@@ -55,7 +56,7 @@ execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:copper_ingot"}] if data
 # Steel items
 
 execute if data block ~ ~ ~ Items[{Slot:9b,tag:{steelAxeBlueprint:1b}}] if data block ~ ~ ~ Items[{Slot:1b,tag:{steelIngot:1b}}] if data block ~ ~ ~ Items[{Slot:2b,tag:{steelIngot:1b}}] if data block ~ ~ ~ Items[{Slot:10b,tag:{steelIngot:1b}}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:chiseled_quartz_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/steel_axe
-execute if data block ~ ~ ~ Items[{Slot:9b,tag:{steelHoeBlueprint:1b}}] unless data block ~ ~ ~ Items[{Slot:3b}] if data block ~ ~ ~ Items[{Slot:1b,tag:{steelIngot:1b}}] if data block ~ ~ ~ Items[{Slot:2b,tag:{steelIngot:1b}}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:chiseled_quartz_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/steel_hoe
+execute if data block ~ ~ ~ Items[{Slot:9b,tag:{steelHoeBlueprint:1b}}] unless data block ~ ~ ~ Items[{Slot:3b}] unless data block ~ ~ ~ Items[{Slot:10b}] if data block ~ ~ ~ Items[{Slot:1b,tag:{steelIngot:1b}}] if data block ~ ~ ~ Items[{Slot:2b,tag:{steelIngot:1b}}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:chiseled_quartz_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/steel_hoe
 execute if data block ~ ~ ~ Items[{Slot:9b,tag:{steelPickaxeBlueprint:1b}}] if data block ~ ~ ~ Items[{Slot:1b,tag:{steelIngot:1b}}] if data block ~ ~ ~ Items[{Slot:2b,tag:{steelIngot:1b}}] if data block ~ ~ ~ Items[{Slot:3b,tag:{steelIngot:1b}}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:chiseled_quartz_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/steel_pickaxe
 execute if data block ~ ~ ~ Items[{Slot:9b,tag:{steelShovelBlueprint:1b}}] unless data block ~ ~ ~ Items[{Slot:1b}] unless data block ~ ~ ~ Items[{Slot:3b}] if data block ~ ~ ~ Items[{Slot:2b,tag:{steelIngot:1b}}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:chiseled_quartz_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/steel_shovel
 execute if data block ~ ~ ~ Items[{Slot:9b,tag:{steelSwordBlueprint:1b}}] if data block ~ ~ ~ Items[{Slot:3b,tag:{steelIngot:1b}}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:chiseled_quartz_block"}] if data block ~ ~ ~ Items[{Slot:19b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/steel_sword
@@ -63,7 +64,7 @@ execute if data block ~ ~ ~ Items[{Slot:9b,tag:{steelSwordBlueprint:1b}}] if dat
 # Ruby items
 
 execute if data block ~ ~ ~ Items[{Slot:9b,tag:{rubyAxeBlueprint:1b}}] if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:nether_star"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:nether_star"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:nether_star"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:emerald_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/ruby_axe
-execute if data block ~ ~ ~ Items[{Slot:9b,tag:{rubyHoeBlueprint:1b}}] unless data block ~ ~ ~ Items[{Slot:3b}] if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:nether_star"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:nether_star"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:emerald_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/ruby_hoe
+execute if data block ~ ~ ~ Items[{Slot:9b,tag:{rubyHoeBlueprint:1b}}] unless data block ~ ~ ~ Items[{Slot:3b}] unless data block ~ ~ ~ Items[{Slot:10b}] if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:nether_star"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:nether_star"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:emerald_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/ruby_hoe
 execute if data block ~ ~ ~ Items[{Slot:9b,tag:{rubyPickaxeBlueprint:1b}}] if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:nether_star"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:nether_star"}] if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:nether_star"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:emerald_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/ruby_pickaxe
 execute if data block ~ ~ ~ Items[{Slot:9b,tag:{rubyShovelBlueprint:1b}}] unless data block ~ ~ ~ Items[{Slot:1b}] unless data block ~ ~ ~ Items[{Slot:3b}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:nether_star"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:emerald_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/ruby_shovel
 execute if data block ~ ~ ~ Items[{Slot:9b,tag:{rubySwordBlueprint:1b}}] if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:nether_star"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:emerald_block"}] if data block ~ ~ ~ Items[{Slot:19b,id:"minecraft:golden_hoe"}] run function hss:recipes/advanced_crafting/ruby_sword
@@ -90,3 +91,7 @@ execute if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:iron_nugget"}] if data 
 execute if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:iron_nugget"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:iron_nugget"}] if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:iron_nugget"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:iron_nugget"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:gunpowder"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:iron_nugget"}] if data block ~ ~ ~ Items[{Slot:19b,id:"minecraft:gold_nugget"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:gunpowder"}] if data block ~ ~ ~ Items[{Slot:21b,id:"minecraft:gold_nugget"}] run function hss:recipes/advanced_crafting/12_gauge
 execute if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:iron_nugget"}] if data block ~ ~ ~ Items[{Slot:19b,id:"minecraft:gold_nugget"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:gunpowder"}] if data block ~ ~ ~ Items[{Slot:21b,id:"minecraft:gold_nugget"}] run function hss:recipes/advanced_crafting/9mm
 execute if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:clock",tag:{steelIngot:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.steel_ingot","italic":false}'}}}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:tnt"}] if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:clock",tag:{steelIngot:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.steel_ingot","italic":false}'}}}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:clock",tag:{steelIngot:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.steel_ingot","italic":false}'}}}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:gunpowder"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:clock",tag:{steelIngot:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.steel_ingot","italic":false}'}}}] if data block ~ ~ ~ Items[{Slot:19b,id:"minecraft:clock",tag:{steelIngot:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.steel_ingot","italic":false}'}}}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:firework_rocket"}] if data block ~ ~ ~ Items[{Slot:21b,id:"minecraft:clock",tag:{steelIngot:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.steel_ingot","italic":false}'}}}] run function hss:recipes/advanced_crafting/igla_missile
+
+# Scrap preview if no recipe is found
+
+execute if entity @s[tag=!hss_item_preview] run item replace block ~ ~ ~ container.15 with minecraft:air

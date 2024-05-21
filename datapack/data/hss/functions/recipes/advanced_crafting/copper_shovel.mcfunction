@@ -30,3 +30,5 @@ item replace block ~ ~ ~ container.15 with minecraft:stone_shovel{copperShovel:1
 execute store result block ~ ~ ~ Items[{Slot:2b}].Count int 1 run scoreboard players get @s slot1
 execute store result block ~ ~ ~ Items[{Slot:11b}].Count int 1 run scoreboard players get @s slot4
 execute store result block ~ ~ ~ Items[{Slot:20b}].Count int 1 run scoreboard players get @s slot7
+
+tag @s add hss_item_preview

@@ -16,4 +16,4 @@ execute as @e[type=player,scores={isSneaking=1..}] at @s run function hss:enviro
 
 # Modules
 
-execute as @e[tag=advanced_workbench,tag=placed] at @s unless data block ~ ~ ~ Items[{Slot:15b}] positioned ~-5 ~-5 ~-5 if entity @e[type=player,dx=10,dy=10,dz=10,sort=nearest] at @s run function hss:block/advanced_crafting/recipes
+execute as @e[tag=advanced_workbench,tag=placed] at @s positioned ~-5 ~-5 ~-5 if entity @e[type=player,dx=10,dy=10,dz=10,sort=nearest] at @s run function hss:block/advanced_crafting/craft_lock

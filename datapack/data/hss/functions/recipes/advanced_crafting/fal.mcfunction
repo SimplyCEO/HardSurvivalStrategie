@@ -33,3 +33,5 @@ item replace block ~ ~ ~ container.15 with minecraft:carrot_on_a_stick{rubbishGu
 execute store result block ~ ~ ~ Items[{Slot:1b}].Count int 1 run scoreboard players get @s slot0
 execute store result block ~ ~ ~ Items[{Slot:11b}].Count int 1 run scoreboard players get @s slot4
 execute store result block ~ ~ ~ Items[{Slot:21b}].Count int 1 run scoreboard players get @s slot8
+
+tag @s add hss_item_preview

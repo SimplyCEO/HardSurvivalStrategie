@@ -32,3 +32,5 @@ item replace block ~ ~ ~ container.15 with minecraft:iron_sword{steelSword:1b,Cu
 execute store result block ~ ~ ~ Items[{Slot:3b}].Count int 1 run scoreboard players get @s slot2
 execute store result block ~ ~ ~ Items[{Slot:11b}].Count int 1 run scoreboard players get @s slot4
 execute store result block ~ ~ ~ Items[{Slot:19b}].Count int 1 run scoreboard players get @s slot6
+
+tag @s add hss_item_preview

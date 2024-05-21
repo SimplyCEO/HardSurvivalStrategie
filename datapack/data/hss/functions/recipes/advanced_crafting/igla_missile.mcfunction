@@ -37,3 +37,5 @@ execute store result block ~ ~ ~ Items[{Slot:12b}].Count int 1 run scoreboard pl
 execute store result block ~ ~ ~ Items[{Slot:19b}].Count int 1 run scoreboard players get @s slot6
 execute store result block ~ ~ ~ Items[{Slot:20b}].Count int 1 run scoreboard players get @s slot7
 execute store result block ~ ~ ~ Items[{Slot:21b}].Count int 1 run scoreboard players get @s slot8
+
+tag @s add hss_item_preview
