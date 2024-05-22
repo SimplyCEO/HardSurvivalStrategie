@@ -6,8 +6,5 @@
 #
 # Thanks for playing!
 
-tag @s remove hss_op_check_false
-
-execute if score @s isOP matches 1 run tag @s add hss_op_check_false
-execute if score @s isOP matches 1 run scoreboard players set @s isOP 0
-execute if score @s[tag=!hss_op_check_false] isOP matches 0 run scoreboard players set @s isOP 1
+scoreboard players add @s isOP 1
+execute if score @s isOP matches 2.. run scoreboard players set @s isOP 0
