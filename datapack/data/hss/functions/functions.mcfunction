@@ -33,7 +33,6 @@ function hss:modules/tome/main
 # Block/Gameplay count ticks
 execute if score counter seconds matches 1 run scoreboard players set @e[tag=nearestPlayer] count 0
 execute if score potFarmer count matches 601 run scoreboard players set potFarmer count 0
-execute if score tickCount count matches 0 run scoreboard players set @e[type=minecraft:player] usedGun 0
 
 # Count function ticks (4 * main_ticks)
 # Default: 16t (0.8s)
