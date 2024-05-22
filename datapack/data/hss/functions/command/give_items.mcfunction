@@ -29,23 +29,23 @@ give @s minecraft:ghast_spawn_egg{hopperPot:1b,display:{Name:'{"translate":"item
 ###################
 
 # FAL
-give @s minecraft:carrot_on_a_stick{rubbishGuns:1b,fal:1b,CustomModelData:1,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.fal","color":"white","italic":false}','{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}} 1
+give @s minecraft:carrot_on_a_stick{rubbishGuns:1b,fal:1b,isEmpty:1b,CustomModelData:1,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.fal","color":"white","italic":false}','{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}} 1
 give @s minecraft:gunpowder{7_62mm:1b,CustomModelData:1,display:{Name:'{"translate":"item.hss.7_62mm","italic":false}'}} 56
 
 # M1014
-give @s minecraft:carrot_on_a_stick{rubbishGuns:1b,m1014:1b,CustomModelData:2,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.m1014","color":"white","italic":false}','{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}} 1
+give @s minecraft:carrot_on_a_stick{rubbishGuns:1b,m1014:1b,isEmpty:1b,CustomModelData:2,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.m1014","color":"white","italic":false}','{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}} 1
 give @s minecraft:gunpowder{12_gauge:1b,CustomModelData:2,display:{Name:'{"translate":"item.hss.12_gauge","italic":false}'}} 16
 
 # GC 9mm
-give @s minecraft:carrot_on_a_stick{rubbishGuns:1b,gc_9mm:1b,CustomModelData:3,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.gc_9mm","color":"white","italic":false}','{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}} 1
+give @s minecraft:carrot_on_a_stick{rubbishGuns:1b,gc_9mm:1b,isEmpty:1b,CustomModelData:3,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.gc_9mm","color":"white","italic":false}','{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}} 1
 give @s minecraft:gunpowder{9mm:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.9mm","italic":false}'}} 32
 
 # AGLC
-give @s minecraft:carrot_on_a_stick{rubbishGuns:1b,aglc:1b,CustomModelData:4,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.aglc","color":"white","italic":false}','{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}} 1
+give @s minecraft:carrot_on_a_stick{rubbishGuns:1b,aglc:1b,isEmpty:1b,CustomModelData:4,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.aglc","color":"white","italic":false}','{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}} 1
 give @s minecraft:gunpowder{7_62mm:1b,CustomModelData:1,display:{Name:'{"translate":"item.hss.7_62mm","italic":false}'}} 24
 
 # Igla
-give @s minecraft:carrot_on_a_stick{rubbishGuns:1b,igla:1b,CustomModelData:5,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.igla","color":"white","italic":false}','{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}} 1
+give @s minecraft:carrot_on_a_stick{rubbishGuns:1b,igla:1b,isEmpty:1b,CustomModelData:5,display:{Name:'{"text":"","italic":false}',Lore:['{"translate":"item.hss.igla","color":"white","italic":false}','{"translate":"blueprint.hss.tier_5","color":"white","italic":false}']}} 1
 give @s minecraft:gunpowder{missile:1b,CustomModelData:4,display:{Name:'{"translate":"item.hss.missile","italic":false}'}} 8
 
 # Spring
