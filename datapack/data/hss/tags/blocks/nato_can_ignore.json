@@ -35,6 +35,7 @@
         "minecraft:lever",
         "#minecraft:buttons",
         "minecraft:torch",
-        "minecraft:wall_torch"
+        "minecraft:wall_torch",
+        "#minecraft:signs"
     ]
   }
