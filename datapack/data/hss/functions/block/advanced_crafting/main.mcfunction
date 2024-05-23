@@ -10,8 +10,8 @@
 # Advanced Workbench #
 ######################
 
-# Made with: Crunching Table
+# Made with: Crunching Table (Workbench + Smithing Table + Anvil)
 # Description: Custom workbench that crafts custom blocks/items.
 
 execute as @e[tag=advanced_workbench_item,tag=!placed] at @s positioned ~ ~.7 ~ run function hss:block/advanced_crafting/place
-execute as @e[tag=advanced_workbench,tag=placed] at @s unless block ~ ~ ~ barrel run function hss:block/advanced_crafting/remove
+execute as @e[tag=advanced_workbench,tag=placed] at @s unless block ~ ~ ~ minecraft:barrel run function hss:block/advanced_crafting/remove

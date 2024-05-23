@@ -107,6 +107,7 @@
         { "predicate": {"custom_model_data":113}, "model":"item/hss_gui_arrow_13"},
         { "predicate": {"custom_model_data":114}, "model":"item/hss_gui_arrow_14"},
         { "predicate": {"custom_model_data":115}, "model":"item/hss_gui_advanced_workbench" },
-        { "predicate": {"custom_model_data":116}, "model":"item/hss_gui_combiner"}
+        { "predicate": {"custom_model_data":116}, "model":"item/hss_gui_combiner"},
+        { "predicate": {"custom_model_data":117}, "model":"item/hss_gui_empty"}
     ]
 }

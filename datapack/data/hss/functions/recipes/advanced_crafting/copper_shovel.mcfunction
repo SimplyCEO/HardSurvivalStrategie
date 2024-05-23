@@ -27,8 +27,8 @@
 # / = Hardened Stick
 
 item replace block ~ ~ ~ container.15 with minecraft:stone_shovel{copperShovel:1b,CustomModelData:1,display:{Name:'{"translate":"item.hss.copper_shovel","italic":false}'}}
-execute store result block ~ ~ ~ Items[{Slot:2b}].Count int 1 run scoreboard players get @s slot1
-execute store result block ~ ~ ~ Items[{Slot:11b}].Count int 1 run scoreboard players get @s slot4
-execute store result block ~ ~ ~ Items[{Slot:20b}].Count int 1 run scoreboard players get @s slot7
+execute store result block ~ ~ ~ Items[{Slot:2b}].Count int 1 run scoreboard players get @s slot2
+execute store result block ~ ~ ~ Items[{Slot:11b}].Count int 1 run scoreboard players get @s slot5
+execute store result block ~ ~ ~ Items[{Slot:20b}].Count int 1 run scoreboard players get @s slot8
 
 tag @s add hss_item_preview
