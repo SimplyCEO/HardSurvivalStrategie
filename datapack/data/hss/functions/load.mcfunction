@@ -109,6 +109,9 @@ scoreboard objectives add isRunning minecraft.custom:minecraft.sprint_one_cm ["R
 scoreboard objectives add isDrinking minecraft.used:minecraft.potion ["Drinking"]
 scoreboard objectives add isGlowing minecraft.used:minecraft.glow_berries ["Glowing"]
 
+# Block
+scoreboard objectives add hss_mined_barrel minecraft.mined:minecraft.barrel ["Barrels broken by Player"]
+
 # Food
 scoreboard objectives add eatenFlesh minecraft.used:minecraft.rotten_flesh ["Flesh"]
 scoreboard objectives add eatenRabbit minecraft.used:minecraft.rabbit ["Rabbit"]

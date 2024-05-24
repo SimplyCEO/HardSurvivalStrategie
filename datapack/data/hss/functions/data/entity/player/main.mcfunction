@@ -50,6 +50,7 @@ execute if score @s hazardSuit matches 1.. run scoreboard players set @s hazardS
 execute if score @s damageTaken matches ..-1 run scoreboard players set @s damageTaken 0
 execute if score @s hasKilled matches 1.. run function hss:data/entity/player/killed
 execute if score @s killedIllusioner matches 1.. run function hss:data/entity/illusioner/killed
+execute if score @s hss_mined_barrel matches 1 run function hss:data/entity/player/detect_custom_block_break
 
 # Register weapon booleans/integers
 execute if score @s usedGun matches 1.. run scoreboard players set @s usedGun 0
