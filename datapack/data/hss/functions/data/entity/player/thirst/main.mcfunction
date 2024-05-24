@@ -8,7 +8,6 @@
 
 execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/entity/player/thirst/main §floaded."
 
-execute unless entity @s[scores={firstDrink=1}] run function hss:data/entity/player/thirst/start
 execute if entity @s[scores={isDrinking=1..}] run function hss:data/entity/player/thirst/sip
 
 execute if entity @s[scores={saturationCount=20}] run scoreboard players set @s thirstBool 0
