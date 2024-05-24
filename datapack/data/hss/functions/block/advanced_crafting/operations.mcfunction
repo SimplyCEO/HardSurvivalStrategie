@@ -34,12 +34,12 @@ scoreboard players operation @s b7 /= @s b7
 scoreboard players operation @s b8 /= @s b8
 
 # Address slot data to memory
-execute if entity @s[scores={b0=1}] run scoreboard players add @s bT 100000000
-execute if entity @s[scores={b1=1}] run scoreboard players add @s bT 10000000
-execute if entity @s[scores={b2=1}] run scoreboard players add @s bT 1000000
-execute if entity @s[scores={b3=1}] run scoreboard players add @s bT 100000
-execute if entity @s[scores={b4=1}] run scoreboard players add @s bT 10000
-execute if entity @s[scores={b5=1}] run scoreboard players add @s bT 1000
-execute if entity @s[scores={b6=1}] run scoreboard players add @s bT 100
-execute if entity @s[scores={b7=1}] run scoreboard players add @s bT 10
-execute if entity @s[scores={b8=1}] run scoreboard players add @s bT 1
+execute if score @s b0 matches 1 run scoreboard players add @s bT 100000000
+execute if score @s b1 matches 1 run scoreboard players add @s bT 10000000
+execute if score @s b2 matches 1 run scoreboard players add @s bT 1000000
+execute if score @s b3 matches 1 run scoreboard players add @s bT 100000
+execute if score @s b4 matches 1 run scoreboard players add @s bT 10000
+execute if score @s b5 matches 1 run scoreboard players add @s bT 1000
+execute if score @s b6 matches 1 run scoreboard players add @s bT 100
+execute if score @s b7 matches 1 run scoreboard players add @s bT 10
+execute if score @s b8 matches 1 run scoreboard players add @s bT 1

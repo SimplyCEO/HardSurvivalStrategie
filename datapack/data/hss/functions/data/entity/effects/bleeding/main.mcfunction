@@ -9,5 +9,5 @@
 execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/entity/effects/bleeding/main §floaded."
 
 execute store result score @s bleedingLvl run data get entity @s ActiveEffects[{Id:20b}].Amplifier
-execute if entity @s[nbt={ActiveEffects:[{Id:20b}]}] run function hss:data/entity/effects/bleeding/show_blood
-execute if score tickCount count matches 0 if entity @s[scores={damageTaken=180..}] run function hss:data/entity/effects/bleeding/damage
+execute as @s[nbt={ActiveEffects:[{Id:20b}]}] run function hss:data/entity/effects/bleeding/show_blood
+execute if score tickCount count matches 0 if score @s damageTaken matches 180.. run function hss:data/entity/effects/bleeding/damage
