@@ -31,6 +31,11 @@ scoreboard objectives add posY dummy ["Y"]
 scoreboard objectives add posZ dummy ["Z"]
 scoreboard objectives add rotY dummy ["RY"]
 scoreboard objectives add rotZ dummy ["RZ"]
+scoreboard objectives add old_posX dummy ["X"]
+scoreboard objectives add old_posY dummy ["Y"]
+scoreboard objectives add old_posZ dummy ["Z"]
+scoreboard objectives add old_rotY dummy ["RY"]
+scoreboard objectives add old_rotZ dummy ["RZ"]
 scoreboard objectives add age dummy ["Age"]
 
 ##################

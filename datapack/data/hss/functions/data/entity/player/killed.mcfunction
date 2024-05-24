@@ -6,6 +6,10 @@
 #
 # Thanks for playing!
 
+# Register old position to teleport
+tag @s add spawn_last_spot
+
+# Reset all scores
 scoreboard players set @s hasKilled 0
 scoreboard players set @s biohazardCount 0
 scoreboard players set @s thirstCount 20

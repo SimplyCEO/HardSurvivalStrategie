@@ -17,6 +17,11 @@ tag @s add player_check
 # Register player start data
 execute as @s[tag=!player_spawned] run function hss:data/entity/player/spawn_data
 
+# Register last spot
+execute as @s[tag=spawn_last_spot] run summon minecraft:armor_stand ~ ~ ~ {Small:1b,Marker:1b,Invulnerable:1b,Invisible:0b,Silent:1b,NoGravity:1b,Tags:["hss_last_spot"]}
+execute as @s[tag=spawn_last_spot] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:written_book",tag:{pages:['{"translate":"Last known location:\\n\\nX: %s | Y: %s | Z: %s\\n\\nCommand to return to last known location:\\n\\n\'/function hss:command/teleport_back\' under the first minute.","with":[{"score":{"name":"@s","objective":"old_posX"}},{"score":{"name":"@s","objective":"old_posY"}},{"score":{"name":"@s","objective":"old_posZ"}}]}'],filtered_title:"Last Location",title:"Last Location",author:"HSS"},Count:1b}}
+tag @s remove spawn_last_spot
+
 # Cauldron thirst count bug fix
 execute if score @s isDrinking matches 1.. positioned ~ ~1.5 ~ if block ^ ^ ^1 #minecraft:cauldrons run scoreboard players set @s isDrinking 0
 execute if score @s isDrinking matches 1.. positioned ~ ~1.5 ~ if block ^ ^ ^2 #minecraft:cauldrons run scoreboard players set @s isDrinking 0

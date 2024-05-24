@@ -33,5 +33,6 @@ function hss:modules/tree_fall/main
 function hss:modules/ultra_hoe/main
 function hss:modules/vein_mine/main
 
-# Reset scores
+# Reset entities/scores
+execute as @e[tag=hss_last_spot] if score counter seconds matches 0 run kill @s
 execute as @e[type=minecraft:player] at @s run function hss:data/entity/player/main
