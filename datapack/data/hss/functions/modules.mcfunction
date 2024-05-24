@@ -9,11 +9,10 @@
 # The 'modules' section loads medium priority functions.
 # These ones need to be ran at 'schedule' tick to work properly.
 
-execute as @e[type=player,scores={debug=1,verbose=1}] run tellraw @s "[§b§lMODULE§f] Module loaded."
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§b§lMODULE§f] Module loaded."
 
 # Backend modules
 function hss:modules/anti_bugs/main
-function hss:gui/main
 
 # Block modules
 function hss:block/advanced_crafting/main
@@ -21,9 +20,8 @@ function hss:block/combiner/main
 function hss:block/pot_farmer/main
 
 # Entity modules
-execute as @e[type=player] at @s run function hss:modules/get_position/main
-execute as @e[type=player] run function hss:modules/tool_break/main
-function hss:entity/main
+execute as @e[type=minecraft:player] at @s run function hss:modules/get_position/main
+execute as @e[type=minecraft:player] run function hss:modules/tool_break/main
 
 # Environment modules
 function hss:modules/current_time/main
@@ -36,4 +34,4 @@ function hss:modules/ultra_hoe/main
 function hss:modules/vein_mine/main
 
 # Reset scores
-execute as @e[type=player] at @s run function hss:modules/reset_scores
+execute as @e[type=minecraft:player] at @s run function hss:data/entity/player/main

@@ -6,7 +6,7 @@
 #
 # Thanks for playing!
 
-execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/main §floaded."
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/entity/illusioner/killed §floaded."
 
-# Register entity data
-execute as @e[tag=!entity_check] at @s run function hss:data/entity/main
+effect give @s minecraft:slowness 30 0 true
+scoreboard players set @s killedIllusioner 0

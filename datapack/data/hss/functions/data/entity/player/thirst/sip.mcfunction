@@ -6,7 +6,7 @@
 #
 # Thanks for playing!
 
-execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/main §floaded."
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/entity/player/thirst/sip §floaded."
 
-# Register entity data
-execute as @e[tag=!entity_check] at @s run function hss:data/entity/main
+scoreboard players add @s thirstCount 1
+scoreboard players set @s isDrinking 0

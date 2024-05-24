@@ -6,7 +6,6 @@
 #
 # Thanks for playing!
 
-execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/main §floaded."
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/item/magnetic_bar/main §floaded."
 
-# Register entity data
-execute as @e[tag=!entity_check] at @s run function hss:data/entity/main
+execute as @e[type=minecraft:item,dx=14,dy=14,dz=14,sort=nearest] run tp @s ~7 ~7 ~7

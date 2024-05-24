@@ -6,7 +6,7 @@
 #
 # Thanks for playing!
 
-execute as @e[type=player,scores={debug=1,verbose=1}] run tellraw @s "[§4§lCORE§f] Loop created."
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§4§lCORE§f] Loop created."
 
 execute if score counter count matches 0 run function hss:functions
 function hss:modules

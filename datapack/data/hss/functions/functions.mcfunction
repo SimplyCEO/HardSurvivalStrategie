@@ -9,7 +9,11 @@
 # The 'functions' section loads low priority functions to save server performance.
 # Some of them even need to run with an additional 4 ticks delay, for every 'schedule' tick reset.
 
-execute as @e[type=player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lFUNCTION§f] Loaded function."
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lFUNCTION§f] Loaded function."
+
+# Remove check tags
+tag @e[tag=entity_check] remove entity_check
+tag @e[type=minecraft:player,tag=player_check] remove player_check
 
 # Data functions
 function hss:data/main

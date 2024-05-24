@@ -17,8 +17,8 @@ execute as @e[tag=sniperBullet] at @s run function hss:modules/rubbish_weapons/f
 execute as @e[tag=iglaMissile] at @s run function hss:modules/rubbish_weapons/fire/igla
 
 # Pearl Stationary function
-execute as @e[type=player,scores={usedPearl=1..}] at @s run function hss:enviroment/pearl_stationary/tag
-execute as @e[type=player,scores={isSneaking=1..}] at @s run function hss:enviroment/pearl_stationary/main
+execute as @e[type=minecraft:player,scores={usedPearl=1..}] at @s run function hss:enviroment/pearl_stationary/tag
+execute as @e[type=minecraft:player,scores={isSneaking=1..}] at @s run function hss:enviroment/pearl_stationary/main
 
 # Block functions
 execute as @e[tag=advanced_workbench,tag=placed] at @s positioned ~-5 ~-5 ~-5 if entity @e[type=player,dx=10,dy=10,dz=10,sort=nearest] at @s run function hss:block/advanced_crafting/craft_lock

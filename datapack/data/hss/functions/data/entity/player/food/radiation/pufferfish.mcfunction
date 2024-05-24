@@ -6,7 +6,7 @@
 #
 # Thanks for playing!
 
-execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/main §floaded."
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/entity/player/food/radiation/pufferfish §floaded."
 
-# Register entity data
-execute as @e[tag=!entity_check] at @s run function hss:data/entity/main
+scoreboard players remove @s eatenPufferfish 1
+scoreboard players add @s biohazardCount 25
