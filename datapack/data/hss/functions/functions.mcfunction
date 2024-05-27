@@ -11,6 +11,9 @@
 
 execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lFUNCTION§f] Loaded function."
 
+# Add function tag (to avoid modules loading functions)
+tag @e[type=minecraft:player] add hss_function_loaded
+
 # Remove check tags
 tag @e[tag=entity_check] remove entity_check
 tag @e[type=minecraft:player,tag=player_check] remove player_check

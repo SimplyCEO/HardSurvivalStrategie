@@ -6,6 +6,9 @@
 #
 # Thanks for playing!
 
-execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/entity/player/thirst/drain §floaded."
+function hss:data/entity/player/physics
+function hss:data/entity/player/food/main
+function hss:data/entity/player/gui/main
+function hss:data/entity/player/thirst/main
 
-scoreboard players remove @s thirstCount 1
+tag @s remove hss_function_loaded

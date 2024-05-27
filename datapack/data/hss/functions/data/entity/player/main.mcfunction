@@ -81,7 +81,4 @@ execute as @s[tag=iglaLoaded,scores={iglaAmmo=0,isIglaEmpty=1}] run tag @s remov
 # Functions #
 #############
 
-function hss:data/entity/player/physics
-function hss:data/entity/player/food/main
-function hss:data/entity/player/gui/main
-function hss:data/entity/player/thirst/main
+execute as @s[tag=hss_function_loaded] run function hss:data/entity/player/function
