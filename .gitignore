@@ -1,3 +1,5 @@
+# Build directories
+
 /.backup
 /[B,b]uild
 /bin
@@ -5,3 +7,6 @@
 # Copyrighted music
 
 /resource_pack/assets/minecraft/sounds/records
+
+# Notes
+/patchnotes.log
