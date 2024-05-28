@@ -20,6 +20,7 @@ if [ -d "build" ]; then
   mkdir --parents --verbose .backup/
   TIME_HASH=$(date +%F_%T)
   mv --verbose build/ .backup/build-${TIME_HASH}/
+  mv --verbose bin/ .backup/build-${TIME_HASH}/
 fi
 
 if [ ! -d "datapack" ]; then
