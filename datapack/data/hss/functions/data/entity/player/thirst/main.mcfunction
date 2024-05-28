@@ -21,8 +21,8 @@ scoreboard players set @s thirstBool 0
 execute if score thirst_bool count matches 0 if score counter seconds matches 59 run scoreboard players set @s thirstBool 1
 execute if score @s thirstBool matches 1 if score @s saturationCount matches ..19 run function hss:data/entity/player/thirst/drain
 
-# Let player heal once if fully hydrated
-execute if score @s thirstBool matches 1 if score @s saturationCount matches 18.. if score @s damageTaken matches 1.. run scoreboard players remove @s damageTaken 35
+# Let player heal itself if fully hydrated
+execute if score @s thirstCount matches 20 if score @s saturationCount matches 18.. if score @s damageTaken matches 1.. run scoreboard players remove @s damageTaken 35
 
 execute if score @s saturationCount matches ..20 run function hss:data/entity/player/radiation/main
 
