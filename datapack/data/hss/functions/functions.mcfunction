@@ -14,13 +14,6 @@ execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "
 # Add function tag (to avoid modules loading functions)
 tag @e[type=minecraft:player] add hss_function_loaded
 
-# Remove check tags
-tag @e[tag=entity_check] remove entity_check
-tag @e[type=minecraft:player,tag=player_check] remove player_check
-
-# Data functions
-function hss:data/main
-
 # Block functions
 function hss:block/advanced_hopper/main
 function hss:block/custom_benches/main
@@ -40,6 +33,13 @@ function hss:modules/tome/main
 # Block/Gameplay count ticks
 execute if score counter seconds matches 1 run scoreboard players set @e[tag=nearestPlayer] count 0
 execute if score potFarmer count matches 601 run scoreboard players set potFarmer count 0
+
+# Remove check tags
+tag @e[tag=entity_check] remove entity_check
+tag @e[type=minecraft:player,tag=player_check] remove player_check
+
+# Data functions
+function hss:data/main
 
 # Count function ticks (4 * main_ticks)
 # Default: 16t (0.8s)
