@@ -36,6 +36,7 @@
         "#minecraft:buttons",
         "minecraft:torch",
         "minecraft:wall_torch",
-        "#minecraft:signs"
+        "#minecraft:signs",
+        "#minecraft:crops"
     ]
   }

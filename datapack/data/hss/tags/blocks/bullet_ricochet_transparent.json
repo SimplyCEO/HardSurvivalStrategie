@@ -20,6 +20,7 @@
         "#minecraft:hoglin_repellents",
         "minecraft:snow",
         "minecraft:bamboo_sapling",
-        "#minecraft:signs"
+        "#minecraft:signs",
+        "#minecraft:crops"
     ]
   }
