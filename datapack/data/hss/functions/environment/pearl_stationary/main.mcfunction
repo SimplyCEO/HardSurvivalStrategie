@@ -6,4 +6,6 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lENVIRONMENT§f] Function §9hss:environment/pearl_stationary/main §floaded."
+
 execute at @e[tag=stationary] run function hss:environment/pearl_stationary/stop
