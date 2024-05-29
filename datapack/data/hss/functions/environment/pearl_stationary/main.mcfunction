@@ -6,4 +6,4 @@
 #
 # Thanks for playing!
 
-execute at @e[tag=stationary] run function hss:enviroment/pearl_stationary/stop
+execute at @e[tag=stationary] run function hss:environment/pearl_stationary/stop

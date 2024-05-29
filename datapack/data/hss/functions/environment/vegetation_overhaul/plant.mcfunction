@@ -6,7 +6,7 @@
 #
 # Thanks for playing!
 
-execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§2§lENVIRONMENT§f] Function §9hss:enviroment/vegetation_overhaul/plant §floaded."
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§2§lENVIRONMENT§f] Function §9hss:environment/vegetation_overhaul/plant §floaded."
 
 # Get item stack count and remove 1
 execute store result score @s count run data get entity @s Item.Count

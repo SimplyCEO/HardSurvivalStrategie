@@ -23,7 +23,7 @@ function hss:block/saw_cutter/main
 execute if score tickCount count matches 0 run function hss:block/smeltery/main
 
 # Environment functions
-function hss:enviroment/main
+function hss:environment/main
 
 # Gameplay functions
 function hss:modules/biohazard/main

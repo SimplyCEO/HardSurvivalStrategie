@@ -8,5 +8,5 @@
 
 execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/entity/player/physics §floaded."
 
-function hss:enviroment/dimension_changer/main
+function hss:environment/dimension_changer/main
 execute as @s[nbt={SelectedItem:{tag:{magneticBar:1b}}}] positioned ~-7 ~-7 ~-7 run function hss:data/item/magnetic_bar/main
