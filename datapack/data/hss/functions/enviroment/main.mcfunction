@@ -11,3 +11,4 @@ execute at @e[type=!#hss:grass_break] unless block ~ ~ ~ #minecraft:mineable/axe
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:blue_ice",Count:1b}}] at @s if block ~ ~ ~ #minecraft:campfires[lit=true] run function hss:enviroment/liquefaction/main
 execute as @e[tag=liquefaction,tag=placed] at @s unless block ~ ~ ~ #minecraft:campfires run kill @s
+function hss:enviroment/vegetation_overhaul/main
