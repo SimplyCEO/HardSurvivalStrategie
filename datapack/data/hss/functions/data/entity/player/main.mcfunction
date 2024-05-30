@@ -22,6 +22,16 @@ execute as @s[tag=spawn_last_spot] run summon minecraft:armor_stand ~ ~ ~ {Small
 execute as @s[tag=spawn_last_spot] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:written_book",tag:{pages:['{"translate":"Last known location:\\n\\nX: %s | Y: %s | Z: %s\\n\\nCommand to return to last known location:\\n\\n\'/function hss:command/teleport_back\' under the first minute.","with":[{"score":{"name":"@s","objective":"old_posX"}},{"score":{"name":"@s","objective":"old_posY"}},{"score":{"name":"@s","objective":"old_posZ"}}]}'],filtered_title:"Last Location",title:"Last Location",author:"HSS"},Count:1b}}
 tag @s remove spawn_last_spot
 
+#############
+# Functions #
+#############
+
+execute as @s[tag=hss_function_loaded] run function hss:data/entity/player/function
+
+###################
+# Reset variables #
+###################
+
 # Cauldron thirst count bug fix
 execute if score @s isDrinking matches 1.. positioned ~ ~1.5 ~ if block ^ ^ ^1 #minecraft:cauldrons run scoreboard players set @s isDrinking 0
 execute if score @s isDrinking matches 1.. positioned ~ ~1.5 ~ if block ^ ^ ^2 #minecraft:cauldrons run scoreboard players set @s isDrinking 0
@@ -76,9 +86,3 @@ execute as @s[tag=sniperLoaded,scores={sniperAmmo=0,isSniperEmpty=1}] run tag @s
 execute as @s[tag=sniperLoaded,scores={sniperAmmo=0,isSniperEmpty=1}] run tag @s remove sniperLoaded
 execute as @s[tag=iglaLoaded,scores={iglaAmmo=0,isIglaEmpty=1}] run tag @s remove iglaPlay
 execute as @s[tag=iglaLoaded,scores={iglaAmmo=0,isIglaEmpty=1}] run tag @s remove iglaLoaded
-
-#############
-# Functions #
-#############
-
-execute as @s[tag=hss_function_loaded] run function hss:data/entity/player/function
