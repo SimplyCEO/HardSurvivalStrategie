@@ -11,6 +11,12 @@
 # Store string value
 setblock 0 -64 0 minecraft:oak_sign
 
+####################### EVENTS #######################
+
+# No collision event
+team add NoCollisionAI ["AI Collision"]
+team modify NoCollisionAI collisionRule never
+
 ####################### VARIABLES #######################
 
 ################
@@ -92,6 +98,10 @@ scoreboard objectives add slot26 dummy ["Slot 26"]
 # Operator variables
 scoreboard objectives add gm_player dummy ["Player's Gamemode"]
 scoreboard objectives add isOP dummy ["Operator Check"]
+
+# Block variables
+execute unless score LandClaimID count matches 1.. run scoreboard players set LandClaimID count 1
+scoreboard objectives add BlockClaimID dummy ["Land Claim Block ID"]
 
 # Drink/Food variables
 scoreboard objectives add thirstBool dummy ["Thirst Boolean"]

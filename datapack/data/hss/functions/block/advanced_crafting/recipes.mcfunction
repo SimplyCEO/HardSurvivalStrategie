@@ -73,6 +73,7 @@ execute as @s[tag=hss_received_field] if score @s slot9 matches 1.. run scoreboa
 # Advanced Hopper - N: (1)010111010
 # Combiner        - N: (1)111111111
 # Fish Trap       - N: (1)111111111
+# Land Claim      - N: (0)111111111
 
 # Tools #
 # Copper (0) | Steel, Ruby (1)
@@ -119,6 +120,9 @@ execute if score @s bM matches 1 if score @s bT matches 111111111 if data block 
 
 # Fish Trap
 execute if score @s bM matches 1 if score @s bT matches 111111111 if data block ~ ~ ~ Items[{Slot:9b,tag:{fishTrapBlueprint:1b}}] if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:oak_fence"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:oak_fence"}] if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:oak_fence"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:oak_fence"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:barrel"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:oak_fence"}] if data block ~ ~ ~ Items[{Slot:19b,id:"minecraft:oak_fence"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:oak_fence"}] if data block ~ ~ ~ Items[{Slot:21b,id:"minecraft:oak_fence"}] run function hss:recipes/advanced_crafting/fish_trap
+
+# Land Claim
+execute if score @s bM matches 0 if score @s bT matches 111111111 if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:stone"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:stone"}] if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:stone"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:stone"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:paper"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:stone"}] if data block ~ ~ ~ Items[{Slot:19b,id:"minecraft:stone"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:stone"}] if data block ~ ~ ~ Items[{Slot:21b,id:"minecraft:stone"}] run function hss:recipes/advanced_crafting/land_claim
 
 # Rubbish Weapons
 execute if score @s bM matches 1 if score @s bT matches 101010001 if data block ~ ~ ~ Items[{Slot:9b,tag:{aglcBlueprint:1b}}] if data block ~ ~ ~ Items[{Slot:1b,tag:{aglcBarrel:1b}}] if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:spyglass"}] if data block ~ ~ ~ Items[{Slot:11b,tag:{aglcBody:1b}}] if data block ~ ~ ~ Items[{Slot:21b,tag:{aglcStock:1b}}] run function hss:recipes/advanced_crafting/aglc

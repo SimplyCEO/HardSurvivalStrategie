@@ -8,6 +8,7 @@
     {"predicate": {"custom_model_data":2}, "model":"item/flower_pot"},
     {"predicate": {"custom_model_data":3}, "model":"item/hopper"},
     {"predicate": {"custom_model_data":4}, "model":"item/combiner"},
-    {"predicate": {"custom_model_data":5}, "model":"item/igla_missile"}
+    {"predicate": {"custom_model_data":5}, "model":"item/igla_missile"},
+    {"predicate": {"custom_model_data":6}, "model":"item/land_claim"}
   ]
 }

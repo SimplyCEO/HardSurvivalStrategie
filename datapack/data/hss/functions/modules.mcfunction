@@ -18,6 +18,7 @@ function hss:modules/anti_bugs/main
 function hss:block/advanced_crafting/main
 function hss:block/combiner/main
 function hss:block/pot_farmer/main
+function hss:block/land_claim/main
 
 # Entity modules
 execute as @e[type=minecraft:player] at @s run function hss:modules/get_position/main

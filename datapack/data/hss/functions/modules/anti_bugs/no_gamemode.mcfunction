@@ -6,6 +6,7 @@
 #
 # Thanks for playing!
 
-execute as @e[type=player,scores={debug=1,verbose=1}] run tellraw @s "[§b§lANTI BUGS§f] Module§9 hss:modules/anti_bugs/no_gamemode §floaded."
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§b§lANTI BUGS§f] Module§9 hss:modules/anti_bugs/no_gamemode §floaded."
 
-execute unless score @s gm_player matches 0 run gamemode survival @s
+gamemode survival @s
+tag @s remove inside_claimed_area
