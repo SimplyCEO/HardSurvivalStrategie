@@ -57,6 +57,7 @@ cd ../
 # Copy other files to `build`
 cp --verbose README.md build/README.txt
 cp --verbose LICENSE.md build/LICENSE.txt
+cp --verbose patchnotes.log build/
 
 # Enter `build` and pack everything
 cd build/
