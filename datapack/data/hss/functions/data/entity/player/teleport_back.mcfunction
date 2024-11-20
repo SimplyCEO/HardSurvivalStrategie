@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/entity/player/teleport_back §floaded."
+
 scoreboard players operation @e[tag=hss_last_spot] posX = @s old_posX
 scoreboard players operation @e[tag=hss_last_spot] posY = @s old_posY
 scoreboard players operation @e[tag=hss_last_spot] posZ = @s old_posZ

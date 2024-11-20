@@ -6,5 +6,7 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§2§lBEDROCK MINER§f] Module§9 hss:blocks/bedrock_miner/detect_fuel §floaded."
+
 execute store result score bedrockMinerItem count run data get block ~ ~-1 ~ Items[1].Count
 execute if score bedrockMinerItem count matches 1.. run function hss:bedrock_miner/consume_fuel

@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lADVANCED CRAFTING§f] Module§9 hss:blocks/advanced_crafting/recipes §floaded."
+
 ####################
 # BLOCK UI MAPPING #
 ####################
@@ -135,4 +137,4 @@ execute if score @s bM matches 0 if score @s bT matches 000010111 if data block 
 execute if score @s bM matches 0 if score @s bT matches 111111111 if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:clock",tag:{steelIngot:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.steel_ingot","italic":false}'}}}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:tnt"}] if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:clock",tag:{steelIngot:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.steel_ingot","italic":false}'}}}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:clock",tag:{steelIngot:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.steel_ingot","italic":false}'}}}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:gunpowder"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:clock",tag:{steelIngot:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.steel_ingot","italic":false}'}}}] if data block ~ ~ ~ Items[{Slot:19b,id:"minecraft:clock",tag:{steelIngot:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.steel_ingot","italic":false}'}}}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:firework_rocket"}] if data block ~ ~ ~ Items[{Slot:21b,id:"minecraft:clock",tag:{steelIngot:1b,CustomModelData:3,display:{Name:'{"translate":"item.hss.steel_ingot","italic":false}'}}}] run function hss:recipes/advanced_crafting/igla_missile
 
 # Scrap preview if no recipe is found
-execute as @s[tag=!hss_item_preview] run item replace block ~ ~ ~ container.15 with minecraft:clock{GUI:1b,CustomModelData:117,display:{Name:'{"text":""}'}}
+execute as @s[type=minecraft:armor_stand,tag=!hss_item_preview] run item replace block ~ ~ ~ container.15 with minecraft:clock{GUI:1b,CustomModelData:117,display:{Name:'{"text":""}'}}

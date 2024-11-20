@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lADVANCED CRAFTING§f] Module§9 hss:blocks/advanced_crafting/operations §floaded."
+
 # Reset binary address and mode
 scoreboard players set @s bM 0
 scoreboard players set @s bT 000000000

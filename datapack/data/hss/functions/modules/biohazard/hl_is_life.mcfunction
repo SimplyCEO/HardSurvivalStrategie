@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§2§lBIOHAZARD§f] Module§9 hss:modules/biohazard/hl_is_life §floaded."
+
 execute unless score @s hazardSuit matches 64 run tag @s remove HEV
 execute unless score @s hazardSuit matches 64 run tag @s remove HEV_boost
 effect give @s[tag=HEV] speed 5 1 true

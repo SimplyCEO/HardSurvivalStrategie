@@ -8,5 +8,5 @@
 
 execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lENVIRONMENT§f] Function §9hss:environment/dimension_changer/earth §floaded."
 
-execute if score @s posY matches 20000.. run execute in minecraft:the_end run tp @s ~ 0 ~
+execute if score @s posY matches 14000.. run execute in minecraft:the_end run tp @s ~ 0 ~
 execute if score @s posY matches ..-120 run execute in minecraft:the_nether run tp @s ~ 256 ~

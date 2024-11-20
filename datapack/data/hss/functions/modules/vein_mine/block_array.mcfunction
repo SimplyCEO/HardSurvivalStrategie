@@ -6,31 +6,33 @@
 #
 # Thanks for playing!
 
-execute if block ~-1 ~-1 ~-1 #hss:ores run summon area_effect_cloud ~-1 ~-1 ~-1 {Tags:["vein_mine"],Duration:2}
-execute if block ~-1 ~-1 ~ #hss:ores run summon area_effect_cloud ~-1 ~-1 ~ {Tags:["vein_mine"],Duration:2}
-execute if block ~-1 ~-1 ~1 #hss:ores run summon area_effect_cloud ~-1 ~-1 ~1 {Tags:["vein_mine"],Duration:2}
-execute if block ~ ~-1 ~-1 #hss:ores run summon area_effect_cloud ~ ~-1 ~-1 {Tags:["vein_mine"],Duration:2}
-execute if block ~ ~-1 ~ #hss:ores run summon area_effect_cloud ~ ~-1 ~ {Tags:["vein_mine"],Duration:2}
-execute if block ~ ~-1 ~1 #hss:ores run summon area_effect_cloud ~ ~-1 ~1 {Tags:["vein_mine"],Duration:2}
-execute if block ~1 ~-1 ~-1 #hss:ores run summon area_effect_cloud ~1 ~-1 ~-1 {Tags:["vein_mine"],Duration:2}
-execute if block ~1 ~-1 ~ #hss:ores run summon area_effect_cloud ~1 ~-1 ~ {Tags:["vein_mine"],Duration:2}
-execute if block ~1 ~-1 ~1 #hss:ores run summon area_effect_cloud ~1 ~-1 ~1 {Tags:["vein_mine"],Duration:2}
-execute if block ~-1 ~ ~-1 #hss:ores run summon area_effect_cloud ~-1 ~ ~-1 {Tags:["vein_mine"],Duration:2}
-execute if block ~-1 ~ ~ #hss:ores run summon area_effect_cloud ~-1 ~ ~ {Tags:["vein_mine"],Duration:2}
-execute if block ~-1 ~ ~1 #hss:ores run summon area_effect_cloud ~-1 ~ ~1 {Tags:["vein_mine"],Duration:2}
-execute if block ~ ~ ~-1 #hss:ores run summon area_effect_cloud ~ ~ ~-1 {Tags:["vein_mine"],Duration:2}
-execute if block ~ ~ ~1 #hss:ores run summon area_effect_cloud ~ ~ ~1 {Tags:["vein_mine"],Duration:2}
-execute if block ~1 ~ ~-1 #hss:ores run summon area_effect_cloud ~1 ~ ~-1 {Tags:["vein_mine"],Duration:2}
-execute if block ~1 ~ ~ #hss:ores run summon area_effect_cloud ~1 ~ ~ {Tags:["vein_mine"],Duration:2}
-execute if block ~1 ~ ~1 #hss:ores run summon area_effect_cloud ~1 ~ ~1 {Tags:["vein_mine"],Duration:2}
-execute if block ~-1 ~1 ~-1 #hss:ores run summon area_effect_cloud ~-1 ~1 ~-1 {Tags:["vein_mine"],Duration:2}
-execute if block ~-1 ~1 ~ #hss:ores run summon area_effect_cloud ~-1 ~1 ~ {Tags:["vein_mine"],Duration:2}
-execute if block ~-1 ~1 ~1 #hss:ores run summon area_effect_cloud ~-1 ~1 ~1 {Tags:["vein_mine"],Duration:2}
-execute if block ~ ~1 ~-1 #hss:ores run summon area_effect_cloud ~ ~1 ~-1 {Tags:["vein_mine"],Duration:2}
-execute if block ~ ~1 ~ #hss:ores run summon area_effect_cloud ~ ~1 ~ {Tags:["vein_mine"],Duration:2}
-execute if block ~ ~1 ~1 #hss:ores run summon area_effect_cloud ~ ~1 ~1 {Tags:["vein_mine"],Duration:2}
-execute if block ~1 ~1 ~-1 #hss:ores run summon area_effect_cloud ~1 ~1 ~-1 {Tags:["vein_mine"],Duration:2}
-execute if block ~1 ~1 ~ #hss:ores run summon area_effect_cloud ~1 ~1 ~ {Tags:["vein_mine"],Duration:2}
-execute if block ~1 ~1 ~1 #hss:ores run summon area_effect_cloud ~1 ~1 ~1 {Tags:["vein_mine"],Duration:2}
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lVEIN MINE§f] Module§9 hss:modules/vein_mine/block_array §floaded."
+
+execute if block ~-1 ~-1 ~-1 #hss:ores run summon minecraft:area_effect_cloud ~-1 ~-1 ~-1 {Tags:["vein_mine"],Duration:2}
+execute if block ~-1 ~-1 ~ #hss:ores run summon minecraft:area_effect_cloud ~-1 ~-1 ~ {Tags:["vein_mine"],Duration:2}
+execute if block ~-1 ~-1 ~1 #hss:ores run summon minecraft:area_effect_cloud ~-1 ~-1 ~1 {Tags:["vein_mine"],Duration:2}
+execute if block ~ ~-1 ~-1 #hss:ores run summon minecraft:area_effect_cloud ~ ~-1 ~-1 {Tags:["vein_mine"],Duration:2}
+execute if block ~ ~-1 ~ #hss:ores run summon minecraft:area_effect_cloud ~ ~-1 ~ {Tags:["vein_mine"],Duration:2}
+execute if block ~ ~-1 ~1 #hss:ores run summon minecraft:area_effect_cloud ~ ~-1 ~1 {Tags:["vein_mine"],Duration:2}
+execute if block ~1 ~-1 ~-1 #hss:ores run summon minecraft:area_effect_cloud ~1 ~-1 ~-1 {Tags:["vein_mine"],Duration:2}
+execute if block ~1 ~-1 ~ #hss:ores run summon minecraft:area_effect_cloud ~1 ~-1 ~ {Tags:["vein_mine"],Duration:2}
+execute if block ~1 ~-1 ~1 #hss:ores run summon minecraft:area_effect_cloud ~1 ~-1 ~1 {Tags:["vein_mine"],Duration:2}
+execute if block ~-1 ~ ~-1 #hss:ores run summon minecraft:area_effect_cloud ~-1 ~ ~-1 {Tags:["vein_mine"],Duration:2}
+execute if block ~-1 ~ ~ #hss:ores run summon minecraft:area_effect_cloud ~-1 ~ ~ {Tags:["vein_mine"],Duration:2}
+execute if block ~-1 ~ ~1 #hss:ores run summon minecraft:area_effect_cloud ~-1 ~ ~1 {Tags:["vein_mine"],Duration:2}
+execute if block ~ ~ ~-1 #hss:ores run summon minecraft:area_effect_cloud ~ ~ ~-1 {Tags:["vein_mine"],Duration:2}
+execute if block ~ ~ ~1 #hss:ores run summon minecraft:area_effect_cloud ~ ~ ~1 {Tags:["vein_mine"],Duration:2}
+execute if block ~1 ~ ~-1 #hss:ores run summon minecraft:area_effect_cloud ~1 ~ ~-1 {Tags:["vein_mine"],Duration:2}
+execute if block ~1 ~ ~ #hss:ores run summon minecraft:area_effect_cloud ~1 ~ ~ {Tags:["vein_mine"],Duration:2}
+execute if block ~1 ~ ~1 #hss:ores run summon minecraft:area_effect_cloud ~1 ~ ~1 {Tags:["vein_mine"],Duration:2}
+execute if block ~-1 ~1 ~-1 #hss:ores run summon minecraft:area_effect_cloud ~-1 ~1 ~-1 {Tags:["vein_mine"],Duration:2}
+execute if block ~-1 ~1 ~ #hss:ores run summon minecraft:area_effect_cloud ~-1 ~1 ~ {Tags:["vein_mine"],Duration:2}
+execute if block ~-1 ~1 ~1 #hss:ores run summon minecraft:area_effect_cloud ~-1 ~1 ~1 {Tags:["vein_mine"],Duration:2}
+execute if block ~ ~1 ~-1 #hss:ores run summon minecraft:area_effect_cloud ~ ~1 ~-1 {Tags:["vein_mine"],Duration:2}
+execute if block ~ ~1 ~ #hss:ores run summon minecraft:area_effect_cloud ~ ~1 ~ {Tags:["vein_mine"],Duration:2}
+execute if block ~ ~1 ~1 #hss:ores run summon minecraft:area_effect_cloud ~ ~1 ~1 {Tags:["vein_mine"],Duration:2}
+execute if block ~1 ~1 ~-1 #hss:ores run summon minecraft:area_effect_cloud ~1 ~1 ~-1 {Tags:["vein_mine"],Duration:2}
+execute if block ~1 ~1 ~ #hss:ores run summon minecraft:area_effect_cloud ~1 ~1 ~ {Tags:["vein_mine"],Duration:2}
+execute if block ~1 ~1 ~1 #hss:ores run summon minecraft:area_effect_cloud ~1 ~1 ~1 {Tags:["vein_mine"],Duration:2}
 
 schedule function hss:modules/vein_mine/break 1t

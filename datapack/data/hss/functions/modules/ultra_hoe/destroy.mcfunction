@@ -6,5 +6,7 @@
 #
 # Thanks for playing!
 
-setblock ~ ~ ~ air destroy
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lULTRA HOE§f] Module§9 hss:modules/ultra_hoe/destroy §floaded."
+
+setblock ~ ~ ~ minecraft:air destroy
 execute if score ultraHoeCount count matches ..1 run function hss:modules/ultra_hoe/block_array

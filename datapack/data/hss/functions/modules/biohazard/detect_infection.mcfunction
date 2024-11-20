@@ -6,7 +6,7 @@
 #
 # Thanks for playing!
 
-execute as @e[type=player,scores={debug=1}] run tellraw @s "[§2§lBIOHAZARD§f] Module§9 hss:modules/biohazard/detect_infection §floaded."
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§2§lBIOHAZARD§f] Module§9 hss:modules/biohazard/detect_infection §floaded."
 
 execute if score @s biohazardCount matches 250..499 run effect give @s poison 15 0 true
 execute if score @s biohazardCount matches 500..749 run effect give @s poison 15 1 true

@@ -13,4 +13,4 @@ execute positioned ~-20.5 ~-20.5 ~-20.5 as @e[type=minecraft:player,tag=!inside_
 
 # Set player gamemode to survival if close in a 48x48x48 box
 execute unless score @s isOP matches 1 at @s align xyz positioned ~-24 ~-24 ~-24 unless entity @e[type=minecraft:armor_stand,tag=land_claim,tag=placed,dx=48,dy=48,dz=48,sort=nearest,limit=1] run tag @s remove inside_claimed_area
-execute if entity @s[tag=!inside_claimed_area] unless score @s gm_player matches 0 run gamemode survival @s
+execute if entity @s[type=minecraft:player,tag=!inside_claimed_area] unless score @s gm_player matches 0 run gamemode survival @s

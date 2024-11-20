@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lLAND CLAIM§f] Module§9 hss:blocks/land_claim/main §floaded."
+
 ##############
 # Land Claim #
 ##############

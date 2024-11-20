@@ -6,7 +6,7 @@
 #
 # Thanks for playing!
 
-execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§2§lENVIRONMENT§f] Function §9hss:environment/vegetation_overhaul/sapling §floaded."
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lENVIRONMENT§f] Function §9hss:environment/vegetation_overhaul/sapling §floaded."
 
 # Init variables
 scoreboard players set vo_sapling_id count 0

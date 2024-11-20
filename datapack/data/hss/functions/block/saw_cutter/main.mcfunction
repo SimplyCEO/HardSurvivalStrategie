@@ -6,4 +6,6 @@
 #
 # Thanks for playing!
 
-execute as @e[type=item] at @s if block ~ ~ ~ stonecutter if block ~ ~-1 ~ redstone_block run function hss:block/saw_cutter/check_recipe
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lSAW CUTTER§f] Module§9 hss:blocks/saw_cutter/main §floaded."
+
+execute as @e[type=minecraft:item] at @s if block ~ ~ ~ minecraft:stonecutter if block ~ ~-1 ~ minecraft:redstone_block run function hss:block/saw_cutter/check_recipe

@@ -225,7 +225,7 @@ scoreboard objectives add bT dummy ["MEMORY ADDRESS"]
 
 ####################### DATAPACK #######################
 
-#tellraw @a "§4§lAttention! §6The §3datapack§6 got §3downgraded§6! If you feel that something is incorrect, please, quicky §2update§6 to the latest version. §f[§7§lHardSurvivalStrategie 1.7.0 Concept 11§f]"
+#tellraw @a "§4§lAttention! §6The §3datapack§6 got §3downgraded§6! If you feel that something is incorrect, please, quicky §2update§6 to the latest version. §f[§7§lHardSurvivalStrategie a1.7.0 Concept 14§f]"
 
 # Limit is set to run each 4t, so at the final will match 10 minutes.
 # If you wish less or more, keep in mind that's necessary to use the math to convert it.

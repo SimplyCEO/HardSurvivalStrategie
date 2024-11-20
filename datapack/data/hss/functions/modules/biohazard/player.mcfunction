@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lBIOHAZARD§f] Module§9 hss:modules/biohazard/player §floaded."
+
 function hss:modules/biohazard/hazard_suit/main
 execute unless score @s hazardSuit matches 10.. as @s[nbt={SelectedItem:{id:"minecraft:redstone_ore"}}] run scoreboard players add @s biohazardCount 2
 execute unless score @s hazardSuit matches 14.. as @s[nbt={SelectedItem:{id:"minecraft:deepslate_redstone_ore"}}] run scoreboard players add @s biohazardCount 3

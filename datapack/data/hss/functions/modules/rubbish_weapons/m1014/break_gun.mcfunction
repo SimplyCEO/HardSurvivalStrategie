@@ -6,7 +6,9 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§b§lMODULE§f] Module§9 hss:modules/rubbish_weapons/m1014/break_gun §floaded."
+
 scoreboard players set @s gaugeBullets 0
 playsound minecraft:item.shield.break player @a ~ ~ ~
-effect give @s instant_damage 3 1 true
+effect give @s minecraft:instant_damage 3 1 true
 tag @s add gaugeBroken

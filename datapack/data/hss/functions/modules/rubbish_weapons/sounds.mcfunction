@@ -6,7 +6,7 @@
 #
 # Thanks for playing!
 
-execute as @e[type=player,scores={debug=1}] run tellraw @s "[§b§lMODULE§f] Module§9 hss:modules/rubbish_weapons/sounds §floaded."
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§b§lMODULE§f] Module§9 hss:modules/rubbish_weapons/sounds §floaded."
 
 execute if predicate hss:is_fal if score @s usedGun matches 1.. if score @s natoTiming matches 0 run playsound hss:fire.fal player @a ~ ~ ~
 execute if predicate hss:is_fal if score @s natoAmmo matches 0 run playsound hss:dry_fire.fal player @a ~ ~ ~

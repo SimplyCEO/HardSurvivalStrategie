@@ -10,3 +10,4 @@ execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§6§lDAT
 
 scoreboard players add @s thirstCount 1
 scoreboard players set @s isDrinking 0
+function hss:data/entity/player/gui/main

@@ -8,6 +8,7 @@
 
 execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§6§lDATA§f] Data §9hss:data/entity/player/gui/main §floaded."
 
+# Get time of day in ticks and apply the GUI metrics
 execute store result score dayTime dayTime run time query daytime
 execute if score dayTime dayTime matches 0..3000 run function hss:data/entity/player/gui/day
 execute if score dayTime dayTime matches 3001..9499 run function hss:data/entity/player/gui/afternoon

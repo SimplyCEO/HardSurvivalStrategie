@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§2§lADVANCED CRAFTING§f] Module§9 hss:blocks/advanced_crafting/place §floaded."
+
 # Place vanilla block with sound
 setblock ~ ~ ~ minecraft:barrel{CustomName:'{"translate":"block.hss.advanced_workbench","color":"white","italic":false}'}
 playsound minecraft:block.wood.place block @a ~ ~ ~
@@ -17,7 +19,7 @@ execute align xyz run summon minecraft:armor_stand ~ ~ ~ {Small:1b,Marker:1b,Inv
 data merge block ~ ~ ~ {Items:[{Slot:0b,id:clock,Count:1b,tag:{GUI:1b,CustomModelData:115,display:{Name:'{"text":""}'}}},{Slot:13b,id:clock,Count:1b,tag:{GUI:1b,CustomModelData:100,display:{Name:'{"text":""}'}}}]}
 
 # Toggle block placement
-execute as @e[tag=advanced_workbench,tag=!placed,limit=1] run tag @s add placed
+execute as @e[type=minecraft:armor_stand,tag=advanced_workbench,tag=!placed,limit=1] run tag @s add placed
 
 # Remove item frame
 kill @s

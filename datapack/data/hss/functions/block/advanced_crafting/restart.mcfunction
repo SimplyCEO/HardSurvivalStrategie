@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lADVANCED CRAFTING§f] Module§9 hss:blocks/advanced_crafting/restart §floaded."
+
 # Remove hopper/minecart if it draws any custom GUI items
 execute if data block ~ ~-1 ~ Items[{tag:{GUI:1b}}] if block ~ ~-1 ~ minecraft:hopper[enabled=true] run setblock ~ ~-1 ~ minecraft:air destroy
 execute positioned ~ ~-1 ~ as @e[type=minecraft:hopper_minecart,distance=..1,sort=nearest] if data entity @s Items[{tag:{GUI:1b}}] run kill @s

@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§2§lBEDROCK MINER§f] Module§9 hss:blocks/bedrock_miner/consume_fuel §floaded."
+
 scoreboard players remove bedrockMinerItem count 1
 scoreboard players add bedrockMinerTemperature count 2
 execute store result block ~ ~ ~ Items[1].Count int 1 run scoreboard players get bedrockMinerItems count

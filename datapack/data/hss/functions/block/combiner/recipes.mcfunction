@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lCOMBINER§f] Module§9 hss:blocks/combiner/recipes §floaded."
+
 scoreboard players add combinerCount count 1
 execute unless data block ~ ~ ~ Items[{Slot:22b,tag:{GUI:1b},Count:1b}] run function hss:block/combiner/restart
 execute unless data block ~ ~ ~ Items[{Slot:13b,tag:{GUI:1b},Count:1b}] run function hss:block/combiner/restart

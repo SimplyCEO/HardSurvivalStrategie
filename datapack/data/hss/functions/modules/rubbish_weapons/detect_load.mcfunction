@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§b§lMODULE§f] Module§9 hss:modules/rubbish_weapons/detect_load §floaded."
+
 execute if score @s natoAmmo matches 1.. if predicate hss:is_fal run scoreboard players set @s loadedGun 1
 execute if score @s gaugeAmmo matches 1.. if predicate hss:is_m1014 run scoreboard players set @s loadedGun 1
 execute if score @s 9mmAmmo matches 1.. if predicate hss:is_gc_9mm run scoreboard players set @s loadedGun 1

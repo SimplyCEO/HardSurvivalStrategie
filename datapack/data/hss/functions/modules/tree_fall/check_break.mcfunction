@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lTREE FALL§f] Module§9 hss:modules/tree_fall/check_break §floaded."
+
 execute if score @s usedW_Axe matches 1.. run tag @s add playerChecked
 execute if score @s usedG_Axe matches 1.. run tag @s add playerChecked
 execute if score @s usedS_Axe matches 1.. run tag @s add playerChecked

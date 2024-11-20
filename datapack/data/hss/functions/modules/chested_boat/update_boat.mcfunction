@@ -6,7 +6,7 @@
 #
 # Thanks for playing!
 
-execute as @e[type=player,scores={debug=1}] run tellraw @s "[§2§lCHESTED BOAT§f] Module§9 hss:modules/chested_boat/update_boat §floaded."
+execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§2§lCHESTED BOAT§f] Module§9 hss:modules/chested_boat/update_boat §floaded."
 
 kill @e[type=boat,distance=..2,sort=nearest]
 summon boat ~ ~ ~ {chestedBoat:1b,Passengers:[{id:chest_minecart,CustomName:'{"translate":"block.minecraft.chest"}'}],Tags:["chested_boat"]}

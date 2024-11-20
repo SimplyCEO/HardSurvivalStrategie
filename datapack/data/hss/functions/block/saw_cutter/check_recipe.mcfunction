@@ -6,6 +6,8 @@
 #
 # Thanks for playing!
 
+execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lSAW CUTTER§f] Module§9 hss:blocks/saw_cutter/check_recipe §floaded."
+
 execute store result score @s count run data get entity @s Item.Count
 
 execute if score @s[nbt={Item:{id:"minecraft:iron_ore"}}] count matches 1.. run function hss:recipes/saw_cutter/raw_iron

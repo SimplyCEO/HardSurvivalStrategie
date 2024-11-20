@@ -9,7 +9,7 @@
 tp @s ~ -64 ~
 setblock ~24 ~ ~24 structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"KanuX",rotation:"NONE",posX:-24,mode:"LOAD",posY:-17,sizeX:48,posZ:-24,integrity:1.0f,showair:0b,name:"hss:lavarig",sizeY:48,sizeZ:48,showboundingbox:1b}
 setblock ~24 ~1 ~24 redstone_block
-summon armor_stand ~24 ~5 ~24 {Small:1b,Invisible:1b,Invulnerable:1b,Tags:["lavarig"]}
+summon minecraft:armor_stand ~24 ~5 ~24 {Small:1b,Invisible:1b,Invulnerable:1b,Tags:["lavarig"]}
 setblock ~29 ~17 ~13 barrel[facing=west]{LootTable:"hss:barrels/lavarig_barrel"}
 setblock ~18 ~17 ~13 barrel[facing=east]{LootTable:"hss:barrels/lavarig_barrel"}
 setblock ~12 ~16 ~35 chest{LootTable:"hss:chests/lavarig_chest"}

@@ -12,4 +12,4 @@ execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§2§lLAN
 execute if score @s BlockClaimID matches 0 unless entity @e[tag=land_claim,tag=placed,distance=..24] run scoreboard players operation @s BlockClaimID = LandClaimID count
 
 # Hold BlockClaimID to the new Land Claim block
-scoreboard players operation @e[tag=land_claim,tag=!placed,limit=1] BlockClaimID = @s BlockClaimID
+scoreboard players operation @e[type=minecraft:armor_stand,tag=land_claim,tag=!placed,limit=1] BlockClaimID = @s BlockClaimID
