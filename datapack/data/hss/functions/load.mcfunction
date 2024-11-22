@@ -225,7 +225,10 @@ scoreboard objectives add bT dummy ["MEMORY ADDRESS"]
 
 ####################### DATAPACK #######################
 
-#tellraw @a "§4§lAttention! §6The §3datapack§6 got §3downgraded§6! If you feel that something is incorrect, please, quicky §2update§6 to the latest version. §f[§7§lHardSurvivalStrategie a1.7.0 Concept 14§f]"
+scoreboard objectives add HSSVer dummy ["HSS Version"]
+scoreboard objectives add MCVer dummy ["Minecraft Version"]
+execute unless entity @e[type=minecraft:armor_stand,tag=master,limit=1] run summon minecraft:armor_stand 0.5 0.5 0.5 {Small:1b,Marker:1b,Invulnerable:1b,Invisible:1b,Silent:1b,NoGravity:1b,Tags:["master"]}
+execute as @e[type=minecraft:armor_stand,tag=master,limit=1] at @s run function hss:update/main
 
 # Limit is set to run each 4t, so at the final will match 10 minutes.
 # If you wish less or more, keep in mind that's necessary to use the math to convert it.

@@ -211,6 +211,13 @@ Biohazard
 
 <details><summary>Developer</summary>
 
+- <b>HSSVer</b>:<br>
+  Shows the version of the datapack.
+
+- <b>MCVer</b>:<br>
+  Shows the version of the Minecraft. Also sets `virtual_master` variable.
+  Intended to be used for backward compatibility.
+
 - <b>debug</b>:<br>
   Shows debug functions in chat.<br>
   Intended for modders.
