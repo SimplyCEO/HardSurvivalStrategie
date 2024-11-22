@@ -227,7 +227,7 @@ scoreboard objectives add bT dummy ["MEMORY ADDRESS"]
 
 scoreboard objectives add HSSVer dummy ["HSS Version"]
 scoreboard objectives add MCVer dummy ["Minecraft Version"]
-execute unless entity @e[type=minecraft:armor_stand,tag=master,limit=1] run summon minecraft:armor_stand 0.5 0.5 0.5 {Small:1b,Marker:1b,Invulnerable:1b,Invisible:1b,Silent:1b,NoGravity:1b,Tags:["master"]}
+execute unless score virtual_master MCVer matches 1.. run summon minecraft:armor_stand 0.5 0.5 0.5 {Small:1b,Marker:1b,Invulnerable:1b,Invisible:1b,Silent:1b,NoGravity:1b,Tags:["master"]}
 execute as @e[type=minecraft:armor_stand,tag=master,limit=1] at @s run function hss:update/main
 
 # Limit is set to run each 4t, so at the final will match 10 minutes.
