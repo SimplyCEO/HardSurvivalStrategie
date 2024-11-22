@@ -6,10 +6,17 @@
 #
 # Thanks for playing!
 
+####################### VERSION ######################
+
+scoreboard objectives add HSSVer dummy ["HSS Version"]
+scoreboard objectives add MCVer dummy ["Minecraft Version"]
+execute unless score virtual_master MCVer matches 1.. run summon minecraft:armor_stand 0.5 0.5 0.5 {Small:1b,Marker:1b,Invulnerable:1b,Invisible:1b,Silent:1b,NoGravity:1b,ArmorItems:[{id:"minecraft:paper",Count:1b,tag:{virtual_master_slot:0b,display:{Name:'["text":"","color":"white","italic":false}]'}}}],Tags:["master"]}
+execute as @e[type=minecraft:armor_stand,tag=master,limit=1] at @s run function hss:update/main
+
 ####################### BLOCKS #######################
 
 # Store string value
-setblock 0 -64 0 minecraft:oak_sign
+execute as @e[type=minecraft:armor_stand,tag=master,limit=1] at @s run setblock ~ ~ ~ minecraft:oak_sign
 
 ####################### EVENTS #######################
 
@@ -224,11 +231,6 @@ scoreboard objectives add bM dummy ["MEMORY MODE"]
 scoreboard objectives add bT dummy ["MEMORY ADDRESS"]
 
 ####################### DATAPACK #######################
-
-scoreboard objectives add HSSVer dummy ["HSS Version"]
-scoreboard objectives add MCVer dummy ["Minecraft Version"]
-execute unless score virtual_master MCVer matches 1.. run summon minecraft:armor_stand 0.5 0.5 0.5 {Small:1b,Marker:1b,Invulnerable:1b,Invisible:1b,Silent:1b,NoGravity:1b,Tags:["master"]}
-execute as @e[type=minecraft:armor_stand,tag=master,limit=1] at @s run function hss:update/main
 
 # Limit is set to run each 4t, so at the final will match 10 minutes.
 # If you wish less or more, keep in mind that's necessary to use the math to convert it.

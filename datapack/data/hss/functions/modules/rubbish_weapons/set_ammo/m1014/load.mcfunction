@@ -9,10 +9,11 @@
 execute as @e[type=minecraft:player,scores={debug=1}] run tellraw @s "[§b§lMODULE§f] Module§9 hss:modules/m1014/load §floaded."
 
 execute store result score player_gauge_count_ammo count run scoreboard players get @s gaugeAmmo 
-data modify block 0 -64 0 Text1 set value '[{"translate":"gui.hss.bullets","color":"gold","italic":false},{"text":": ","color":"white","italic":false},{"translate":"%s ","with":[{"score":{"name":"player_gauge_count_ammo","objective":"count"}}],"color":"green","italic":false}]'
+execute as @e[type=minecraft:armor_stand,tag=master,limit=1] at @s run data modify block ~ ~ ~ Text1 set value '[{"translate":"gui.hss.bullets","color":"gold","italic":false},{"text":": ","color":"white","italic":false},{"translate":"%s ","with":[{"score":{"name":"player_gauge_count_ammo","objective":"count"}}],"color":"green","italic":false}]'
 execute align xyz run summon minecraft:armor_stand ~ ~ ~ {Small:1b,Marker:1b,Invulnerable:1b,Invisible:1b,Silent:1b,NoGravity:1b,ArmorItems:[{id:"minecraft:crossbow",Count:1b,tag:{rubbishGuns:1b,m1014:1b,isEmpty:0b,munition:0b,durability:0b,CustomModelData:2,display:{Name:'[{"translate":"gui.hss.bullets","color":"gold","italic":false},{"text":": ","color":"white","italic":false},{"translate":"int ","color":"green","italic":false}]'},ChargedProjectiles:[{id:"minecraft:gunpowder",Count:0b,tag:{display:{Name:'{"translate":"item.hss.12_gauge","color":"white","italic":false}'}}}],Charged:1b}},{},{},{}],Tags:["player_gauge_count_ammo"]}
 execute store result entity @e[tag=player_gauge_count_ammo,distance=..1.5,limit=1] ArmorItems[0].tag.munition byte 1 run scoreboard players get @s gaugeAmmo
-data modify entity @e[tag=player_gauge_count_ammo,distance=..1.5,limit=1] ArmorItems[0].tag.display.Name set from block 0 -64 0 Text1
+execute as @e[type=minecraft:armor_stand,tag=master,limit=1] at @s run data modify entity @s ArmorItems[0].tag.display.Name set from block ~ ~ ~ Text1
+execute as @e[tag=player_gauge_count_ammo,distance=..1.5,limit=1] run data modify entity @s ArmorItems[0].tag.display.Name set from entity @e[type=minecraft:armor_stand,tag=master,limit=1] ArmorItems[0].tag.display.Name
 
 execute if score player_gun_slot count matches 0 run item replace entity @s hotbar.0 from entity @e[tag=player_gauge_count_ammo,distance=..1.5,limit=1] armor.feet
 execute if score player_gun_slot count matches 1 run item replace entity @s hotbar.1 from entity @e[tag=player_gauge_count_ammo,distance=..1.5,limit=1] armor.feet
