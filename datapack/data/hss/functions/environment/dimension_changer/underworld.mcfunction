@@ -8,4 +8,4 @@
 
 execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "[§2§lENVIRONMENT§f] Function §9hss:environment/dimension_changer/underworld §floaded."
 
-execute if score @s posY matches 288.. run execute in minecraft:overworld run tp @s ~ -32 ~
+execute if score @s posY matches 288.. run execute in minecraft:overworld run tp @s ~ -96 ~
