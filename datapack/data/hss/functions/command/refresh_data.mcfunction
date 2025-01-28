@@ -6,4 +6,7 @@
 #
 # Thanks for playing!
 
+scoreboard players set @s CM_RefreshData 0
+
 function hss:data/entity/main
+

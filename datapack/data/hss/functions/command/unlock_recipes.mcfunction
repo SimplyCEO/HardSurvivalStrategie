@@ -6,4 +6,7 @@
 #
 # Thanks for playing!
 
+scoreboard players set @s CM_UnlockRecipes 0
+
 recipe give @s *
+

@@ -6,6 +6,9 @@
 #
 # Thanks for playing!
 
+scoreboard players set @s CM_TeleportBack 0
+
 execute at @e[tag=hss_last_spot] run function hss:data/entity/player/teleport_back
 execute as @s[tag=!teleported] run tellraw @s "§4§lERROR§f: There are no death spots."
 tag @s remove teleported
+

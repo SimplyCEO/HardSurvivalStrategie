@@ -6,4 +6,7 @@
 #
 # Thanks for playing!
 
-function hss:data/entity/delete_data
+scoreboard players set @s CM_ResetPlayerData 0
+
+function hss:data/entity/reset_data
+

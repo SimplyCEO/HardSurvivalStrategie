@@ -6,4 +6,7 @@
 #
 # Thanks for playing!
 
+scoreboard players set @s CM_ResetRecipes 0
+
 recipe take @s *
+

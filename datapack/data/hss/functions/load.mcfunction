@@ -24,6 +24,20 @@ execute as @e[type=minecraft:armor_stand,tag=master,limit=1] at @s run setblock 
 team add NoCollisionAI ["AI Collision"]
 team modify NoCollisionAI collisionRule never
 
+######################
+# DEVELOPER COMMANDS #
+######################
+
+scoreboard objectives add CM_ToggleOP trigger
+scoreboard objectives add CM_ToggleDebug trigger
+scoreboard objectives add CM_ToggleVerbose trigger
+scoreboard objectives add CM_ResetPlayerData trigger
+scoreboard objectives add CM_RefreshPlayerData trigger
+scoreboard objectives add CM_UnlockRecipes trigger
+scoreboard objectives add CM_ResetRecipes trigger
+scoreboard objectives add CM_TeleportBack trigger
+scoreboard objectives add CM_GiveDebugItems trigger
+
 ####################### VARIABLES #######################
 
 ################

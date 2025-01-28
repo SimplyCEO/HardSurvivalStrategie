@@ -8,6 +8,8 @@
 
 # USE ONLY AS DEBUG
 
+scoreboard players set @s CM_GiveDebugItems 0
+
 ##########
 # BLOCKS #
 ##########
@@ -60,3 +62,4 @@ give @s minecraft:pumpkin_pie{axolotlSkewer:1b,CustomModelData:100,display:{Name
 
 # Beer
 give @s minecraft:potion{beer:1b,CustomPotionEffects:[{Id:11,Amplifier:2,Duration:6000},{Id:5,Amplifier:3,Duration:6000},{Id:22,Amplifier:2,Duration:600},{Id:2,Amplifier:4,Duration:6000},{Id:4,Amplifier:2,Duration:6000},{Id:9,Amplifier:7,Duration:6000}],display:{Name:'{"translate":"item.hss.beer","color":"white","italic":false}'}} 1
+

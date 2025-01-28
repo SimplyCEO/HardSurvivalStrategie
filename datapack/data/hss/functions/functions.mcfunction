@@ -14,6 +14,9 @@ execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "
 # Add function tag (to avoid modules loading functions)
 tag @e[type=minecraft:player] add hss_function_loaded
 
+# Commands
+execute as @e[type=minecraft:player] at @s run function hss:command/main
+
 # Block functions
 function hss:block/advanced_hopper/main
 function hss:block/custom_benches/main
