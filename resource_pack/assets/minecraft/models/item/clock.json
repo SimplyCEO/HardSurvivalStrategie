@@ -80,7 +80,7 @@
         { "predicate": {"custom_model_data":9}, "model":"item/m1014_stock"},
         { "predicate": {"custom_model_data":10}, "model":"item/gc_9mm_barrel"},
         { "predicate": {"custom_model_data":11}, "model":"item/gc_9mm_body"},
-        { "predicate": {"custom_model_data":12}, "model":"itemgc_9mm_stock"},
+        { "predicate": {"custom_model_data":12}, "model":"item/gc_9mm_stock"},
         { "predicate": {"custom_model_data":13}, "model":"item/aglc_barrel"},
         { "predicate": {"custom_model_data":14}, "model":"item/aglc_body"},
         { "predicate": {"custom_model_data":15}, "model":"item/aglc_stock"},
