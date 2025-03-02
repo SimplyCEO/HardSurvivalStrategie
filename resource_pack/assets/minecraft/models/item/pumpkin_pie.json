@@ -4,6 +4,7 @@
         "layer0": "item/pumpkin_pie"
     },
     "overrides":[
-        {"predicate": {"custom_model_data":100}, "model":"item/axolotl_skewer"}
+        {"predicate": {"custom_model_data":100}, "model":"item/axolotl_skewer"},
+        {"predicate": {"custom_model_data":101}, "model":"item/brown_sugar"}
     ]
 }
