@@ -18,6 +18,36 @@ understand the code:
 - `example` can be used, but discouraged;
 - `EXAMPLE` is seen when the variable is about to modify complex structures.
 
+Trigger
+=======
+
+- <b>CM_ToggleOP</b>:<br>
+  Give/Remove OP on self.
+
+- <b>CM_ToggleDebug</b>:<br>
+  Turn off/on debug messages on self.
+
+- <b>CM_ToggleVerbose</b>:<br>
+  Turn off/on verbose messages on self.
+
+- <b>CM_ResetPlayerData</b>:<br>
+  Reset player data to default.
+
+- <b>CM_RefreshPlayerData</b>:<br>
+  Manually updates the player data.
+
+- <b>CM_UnlockRecipes</b>:<br>
+  Unlock block/item recipes.
+
+- <b>CM_ResetRecipes</b>:<br>
+  Reset block/item recipes.
+
+- <b>CM_TeleportBack</b>:<br>
+  Teleport to last known point.
+
+- <b>CM_GiveDebugItems</b>:<br>
+  Give new featured block/item.
+
 Data types
 ==========
 
