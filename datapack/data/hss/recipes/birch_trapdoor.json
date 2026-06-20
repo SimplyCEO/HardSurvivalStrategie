@@ -1,21 +1,16 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "N N",
-        "###",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:birch_planks"
-        },
-        "N": {
-            "item": "minecraft:iron_nugget"
-        }
-    },
-    "result": {
-        "item": "minecraft:birch_trapdoor",
-        "count": 1
-    },
-    "group": "trapdoor"
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "S S",
+    "###",
+    "###"
+  ],
+  "key":
+  {
+    "#": { "item": "minecraft:birch_planks" },
+    "S": { "item": "minecraft:string" }
+  },
+  "result": { "item": "minecraft:birch_trapdoor", "count": 1 },
+  "group": "door"
 }
