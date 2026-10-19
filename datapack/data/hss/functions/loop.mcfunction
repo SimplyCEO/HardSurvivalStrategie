@@ -24,3 +24,7 @@ execute as @e[type=minecraft:player,scores={isSneaking=1..}] at @s run function 
 execute as @e[type=minecraft:armor_stand,tag=advanced_workbench,tag=placed] at @s positioned ~-5 ~-5 ~-5 if entity @e[type=minecraft:player,dx=10,dy=10,dz=10,sort=nearest] at @s run function hss:block/advanced_crafting/craft_lock
 execute as @e[type=minecraft:player,tag=inside_claimed_area] at @s run function hss:block/land_claim/mode/lock
 execute as @e[type=minecraft:slime,tag=claimed_area_lock] at @s align xyz positioned ~-20.5 ~-20.5 ~-20.5 unless entity @e[type=minecraft:armor_stand,tag=land_claim,dx=41,dy=41,dz=41,sort=nearest] run tp @s 0 -127 0
+
+# Vanish entity
+execute as @e[tag=vanish] at @s run function hss:tags/vanish
+

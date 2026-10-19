@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:player",
+    "minecraft:item",
+    "minecraft:item_frame",
+    "minecraft:glow_item_frame",
+    "minecraft:experience_orb",
+    "minecraft:area_effect_cloud",
+    "minecraft:tnt",
+    "minecraft:falling_block",
+    "minecraft:end_crystal",
+    "minecraft:armor_stand",
+    "minecraft:boat",
+    "minecraft:minecart",
+    "minecraft:chest_minecart",
+    "minecraft:furnace_minecart",
+    "minecraft:hopper_minecart",
+    "minecraft:tnt_minecart",
+    "minecraft:command_block_minecart",
+    "minecraft:spawner_minecart",
+    "minecraft:marker",
+    "#minecraft:arrows"
+  ]
+}
+

@@ -23,6 +23,7 @@ function hss:block/land_claim/main
 # Entity modules
 execute as @e[type=minecraft:player] at @s run function hss:modules/get_position/main
 execute as @e[type=minecraft:player] run function hss:modules/tool_break/main
+execute if score hss zombiepocalypse matches 1 run function hss:modules/zombiepocalypse/main
 
 # Environment modules
 function hss:modules/current_time/main

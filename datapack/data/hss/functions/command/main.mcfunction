@@ -10,6 +10,7 @@ execute as @e[type=minecraft:player,scores={debug=1,verbose=1}] run tellraw @s "
 
 # Enable user commands
 execute unless score @s CM_UnlockRecipes matches 1 run scoreboard players enable @s CM_UnlockRecipes
+execute unless score @s CM_ToggleZombiepocalypse matches 1 run scoreboard players enable @s CM_ToggleZombiepocalypse
 
 # Enable root commands
 execute if score @s isOP matches 1 unless score @s CM_ToggleOP matches 1 run scoreboard players enable @s CM_ToggleOP
@@ -30,4 +31,5 @@ execute if score @s CM_UnlockRecipes matches 1 run function hss:command/unlock_r
 execute if score @s CM_ResetRecipes matches 1 run function hss:command/reset_recipes
 execute if score @s CM_TeleportBack matches 1 run function hss:command/teleport_back
 execute if score @s CM_GiveDebugItems matches 1 run function hss:command/give_items
+execute if score @s CM_ToggleZombiepocalypse matches 1 run function hss:command/zombiepocalypse
 

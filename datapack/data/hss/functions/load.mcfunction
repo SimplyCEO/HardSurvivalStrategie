@@ -31,6 +31,7 @@ team modify NoCollisionAI collisionRule never
 scoreboard objectives add CM_ToggleOP trigger
 scoreboard objectives add CM_ToggleDebug trigger
 scoreboard objectives add CM_ToggleVerbose trigger
+scoreboard objectives add CM_ToggleZombiepocalypse trigger
 scoreboard objectives add CM_ResetPlayerData trigger
 scoreboard objectives add CM_RefreshPlayerData trigger
 scoreboard objectives add CM_UnlockRecipes trigger
@@ -133,6 +134,7 @@ scoreboard objectives add bleedingLvl dummy ["Bleeding"]
 scoreboard objectives add killedIllusioner minecraft.killed:minecraft.illusioner ["Killed Illusioner"]
 scoreboard objectives add hasKilled deathCount ["Killed"]
 scoreboard objectives add saturationCount food ["Saturation"]
+scoreboard objectives add zombiepocalypse dummy ["Zombiepocalypse"]
 
 #
 # Mine/Use variables
